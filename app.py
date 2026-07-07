@@ -9,7 +9,7 @@ st.set_page_config(
 st.title("🎓 MWU AI Chatbot")
 st.write("Gaaffii kee barreessi:")
 
-question = st.text_input("Gaaffii:")
+question = st.text_input("enter your question ")
 
 if st.button("Ergi"):
     if question.strip() == "":
