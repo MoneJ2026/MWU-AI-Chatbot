@@ -1,13 +1,8 @@
-import json
+from database import search_question
 
-with open("university_data.json", "r", encoding="utf-8") as file:
-    data = json.load(file)
 
-def get_answer(question):
-    question = question.lower()
+def get_response(user_message):
 
-    for key in data:
-        if key in question:
-            return data[key]
+    response = search_question(user_message)
 
-    return "Dhiifama, gaaffii kanaaf deebii hin qabu."
+    return response
