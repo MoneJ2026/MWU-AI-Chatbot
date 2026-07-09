@@ -1,10 +1,18 @@
-{
-    "admission": "Guyyaan galmee yeroo Madda Walabu University'n beeksisuutti ni banama.",
-    "registration": "Galmeen barattootaa yeroo university'n beeksisuutti ni gaggeeffama.",
-    "library": "Library MWU Main Campus keessatti argama.",
-    "computer science": "Computer Science Department College of Computing jalatti argama.",
-    "engineering": "College of Engineering keessatti argama.",
-    "contact": "Email: info@mwu.edu.et",
-    "president": "Odeeffannoo yeroo ammaa website university irraa ilaaluu dandeessa.",
-    "location": "Madda Walabu University, Bale Zone, Oromiyaa, Ethiopia."
-}
+[
+    {
+        "question": "mwu",
+        "answer": "Madda Walabu University Ethiopia keessatti argama."
+    },
+    {
+        "question": "computer science",
+        "answer": "Computer Science keessatti programming, database, networking fi AI baratama."
+    },
+    {
+        "question": "library",
+        "answer": "MWU library keessatti kitaabota fi research materials argamu."
+    },
+    {
+        "question": "registration",
+        "answer": "Registration yeroo murtaa'e keessatti sirna yunivarsiitichaan gaggeeffama."
+    }
+]
