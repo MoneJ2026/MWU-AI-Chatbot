@@ -6,7 +6,7 @@ st.set_page_config(
     page_icon="🎓"
    )
 
-st.title("🎓 MWU AI Chatbot perfect ")
+st.title("🎓 MWU AI Chatbot  ")
 st.write("Gaaffii :")
 
 question = st.text_input("enter your question please  ")
