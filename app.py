@@ -18,6 +18,28 @@ st.set_page_config(
 )
 
 
+# Sidebar (kana asitti kaa'i)
+with st.sidebar:
+
+    st.title(APP_NAME)
+
+    st.write(f"Version: {VERSION}")
+
+    st.write(f"Developer: {DEVELOPER}")
+
+    st.markdown("---")
+
+    st.write(
+        "MWU AI Chatbot helps students "
+        "get university information."
+    )
+
+    if st.button("🗑️ Clear Chat"):
+        clear_chat()
+        st.rerun()
+
+
+# Main page
 st.title(APP_NAME)
 
 st.write(WELCOME_MESSAGE)
