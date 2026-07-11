@@ -1,0 +1,125 @@
+[
+  {
+    "id": 1,
+    "category": "Academic",
+    "question": {
+      "om": "Barnoonni yoom jalqaba?",
+      "en": "When do classes start?",
+      "am": "ትምህርት መቼ ይጀምራል?"
+    },
+    "keywords": [
+      "barnoonni",
+      "class start",
+      "semester start",
+      "beginning",
+      "ትምህርት"
+    ],
+    "answer": {
+      "om": "Guyyaan jalqaba barnootaa Academic Calendar yuunivarsiitii irratti hundaa'a.",
+      "en": "The class starting date is based on the university academic calendar.",
+      "am": "የትምህርት መጀመሪያ ቀን በዩኒቨርሲቲው የትምህርት ቀን መቁጠሪያ መሰረት ነው።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Academic",
+    "question": {
+      "om": "Class schedule eessan ilaala?",
+      "en": "Where can I see my class schedule?",
+      "am": "የክፍል መርሃ ግብር የት አገኛለሁ?"
+    },
+    "keywords": [
+      "schedule",
+      "class schedule",
+      "timetable",
+      "karoora barnootaa"
+    ],
+    "answer": {
+      "om": "Class schedule department, college yookaan student portal irraa argachuu dandeessa.",
+      "en": "Class schedules can be found from the department, college, or student portal.",
+      "am": "የክፍል መርሃ ግብር ከዲፓርትመንት፣ ኮሌጅ ወይም የተማሪ ፖርታል ማግኘት ይቻላል።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Academic",
+    "question": {
+      "om": "GPA jechuun maal jechuudha?",
+      "en": "What does GPA mean?",
+      "am": "GPA ማለት ምንድን ነው?"
+    },
+    "keywords": [
+      "gpa",
+      "grade point average",
+      "qabxii"
+    ],
+    "answer": {
+      "om": "GPA jechuun giddugaleessa qabxii barataa (Grade Point Average) jechuudha.",
+      "en": "GPA means Grade Point Average, which represents a student's academic performance.",
+      "am": "GPA ማለት የተማሪውን የትምህርት ውጤት የሚያሳይ አማካይ ነጥብ ነው።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "Academic",
+    "question": {
+      "om": "GPA akkamitti shallagama?",
+      "en": "How is GPA calculated?",
+      "am": "GPA እንዴት ይሰላል?"
+    },
+    "keywords": [
+      "calculate gpa",
+      "gpa shallaguu",
+      "grade"
+    ],
+    "answer": {
+      "om": "GPA course grade point fi credit hour irratti hundaa'uun shallagama.",
+      "en": "GPA is calculated using course grade points and credit hours.",
+      "am": "GPA የሚሰላው በኮርስ ውጤት እና በክሬዲት ሰዓት መሰረት ነው።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Academic",
+    "question": {
+      "om": "Result eessan ilaala?",
+      "en": "Where can I check my result?",
+      "am": "ውጤቴን የት ማየት እችላለሁ?"
+    },
+    "keywords": [
+      "result",
+      "grade",
+      "mark",
+      "bu'aa"
+    ],
+    "answer": {
+      "om": "Result student portal yookaan waajjira barnootaa irraa ilaaluun ni danda'ama.",
+      "en": "Students can check results through the student portal or academic office.",
+      "am": "ውጤት በተማሪ ፖርታል ወይም በትምህርት ቢሮ ማየት ይቻላል።"
+    }
+  },
+
+  {
+    "id": 6,
+    "category": "Academic",
+    "question": {
+      "om": "Course add/drop akkamittan godha?",
+      "en": "How do I add or drop a course?",
+      "am": "ኮርስ መጨመር ወይም መሰረዝ እንዴት እችላለሁ?"
+    },
+    "keywords": [
+      "add drop",
+      "course change",
+      "course"
+    ],
+    "answer": {
+      "om": "Course add/drop qajeelfama department fi yeroo murtaa'e keessatti raawwatama.",
+      "en": "Course add/drop is done according to department rules within the allowed period.",
+      "am": "ኮርስ መጨመር ወይም መሰረዝ በዲፓርትመንት መመሪያ እና በተወሰነ ጊዜ ይከናወናል።"
+    }
+  }
+]
