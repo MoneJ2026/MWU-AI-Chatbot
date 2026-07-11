@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "category": "Library",
+    "question": {
+      "om": "Library eessa jira?",
+      "en": "Where is the library located?",
+      "am": "ቤተ መጻሕፍቱ የት ይገኛል?"
+    },
+    "keywords": [
+      "library",
+      "kitaaba",
+      "location",
+      "eessa jira"
+    ],
+    "answer": {
+      "om": "Library yuunivarsiitii bakka barattoonni kitaabaa fi qorannoo itti fayyadaman keessatti argama.",
+      "en": "The university library is a place where students access books and research materials.",
+      "am": "የዩኒቨርሲቲው ቤተ መጻሕፍት ተማሪዎች መጻሕፍትና የምርምር ቁሳቁሶች የሚጠቀሙበት ቦታ ነው።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Library",
+    "question": {
+      "om": "Library yoom banama?",
+      "en": "When is the library open?",
+      "am": "ቤተ መጻሕፍቱ መቼ ይከፈታል?"
+    },
+    "keywords": [
+      "library time",
+      "open",
+      "closing",
+      "yoom"
+    ],
+    "answer": {
+      "om": "Yeroon hojii library Academic Calendar fi qajeelfama yuunivarsiitii irratti hundaa'a.",
+      "en": "Library working hours depend on the university schedule and academic calendar.",
+      "am": "የቤተ መጻሕፍት የስራ ሰዓት በዩኒቨርሲቲው መርሃ ግብር መሰረት ነው።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Library",
+    "question": {
+      "om": "Library seenuuf ID barbaachisaa?",
+      "en": "Is student ID required to enter the library?",
+      "am": "ወደ ቤተ መጻሕፍት ለመግባት ID ያስፈልጋል?"
+    },
+    "keywords": [
+      "student id",
+      "library id",
+      "enter library"
+    ],
+    "answer": {
+      "om": "Yeroo library fayyadamtu Student ID qabaachuun barbaachisaa ta'uu danda'a.",
+      "en": "Having a student ID may be required when using the library.",
+      "am": "ቤተ መጻሕፍቱን ለመጠቀም የተማሪ ID ሊያስፈልግ ይችላል።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "Library",
+    "question": {
+      "om": "Computer library keessatti fayyadamuu danda'aa?",
+      "en": "Can I use computers in the library?",
+      "am": "በቤተ መጻሕፍት ውስጥ ኮምፒውተር መጠቀም እችላለሁ?"
+    },
+    "keywords": [
+      "computer",
+      "library computer",
+      "internet"
+    ],
+    "answer": {
+      "om": "Eeyyee, yoo tajaajilli sun jiraate computer library keessatti fayyadamuun ni danda'ama.",
+      "en": "Yes, computers can be used in the library if the service is available.",
+      "am": "አዎ፣ አገልግሎቱ ካለ በቤተ መጻሕፍት ውስጥ ኮምፒውተር መጠቀም ይቻላል።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Library",
+    "question": {
+      "om": "Library rules maal fa'a?",
+      "en": "What are the library rules?",
+      "am": "የቤተ መጻሕፍት ህጎች ምንድን ናቸው?"
+    },
+    "keywords": [
+      "rules",
+      "library rules",
+      "seera"
+    ],
+    "answer": {
+      "om": "Library keessatti callisummaa eeguu, kitaabota kunuunsuu fi qajeelfama library hordofuun barbaachisaadha.",
+      "en": "Users should keep silence, protect books, and follow library guidelines.",
+      "am": "በቤተ መጻሕፍት ውስጥ ጸጥታን መጠበቅ፣ መጻሕፍትን መጠበቅ እና መመሪያዎችን መከተል ያስፈልጋል።"
+    }
+  },
+
+  {
+    "id": 6,
+    "category": "Library",
+    "question": {
+      "om": "Library keessatti laptop fayyadamuun ni danda'amaa?",
+      "en": "Can I use my laptop in the library?",
+      "am": "በቤተ መጻሕፍት ውስጥ ላፕቶፕ መጠቀም እችላለሁ?"
+    },
+    "keywords": [
+      "laptop",
+      "wifi",
+      "study"
+    ],
+    "answer": {
+      "om": "Eeyyee, barnootaaf laptop fayyadamuun ni danda'ama yoo seera library eegde.",
+      "en": "Yes, laptops can be used for study purposes while following library rules.",
+      "am": "አዎ፣ የቤተ መጻሕፍት ህጎችን በመከተል ላፕቶፕ ለትምህርት መጠቀም ይቻላል።"
+    }
+  }
+]
