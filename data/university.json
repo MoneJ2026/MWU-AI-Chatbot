@@ -1,0 +1,141 @@
+[
+  {
+    "id": 1,
+    "category": "University Information",
+    "question": {
+      "om": "Yuunivarsiitichi yeroo meeqa hundaa'e?",
+      "en": "When was the university established?",
+      "am": "ዩኒቨርሲቲው መቼ ተመሰረተ?"
+    },
+    "keywords": [
+      "established",
+      "founded",
+      "hundeeffama"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitii Madda Walabuu waa'ee hundeeffama isaa odeeffannoo sirrii website yuunivarsiitii irraa argachuun ni danda'ama.",
+      "en": "Official establishment information can be found from the university official sources.",
+      "am": "ስለ ዩኒቨርሲቲው ምስረታ ትክክለኛ መረጃ ከዩኒቨርሲቲው ይፋዊ ምንጮች ማግኘት ይቻላል።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "University Information",
+    "question": {
+      "om": "Yuunivarsiitichi eessa argama?",
+      "en": "Where is the university located?",
+      "am": "ዩኒቨርሲቲው የት ይገኛል?"
+    },
+    "keywords": [
+      "location",
+      "place",
+      "bakka"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitii Madda Walabuu Itoophiyaa keessatti, Oromiyaa keessatti argama.",
+      "en": "Madda Walabu University is located in Ethiopia, Oromia region.",
+      "am": "ማዳ ወላቡ ዩኒቨርሲቲ በኢትዮጵያ በኦሮሚያ ክልል ይገኛል።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "University Information",
+    "question": {
+      "om": "Koolleejjiiwwan meeqa qaba?",
+      "en": "How many colleges does the university have?",
+      "am": "ዩኒቨርሲቲው ስንት ኮሌጆች አሉት?"
+    },
+    "keywords": [
+      "college",
+      "school",
+      "koolleejjii"
+    ],
+    "answer": {
+      "om": "Lakkoofsi koolleejjiiwwanii yeroo yeroon jijjiiramuu danda'a; odeeffannoo haaraa website yuunivarsiitii irraa ilaali.",
+      "en": "The number of colleges may change; check official university information.",
+      "am": "የኮሌጆች ቁጥር ሊለያይ ስለሚችል የቅርብ መረጃ ከዩኒቨርሲቲው ያግኙ።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "University Information",
+    "question": {
+      "om": "Department meeqa qaba?",
+      "en": "How many departments are there?",
+      "am": "ስንት ዲፓርትመንቶች አሉ?"
+    },
+    "keywords": [
+      "department",
+      "program",
+      "barnoota"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitichi department fi sagantaalee barnootaa adda addaa qaba.",
+      "en": "The university has different departments and academic programs.",
+      "am": "ዩኒቨርሲቲው የተለያዩ ዲፓርትመንቶችና የትምህርት ፕሮግራሞች አሉት።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "University Information",
+    "question": {
+      "om": "Sagantaalee barnootaa maal qaba?",
+      "en": "What academic programs are available?",
+      "am": "ምን የትምህርት ፕሮግራሞች አሉ?"
+    },
+    "keywords": [
+      "program",
+      "degree",
+      "study"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitichi saayinsii, teeknooloojii, fayyaa, hawaasummaa fi dameewwan biroo keessatti sagantaalee qaba.",
+      "en": "The university offers programs in science, technology, health, social sciences, and other fields.",
+      "am": "ዩኒቨርሲቲው በሳይንስ፣ ቴክኖሎጂ፣ ጤና፣ ማህበራዊ ሳይንሶች እና ሌሎች ዘርፎች ፕሮግራሞች ይሰጣል።"
+    }
+  },
+
+  {
+    "id": 6,
+    "category": "University Information",
+    "question": {
+      "om": "Yuunivarsiitichi maal irratti xiyyeeffata?",
+      "en": "What is the university focused on?",
+      "am": "ዩኒቨርሲቲው በምን ላይ ያተኩራል?"
+    },
+    "keywords": [
+      "focus",
+      "mission",
+      "vision"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitichi barnoota qulqullina qabu, qorannoo fi tajaajila hawaasaa irratti xiyyeeffata.",
+      "en": "The university focuses on quality education, research, and community service.",
+      "am": "ዩኒቨርሲቲው ጥራት ያለው ትምህርት፣ ምርምር እና ማህበራዊ አገልግሎት ላይ ያተኩራል።"
+    }
+  },
+
+  {
+    "id": 7,
+    "category": "University Information",
+    "question": {
+      "om": "Research hojiiwwan maal hojjetama?",
+      "en": "What research activities are done?",
+      "am": "ምን ዓይነት ምርምሮች ይደረጋሉ?"
+    },
+    "keywords": [
+      "research",
+      "study",
+      "qorannoo"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitichi rakkoo hawaasaa furuuf qorannoo fi hojii innovation gaggeessa.",
+      "en": "The university conducts research and innovation activities to solve community problems.",
+      "am": "ዩኒቨርሲቲው የማህበረሰብ ችግኞችን ለመፍታት ምርምርና ፈጠራ ስራዎችን ያካሂዳል።"
+    }
+  }
+]

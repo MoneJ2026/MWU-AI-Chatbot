@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "category": "Laboratory",
+    "question": {
+      "om": "Laboratory akkami akkamiitu jira?",
+      "en": "What types of laboratories are available?",
+      "am": "ምን ዓይነት ላቦራቶሪዎች አሉ?"
+    },
+    "keywords": [
+      "laboratory",
+      "lab",
+      "research",
+      "experiment"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitichi damee barnootaa irratti hundaa'uun laboratory adda addaa qabaachuu danda'a.",
+      "en": "The university may have different laboratories depending on academic fields.",
+      "am": "ዩኒቨርሲቲው በትምህርት ዘርፎች መሰረት የተለያዩ ላቦራቶሪዎች ሊኖሩት ይችላል።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Laboratory",
+    "question": {
+      "om": "Laboratory eessa eessa argama?",
+      "en": "Where are laboratories located?",
+      "am": "ላቦራቶሪዎች የት ይገኛሉ?"
+    },
+    "keywords": [
+      "location",
+      "lab building",
+      "bakka"
+    ],
+    "answer": {
+      "om": "Laboratorywwan gamoo fi department isaanii keessatti argamu.",
+      "en": "Laboratories are located in their respective departments and buildings.",
+      "am": "ላቦራቶሪዎች በየዲፓርትመንታቸውና ህንፃዎች ውስጥ ይገኛሉ።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Laboratory",
+    "question": {
+      "om": "Laboratory eenyu fayyadamuu danda'a?",
+      "en": "Who can use laboratories?",
+      "am": "ላቦራቶሪዎችን ማን መጠቀም ይችላል?"
+    },
+    "keywords": [
+      "student",
+      "researcher",
+      "use lab"
+    ],
+    "answer": {
+      "om": "Barattoonni fi qorattoonni akkaataa seera laboratory hordofuun fayyadamuu danda'u.",
+      "en": "Students and researchers can use laboratories following laboratory rules.",
+      "am": "ተማሪዎችና ተመራማሪዎች የላቦራቶሪ ህጎችን በመከተል መጠቀም ይችላሉ።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "Laboratory",
+    "question": {
+      "om": "Laboratory fayyadamuuf maal barbaachisa?",
+      "en": "What is required to use a laboratory?",
+      "am": "ላቦራቶሪ ለመጠቀም ምን ያስፈልጋል?"
+    },
+    "keywords": [
+      "requirement",
+      "permission",
+      "rule"
+    ],
+    "answer": {
+      "om": "Laboratory fayyadamuuf hayyama, qajeelfama fi seera nageenyaa hordofuun barbaachisaa dha.",
+      "en": "Permission, guidelines, and safety rules are required to use laboratories.",
+      "am": "ላቦራቶሪ ለመጠቀም ፍቃድ፣ መመሪያና የደህንነት ህጎች ያስፈልጋሉ።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Laboratory",
+    "question": {
+      "om": "Computer laboratory jiraa?",
+      "en": "Is there a computer laboratory?",
+      "am": "የኮምፒውተር ላብ አለ?"
+    },
+    "keywords": [
+      "computer lab",
+      "ICT",
+      "computer"
+    ],
+    "answer": {
+      "om": "Eeyyee, dameewwan ICT fi Computer Science keessatti computer laboratory jiraachuu danda'a.",
+      "en": "Yes, computer laboratories may exist in ICT and Computer Science departments.",
+      "am": "አዎ፣ በICT እና Computer Science ዲፓርትመንቶች የኮምፒውተር ላቦራቶሪ ሊኖር ይችላል።"
+    }
+  },
+
+  {
+    "id": 6,
+    "category": "Laboratory",
+    "question": {
+      "om": "Laboratory keessatti seerri maal fa'a?",
+      "en": "What are laboratory rules?",
+      "am": "የላቦራቶሪ ህጎች ምንድን ናቸው?"
+    },
+    "keywords": [
+      "lab rules",
+      "safety",
+      "rule"
+    ],
+    "answer": {
+      "om": "Meeshaalee laboratory sirnaan fayyadamuun, nageenya eeguun fi qajeelfama hordofuun dirqama.",
+      "en": "Proper use of equipment, safety practices, and following guidelines are required.",
+      "am": "የላቦራቶሪ መሳሪያዎችን በአግባቡ መጠቀምና የደህንነት መመሪያዎችን መከተል ግዴታ ነው።"
+    }
+  }
+]

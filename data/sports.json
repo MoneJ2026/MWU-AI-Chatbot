@@ -1,0 +1,121 @@
+[
+  {
+    "id": 1,
+    "category": "Sports",
+    "question": {
+      "om": "Sports center eessa jira?",
+      "en": "Where is the sports center?",
+      "am": "የስፖርት ማዕከል የት ይገኛል?"
+    },
+    "keywords": [
+      "sport",
+      "sports center",
+      "tapha",
+      "fitness"
+    ],
+    "answer": {
+      "om": "Sports center yuunivarsiitii bakka sochii qaamaa fi taphoota adda addaaf qophaa'e keessatti argama.",
+      "en": "The sports center is a facility for physical activities and different sports.",
+      "am": "የስፖርት ማዕከሉ ለአካል እንቅስቃሴና ለተለያዩ ስፖርቶች የተዘጋጀ ቦታ ነው።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Sports",
+    "question": {
+      "om": "Taphoota akkamittan irratti hirmaadha?",
+      "en": "How can I participate in sports?",
+      "am": "በስፖርት እንዴት መሳተፍ እችላለሁ?"
+    },
+    "keywords": [
+      "join sport",
+      "participate",
+      "hirmaachuu"
+    ],
+    "answer": {
+      "om": "Taphoota irratti hirmaachuuf garee ispoortii ykn waajjira ispoortii qunnami.",
+      "en": "To participate in sports, contact sports clubs or the sports office.",
+      "am": "በስፖርት ለመሳተፍ የስፖርት ክለብ ወይም የስፖርት ቢሮን ያነጋግሩ።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Sports",
+    "question": {
+      "om": "Football team jiraa?",
+      "en": "Is there a football team?",
+      "am": "የእግር ኳስ ቡድን አለ?"
+    },
+    "keywords": [
+      "football",
+      "soccer",
+      "team"
+    ],
+    "answer": {
+      "om": "Gareen football jiraachuu isaa waajjira ispoortii irraa mirkaneeffachuu dandeessa.",
+      "en": "Check with the sports office for football team information.",
+      "am": "ስለ እግር ኳስ ቡድን መረጃ ከስፖርት ቢሮ ያግኙ።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "Sports",
+    "question": {
+      "om": "Volleyball team jiraa?",
+      "en": "Is there a volleyball team?",
+      "am": "የቮሊቦል ቡድን አለ?"
+    },
+    "keywords": [
+      "volleyball",
+      "sport team"
+    ],
+    "answer": {
+      "om": "Volleyball fi taphoota biroo irratti odeeffannoo waajjira ispoortii irraa argachuu dandeessa.",
+      "en": "You can get information about volleyball and other sports from the sports office.",
+      "am": "ስለ ቮሊቦልና ሌሎች ስፖርቶች መረጃ ከስፖርት ቢሮ ማግኘት ይቻላል።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Sports",
+    "question": {
+      "om": "Fitness center jiraa?",
+      "en": "Is there a fitness center?",
+      "am": "የአካል ብቃት ማዕከል አለ?"
+    },
+    "keywords": [
+      "fitness",
+      "gym",
+      "exercise"
+    ],
+    "answer": {
+      "om": "Fitness center jiraachuu fi itti fayyadama isaa odeeffannoo ispoortii irraa argachuu dandeessa.",
+      "en": "Information about fitness center availability can be obtained from sports services.",
+      "am": "ስለ የአካል ብቃት ማዕከል መረጃ ከስፖርት አገልግሎት ያግኙ።"
+    }
+  },
+
+  {
+    "id": 6,
+    "category": "Sports",
+    "question": {
+      "om": "Competition ispoortii jiraa?",
+      "en": "Are there sports competitions?",
+      "am": "የስፖርት ውድድሮች አሉ?"
+    },
+    "keywords": [
+      "competition",
+      "tournament",
+      "dorgommii"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitichi yeroo adda addaatti dorgommii ispoortii qopheessuu danda'a.",
+      "en": "The university may organize sports competitions at different times.",
+      "am": "ዩኒቨርሲቲው በተለያዩ ጊዜያት የስፖርት ውድድሮችን ሊያዘጋጅ ይችላል።"
+    }
+  }
+]

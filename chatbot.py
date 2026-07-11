@@ -1,8 +1,11 @@
 from database import search_question
 
 
-def get_response(user_message):
+def get_response(message, language):
 
-    response = search_question(user_message)
+    response = search_question(
+        message,
+        language
+    )
 
     return response

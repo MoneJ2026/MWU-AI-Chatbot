@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "category": "Security",
+    "question": {
+      "om": "Nageenya campus eenyu eega?",
+      "en": "Who is responsible for campus security?",
+      "am": "የካምፓስ ደህንነትን ማን ይጠብቃል?"
+    },
+    "keywords": [
+      "security",
+      "nageenya",
+      "campus guard",
+      "eegumsa"
+    ],
+    "answer": {
+      "om": "Nageenya campus tajaajila nageenyaa yuunivarsiitii fi qaamolee dhimmi ilaaluun eegama.",
+      "en": "Campus security is managed by university security services and responsible bodies.",
+      "am": "የካምፓስ ደህንነት በዩኒቨርሲቲው የደህንነት አገልግሎት ይጠበቃል።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Security",
+    "question": {
+      "om": "Accident yoo mudate maal godha?",
+      "en": "What should I do if an accident happens?",
+      "am": "አደጋ ቢደርስ ምን ማድረግ አለብኝ?"
+    },
+    "keywords": [
+      "accident",
+      "emergency",
+      "balaa",
+      "hatattamaa"
+    ],
+    "answer": {
+      "om": "Accident yoo mudate battalumatti qaama nageenyaa ykn tajaajila emergency qunnami.",
+      "en": "If an accident occurs, immediately contact security or emergency services.",
+      "am": "አደጋ ከደረሰ ወዲያውኑ የደህንነት ወይም የአስቸኳይ ጊዜ አገልግሎትን ያግኙ።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Security",
+    "question": {
+      "om": "Lakkoofsi emergency meeqa?",
+      "en": "What is the emergency number?",
+      "am": "የአስቸኳይ ጊዜ ቁጥር ስንት ነው?"
+    },
+    "keywords": [
+      "emergency number",
+      "phone",
+      "lakkoofsa"
+    ],
+    "answer": {
+      "om": "Lakkoofsi emergency yuunivarsiitii bakka irraa bakkaatti garaagarummaa qabaachuu danda'a; odeeffannoo sirrii waajjira nageenyaa irraa argadhu.",
+      "en": "Emergency numbers may vary; check with the university security office for the correct number.",
+      "am": "የአስቸኳይ ጊዜ ቁጥር ሊለያይ ስለሚችል ከዩኒቨርሲቲው የደህንነት ቢሮ ያረጋግጡ።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "Security",
+    "question": {
+      "om": "Meeshaan koo yoo bade maal godha?",
+      "en": "What should I do if I lose my property?",
+      "am": "ንብረቴ ቢጠፋ ምን ላድርግ?"
+    },
+    "keywords": [
+      "lost",
+      "property",
+      "bade",
+      "meeshaa"
+    ],
+    "answer": {
+      "om": "Meeshaan yoo bade waajjira nageenyaa beeksisiitii gargaarsa gaafadhu.",
+      "en": "Report lost items to the security office and request assistance.",
+      "am": "የጠፋ ንብረት ካለ ለደህንነት ቢሮ ያሳውቁ።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Security",
+    "question": {
+      "om": "Safety training jiraa?",
+      "en": "Is safety training available?",
+      "am": "የደህንነት ስልጠና አለ?"
+    },
+    "keywords": [
+      "safety training",
+      "training",
+      "nageenya"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitichi yeroo barbaachisaa ta'etti leenjii nageenyaa fi hubannoo kennuu danda'a.",
+      "en": "The university may provide safety training and awareness programs when needed.",
+      "am": "ዩኒቨርሲቲው አስፈላጊ በሆነ ጊዜ የደህንነት ስልጠና ሊሰጥ ይችላል።"
+    }
+  }
+]

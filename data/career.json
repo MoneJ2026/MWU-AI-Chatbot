@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "category": "Career",
+    "question": {
+      "om": "Internship akkamittan argadha?",
+      "en": "How can I get an internship?",
+      "am": "ኢንተርንሺፕ እንዴት ማግኘት እችላለሁ?"
+    },
+    "keywords": [
+      "internship",
+      "training",
+      "work experience"
+    ],
+    "answer": {
+      "om": "Internship argachuuf waajjira career development, department kee ykn dhaabbilee waliin hariiroo qaban hordofi.",
+      "en": "To get an internship, follow career office, your department, or partner organizations.",
+      "am": "ኢንተርንሺፕ ለማግኘት የስራ እድገት ቢሮን፣ ዲፓርትመንትዎን ወይም ተባባሪ ድርጅቶችን ያነጋግሩ።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Career",
+    "question": {
+      "om": "Company waliin walitti dhufeenyi jiraa?",
+      "en": "Does the university have relationships with companies?",
+      "am": "ዩኒቨርሲቲው ከኩባንያዎች ጋር ግንኙነት አለው?"
+    },
+    "keywords": [
+      "company",
+      "partnership",
+      "industry"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitichi carraa hojii fi leenjii irratti dhaabbilee adda addaa waliin hojjechuu danda'a.",
+      "en": "The university may collaborate with organizations for training and career opportunities.",
+      "am": "ዩኒቨርሲቲው ለስልጠናና የስራ እድሎች ከተለያዩ ድርጅቶች ጋር ሊሰራ ይችላል።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Career",
+    "question": {
+      "om": "Business idea dhiyeessuun ni danda'amaa?",
+      "en": "Can I submit a business idea?",
+      "am": "የንግድ ሀሳብ ማቅረብ እችላለሁ?"
+    },
+    "keywords": [
+      "business",
+      "startup",
+      "idea"
+    ],
+    "answer": {
+      "om": "Eeyyee, barattoonni yaada hojii fi innovation isaanii karaa sagantaalee entrepreneurship dhiyeessuu danda'u.",
+      "en": "Yes, students can present business and innovation ideas through entrepreneurship programs.",
+      "am": "አዎ፣ ተማሪዎች የንግድና የፈጠራ ሀሳቦችን በስራ ፈጠራ ፕሮግራሞች ማቅረብ ይችላሉ።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "Career",
+    "question": {
+      "om": "Yuunivarsiitichi qorannoo akkam jajjabeessa?",
+      "en": "How does the university encourage research?",
+      "am": "ዩኒቨርሲቲው ምርምርን እንዴት ያበረታታል?"
+    },
+    "keywords": [
+      "research",
+      "innovation",
+      "qorannoo"
+    ],
+    "answer": {
+      "om": "Yuunivarsiitichi qorannoo, hojii innovation fi pirojektoota barattootaa deeggaruu danda'a.",
+      "en": "The university supports research, innovation, and student projects.",
+      "am": "ዩኒቨርሲቲው ምርምር፣ ፈጠራ እና የተማሪ ፕሮጀክቶችን ይደግፋል።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Career",
+    "question": {
+      "om": "Carraa hojii eessan argadha?",
+      "en": "Where can I find job opportunities?",
+      "am": "የስራ እድል የት ማግኘት እችላለሁ?"
+    },
+    "keywords": [
+      "job",
+      "career",
+      "opportunity"
+    ],
+    "answer": {
+      "om": "Odeeffannoo carraa hojii waajjira career, website yuunivarsiitii ykn beeksisa hojii irraa argachuu dandeessa.",
+      "en": "You can find job opportunities from the career office, university website, or job announcements.",
+      "am": "የስራ እድሎችን ከካሪየር ቢሮ፣ ከዩኒቨርሲቲ ድህረ ገጽ ወይም ከማስታወቂያዎች ማግኘት ይችላሉ።"
+    }
+  }
+]

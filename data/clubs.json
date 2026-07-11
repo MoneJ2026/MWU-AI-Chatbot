@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "category": "Student Clubs",
+    "question": {
+      "om": "Club barattootaa jiraa?",
+      "en": "Are there student clubs?",
+      "am": "የተማሪ ክለቦች አሉ?"
+    },
+    "keywords": [
+      "club",
+      "student club",
+      "barataa",
+      "garee"
+    ],
+    "answer": {
+      "om": "Eeyyee, yuunivarsiit keessatti club barattootaa adda addaa jiraachuu danda'a.",
+      "en": "Yes, the university may have different student clubs.",
+      "am": "አዎ፣ በዩኒቨርሲቲው የተለያዩ የተማሪ ክለቦች ሊኖሩ ይችላሉ።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Student Clubs",
+    "question": {
+      "om": "Club keessatti akkamittan hirmaadha?",
+      "en": "How can I join a club?",
+      "am": "ወደ ክለብ እንዴት መቀላቀል እችላለሁ?"
+    },
+    "keywords": [
+      "join club",
+      "hirmaachuu",
+      "membership"
+    ],
+    "answer": {
+      "om": "Club keessatti hirmaachuuf hoggantoota club ykn waajjira barattootaa qunnamuun ni danda'ama.",
+      "en": "Students can join clubs by contacting club leaders or student affairs office.",
+      "am": "ተማሪዎች የክለብ አመራሮችን ወይም የተማሪ ጉዳይ ቢሮን በማግኘት መቀላቀል ይችላሉ።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Student Clubs",
+    "question": {
+      "om": "AI Club jiraa?",
+      "en": "Is there an AI Club?",
+      "am": "የAI ክለብ አለ?"
+    },
+    "keywords": [
+      "AI club",
+      "artificial intelligence",
+      "technology"
+    ],
+    "answer": {
+      "om": "AI Club jiraachuu isaa odeeffannoo waajjira student affairs ykn ICT irraa mirkaneeffachuu dandeessa.",
+      "en": "Check with student affairs or ICT office for information about an AI Club.",
+      "am": "ስለ AI ክለብ መረጃ ከተማሪ ጉዳይ ወይም ICT ቢሮ ማግኘት ይቻላል።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "Student Clubs",
+    "question": {
+      "om": "Student union eessa jira?",
+      "en": "Where is the student union?",
+      "am": "የተማሪ ህብረት የት ይገኛል?"
+    },
+    "keywords": [
+      "student union",
+      "union",
+      "barataa"
+    ],
+    "answer": {
+      "om": "Student union waajjira tajaajila barattootaa waliin odeeffannoo argachuun ni danda'ama.",
+      "en": "Student union information can be obtained from student service offices.",
+      "am": "ስለ ተማሪ ህብረት መረጃ ከተማሪ አገልግሎት ቢሮ ማግኘት ይቻላል።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Student Clubs",
+    "question": {
+      "om": "Cultural club jiraa?",
+      "en": "Is there a cultural club?",
+      "am": "የባህል ክለብ አለ?"
+    },
+    "keywords": [
+      "culture",
+      "cultural club",
+      "aadaa"
+    ],
+    "answer": {
+      "om": "Club aadaa barattootaaf hojii aadaa fi bashannanaa irratti hirmaachuuf carraa kennuu danda'a.",
+      "en": "Cultural clubs provide opportunities for students to participate in cultural activities.",
+      "am": "የባህል ክለቦች ተማሪዎች በባህላዊ እንቅስቃሴዎች እንዲሳተፉ ዕድል ይሰጣሉ።"
+    }
+  },
+
+  {
+    "id": 6,
+    "category": "Student Clubs",
+    "question": {
+      "om": "Club keessatti maal hojjetama?",
+      "en": "What activities are done in clubs?",
+      "am": "በክለቦች ውስጥ ምን እንቅስቃሴዎች ይደረጋሉ?"
+    },
+    "keywords": [
+      "activity",
+      "event",
+      "project"
+    ],
+    "answer": {
+      "om": "Club keessatti leenjii, hojii garee, qorannoo, dorgommii fi hojii hawaasummaa gaggeeffamuu danda'a.",
+      "en": "Clubs may organize training, teamwork, research, competitions, and social activities.",
+      "am": "ክለቦች ስልጠና፣ የቡድን ስራ፣ ምርምር፣ ውድድር እና ማህበራዊ እንቅስቃሴዎችን ሊያዘጋጁ ይችላሉ።"
+    }
+  }
+]

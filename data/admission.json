@@ -8,16 +8,59 @@
       "am": "እንዴት እመዘገባለሁ?"
     },
     "keywords": [
-      "galmaa'a",
-      "register",
+      "galmaa",
       "registration",
+      "register",
       "admission",
       "መመዝገብ"
     ],
     "answer": {
-      "om": "Registration akka labsii universitytti raawwatama.",
-      "en": "Registration follows the official university registration process.",
-      "am": "ምዝገባው በዩኒቨርሲቲው የተገለጸውን ሂደት ይከተላል።"
+      "om": "Galmeen barattootaa karaa qajeelfama yuunivarsiitii fi waajjira galmee (Registrar) hordofuun raawwatama.",
+      "en": "Student registration is completed by following university registration procedures and registrar office instructions.",
+      "am": "የተማሪዎች ምዝገባ በዩኒቨርሲቲው መመሪያ እና በሬጂስትራር ቢሮ ሂደት ይከናወናል።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Admission",
+    "question": {
+      "om": "Document maal fiduu qaba?",
+      "en": "What documents are required?",
+      "am": "ምን ሰነዶች ያስፈልጋሉ?"
+    },
+    "keywords": [
+      "document",
+      "documents",
+      "waraqa",
+      "certificate",
+      "ሰነድ"
+    ],
+    "answer": {
+      "om": "Sanadoonni barbaachisan yeroo galmee irratti yuunivarsiitichi beeksisa.",
+      "en": "Required documents are announced by the university during the registration period.",
+      "am": "አስፈላጊ ሰነዶች በምዝገባ ጊዜ በዩኒቨርሲቲው ይገለጻሉ።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Admission",
+    "question": {
+      "om": "Registration online jiraa?",
+      "en": "Is online registration available?",
+      "am": "የመስመር ላይ ምዝገባ አለ?"
+    },
+    "keywords": [
+      "online",
+      "registration",
+      "portal",
+      "online registration"
+    ],
+    "answer": {
+      "om": "Yeroo fi haala online registration yuunivarsiitichi beeksisa.",
+      "en": "Online registration availability depends on university announcements.",
+      "am": "የመስመር ላይ ምዝገባ በዩኒቨርሲቲው ማስታወቂያ መሰረት ይወሰናል።"
     }
   }
 ]

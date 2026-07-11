@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "category": "Website Information",
+    "question": {
+      "om": "Website MWU akkamittan fayyadama?",
+      "en": "How can I use the MWU website?",
+      "am": "የMWU ድረ ገጽን እንዴት መጠቀም እችላለሁ?"
+    },
+    "keywords": [
+      "website",
+      "MWU website",
+      "online"
+    ],
+    "answer": {
+      "om": "Website yuunivarsiitii irraa odeeffannoo barnootaa, oduu, beeksisa fi tajaajila adda addaa argachuu dandeessa.",
+      "en": "The university website provides academic information, news, announcements, and services.",
+      "am": "የዩኒቨርሲቲው ድረ ገጽ የትምህርት መረጃ፣ ዜና፣ ማስታወቂያ እና አገልግሎቶችን ይሰጣል።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Website Information",
+    "question": {
+      "om": "Website irratti maal argachuu danda'a?",
+      "en": "What can I find on the website?",
+      "am": "በድረ ገጹ ላይ ምን ማግኘት እችላለሁ?"
+    },
+    "keywords": [
+      "information",
+      "news",
+      "announcement"
+    ],
+    "answer": {
+      "om": "Website irratti odeeffannoo admission, academic, qorannoo, oduu fi tajaajila yuunivarsiitii argachuu dandeessa.",
+      "en": "You can find admission, academic, research, news, and university service information.",
+      "am": "በድረ ገጹ ላይ የመግቢያ፣ የትምህርት፣ የምርምር፣ ዜና እና አገልግሎት መረጃዎችን ያገኛሉ።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Website Information",
+    "question": {
+      "om": "Academic information website irratti jiraa?",
+      "en": "Is academic information available on the website?",
+      "am": "የትምህርት መረጃ በድረ ገጽ ላይ አለ?"
+    },
+    "keywords": [
+      "academic",
+      "course",
+      "calendar"
+    ],
+    "answer": {
+      "om": "Eeyyee, odeeffannoo academic akka sagantaa barnootaa fi beeksisa adda addaa website irraa argachuu dandeessa.",
+      "en": "Yes, academic information such as programs and announcements may be available on the website.",
+      "am": "አዎ፣ እንደ የትምህርት ፕሮግራምና ማስታወቂያዎች መረጃ በድረ ገጽ ላይ ሊገኝ ይችላል።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "Website Information",
+    "question": {
+      "om": "Oduu yuunivarsiitii eessan ilaala?",
+      "en": "Where can I see university news?",
+      "am": "የዩኒቨርሲቲ ዜና የት አያለሁ?"
+    },
+    "keywords": [
+      "news",
+      "announcement",
+      "oduu"
+    ],
+    "answer": {
+      "om": "Oduu fi beeksisa haaraa website yuunivarsiitii fi karaa miidiyaa mootummaa yuunivarsiitii irraa ilaaluun ni danda'ama.",
+      "en": "University news and announcements can be viewed on the official website and communication channels.",
+      "am": "የዩኒቨርሲቲ ዜናና ማስታወቂያዎች በይፋዊ ድረ ገጽ እና የመገናኛ መንገዶች ይገኛሉ።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Website Information",
+    "question": {
+      "om": "Website irraa document argachuu danda'aa?",
+      "en": "Can I get documents from the website?",
+      "am": "ከድረ ገጽ ሰነዶችን ማግኘት እችላለሁ?"
+    },
+    "keywords": [
+      "document",
+      "download",
+      "file"
+    ],
+    "answer": {
+      "om": "Document fi faayiloota mootummaa yuunivarsiitii irraa maxxanfaman website irratti argamuu danda'u.",
+      "en": "Official documents and files may be available on the university website.",
+      "am": "ይፋዊ ሰነዶችና ፋይሎች በዩኒቨርሲቲው ድረ ገጽ ላይ ሊገኙ ይችላሉ።"
+    }
+  }
+]

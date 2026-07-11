@@ -1,0 +1,103 @@
+[
+  {
+    "id": 1,
+    "category": "Clinic",
+    "question": {
+      "om": "Clinic yuunivarsiitii eessa jira?",
+      "en": "Where is the university clinic?",
+      "am": "የዩኒቨርሲቲው ክሊኒክ የት ይገኛል?"
+    },
+    "keywords": [
+      "clinic",
+      "health center",
+      "yaalaa",
+      "hospital"
+    ],
+    "answer": {
+      "om": "Clinic yuunivarsiitii bakka tajaajila fayyaa barattootaa kennu keessatti argama.",
+      "en": "The university clinic provides health services for students.",
+      "am": "የዩኒቨርሲቲው ክሊኒክ ለተማሪዎች የጤና አገልግሎት ይሰጣል።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Clinic",
+    "question": {
+      "om": "Tajaajilli yaalaa yoom argama?",
+      "en": "When is medical service available?",
+      "am": "የህክምና አገልግሎት መቼ ይገኛል?"
+    },
+    "keywords": [
+      "medical",
+      "service",
+      "doctor",
+      "yaalaa"
+    ],
+    "answer": {
+      "om": "Yeroon tajaajila yaalaa sa'aatii hojii clinic irratti hundaa'a.",
+      "en": "Medical service hours depend on clinic working hours.",
+      "am": "የህክምና አገልግሎት ሰዓት በክሊኒኩ የስራ ሰዓት ይወሰናል።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Clinic",
+    "question": {
+      "om": "Doktora akkamittan argadha?",
+      "en": "How can I see a doctor?",
+      "am": "ሐኪም እንዴት ማግኘት እችላለሁ?"
+    },
+    "keywords": [
+      "doctor",
+      "physician",
+      "appointment"
+    ],
+    "answer": {
+      "om": "Doktora argachuuf clinic keessatti galmaa'uun ykn hojjettoota fayyaa qunnamuun ni danda'ama.",
+      "en": "You can visit the clinic and follow the medical service procedure to see a doctor.",
+      "am": "ሐኪም ለማግኘት ወደ ክሊኒኩ በመሄድ የህክምና ሂደቱን ይከተሉ።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "Clinic",
+    "question": {
+      "om": "Health center keessatti tajaajilli maal jira?",
+      "en": "What services are available at the health center?",
+      "am": "በጤና ማዕከሉ ምን አገልግሎቶች አሉ?"
+    },
+    "keywords": [
+      "health",
+      "treatment",
+      "medicine"
+    ],
+    "answer": {
+      "om": "Health center keessatti qorannoo fayyaa, gorsa fayyaa fi tajaajila yaalaa argachuun ni danda'ama.",
+      "en": "The health center provides medical checkups, health advice, and treatment services.",
+      "am": "የጤና ማዕከሉ ምርመራ፣ የጤና ምክር እና ህክምና አገልግሎት ይሰጣል።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Clinic",
+    "question": {
+      "om": "Gorsa fayyaa argachuun ni danda'amaa?",
+      "en": "Can I get health counseling?",
+      "am": "የጤና ምክር ማግኘት እችላለሁ?"
+    },
+    "keywords": [
+      "health advice",
+      "counseling",
+      "gorsa"
+    ],
+    "answer": {
+      "om": "Eeyyee, gorsa fayyaa hojjettoota fayyaa irraa argachuun ni danda'ama.",
+      "en": "Yes, students can get health advice from health professionals.",
+      "am": "አዎ፣ ከጤና ባለሙያዎች የጤና ምክር ማግኘት ይቻላል።"
+    }
+  }
+]
