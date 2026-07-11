@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "category": "ICT",
+    "question": {
+      "om": "Student portal akkamittan seena?",
+      "en": "How do I access the student portal?",
+      "am": "የተማሪ ፖርታል እንዴት እገባለሁ?"
+    },
+    "keywords": [
+      "student portal",
+      "portal",
+      "login",
+      "seena"
+    ],
+    "answer": {
+      "om": "Student portal seenuuf username fi password kee fayyadamuun system yuunivarsiitii keessa seenta.",
+      "en": "You can access the student portal using your university username and password.",
+      "am": "የተማሪ ፖርታል ለመግባት የዩኒቨርሲቲ የተጠቃሚ ስምና የይለፍ ቃል ይጠቀሙ።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "ICT",
+    "question": {
+      "om": "Password koo yoo dagadhe maal godha?",
+      "en": "What should I do if I forget my password?",
+      "am": "የይለፍ ቃሌን ብረሳ ምን ላድርግ?"
+    },
+    "keywords": [
+      "password",
+      "forgot password",
+      "reset"
+    ],
+    "answer": {
+      "om": "Password yoo dagatte ICT help desk yookaan tajaajila deeggarsa yuunivarsiitii qunnami.",
+      "en": "If you forget your password, contact the ICT help desk or university support service.",
+      "am": "የይለፍ ቃልዎን ከረሱ የICT ድጋፍ አገልግሎትን ያግኙ።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "ICT",
+    "question": {
+      "om": "University email akkamittan bana?",
+      "en": "How can I create a university email?",
+      "am": "የዩኒቨርሲቲ ኢሜይል እንዴት አገኛለሁ?"
+    },
+    "keywords": [
+      "email",
+      "university email",
+      "mail"
+    ],
+    "answer": {
+      "om": "University email argachuuf qajeelfama ICT yuunivarsiitii hordofi.",
+      "en": "Follow ICT office instructions to get a university email account.",
+      "am": "የዩኒቨርሲቲ ኢሜይል ለማግኘት የICT ቢሮ መመሪያን ይከተሉ።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "ICT",
+    "question": {
+      "om": "Wi-Fi university akkamittan fayyadama?",
+      "en": "How can I use university Wi-Fi?",
+      "am": "የዩኒቨርሲቲ Wi-Fi እንዴት እጠቀማለሁ?"
+    },
+    "keywords": [
+      "wifi",
+      "internet",
+      "wireless"
+    ],
+    "answer": {
+      "om": "Wi-Fi fayyadamuuf account yuunivarsiitii ykn qajeelfama ICT hordofuun barbaachisa.",
+      "en": "To use university Wi-Fi, follow ICT instructions and use your university account if required.",
+      "am": "የዩኒቨርሲቲ Wi-Fi ለመጠቀም የICT መመሪያን ይከተሉ።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "ICT",
+    "question": {
+      "om": "ICT Center eessa jira?",
+      "en": "Where is the ICT Center?",
+      "am": "የICT ማዕከል የት ይገኛል?"
+    },
+    "keywords": [
+      "ict center",
+      "ict office",
+      "technology"
+    ],
+    "answer": {
+      "om": "ICT Center bakka yuunivarsiitichi murteesse keessatti argama; odeeffannoo sirrii ICT office irraa argachuu dandeessa.",
+      "en": "The ICT Center is located at the university ICT facility. Contact ICT office for exact location.",
+      "am": "የICT ማዕከል በዩኒቨርሲቲው ICT ተቋም ውስጥ ይገኛል።"
+    }
+  },
+
+  {
+    "id": 6,
+    "category": "ICT",
+    "question": {
+      "om": "ICT tajaajilli maal kenna?",
+      "en": "What services does ICT provide?",
+      "am": "ICT ምን አገልግሎቶችን ይሰጣል?"
+    },
+    "keywords": [
+      "ict service",
+      "support",
+      "technology service"
+    ],
+    "answer": {
+      "om": "ICT tajaajila network, internet, portal, email fi deeggarsa teeknooloojii kenna.",
+      "en": "ICT provides network, internet, portal, email, and technology support services.",
+      "am": "ICT የኔትወርክ፣ ኢንተርኔት፣ ፖርታል፣ ኢሜይል እና የቴክኖሎጂ ድጋፍ ይሰጣል።"
+    }
+  }
+]
