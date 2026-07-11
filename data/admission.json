@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "category": "Admission",
+    "question": {
+      "om": "Akkamittan galmaa'a?",
+      "en": "How do I register?",
+      "am": "እንዴት እመዘገባለሁ?"
+    },
+    "keywords": [
+      "galmaa'a",
+      "register",
+      "registration",
+      "admission",
+      "መመዝገብ"
+    ],
+    "answer": {
+      "om": "Registration akka labsii universitytti raawwatama.",
+      "en": "Registration follows the official university registration process.",
+      "am": "ምዝገባው በዩኒቨርሲቲው የተገለጸውን ሂደት ይከተላል።"
+    }
+  }
+]
