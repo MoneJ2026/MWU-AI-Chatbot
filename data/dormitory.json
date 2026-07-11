@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "category": "Dormitory",
+    "question": {
+      "om": "Dormiin barattootaa eessa jira?",
+      "en": "Where are student dormitories located?",
+      "am": "የተማሪዎች መኝታ ቤት የት ይገኛል?"
+    },
+    "keywords": [
+      "dorm",
+      "dormitory",
+      "mana jireenyaa",
+      "room"
+    ],
+    "answer": {
+      "om": "Dormiin barattootaa bakka yuunivarsiitichi ramade keessatti argama.",
+      "en": "Student dormitories are located in areas assigned by the university.",
+      "am": "የተማሪዎች መኝታ ቤቶች በዩኒቨርሲቲው በተመደበ ቦታ ይገኛሉ።"
+    }
+  },
+
+  {
+    "id": 2,
+    "category": "Dormitory",
+    "question": {
+      "om": "Akkamittan dormii argadha?",
+      "en": "How can I get a dormitory?",
+      "am": "እንዴት መኝታ ቤት አገኛለሁ?"
+    },
+    "keywords": [
+      "get dorm",
+      "dorm assignment",
+      "ramaddii"
+    ],
+    "answer": {
+      "om": "Dormii argachuuf qajeelfama yuunivarsiitii fi ramaddii mana jireenyaa hordofuu qabda.",
+      "en": "To get a dormitory, follow university dormitory assignment procedures.",
+      "am": "መኝታ ቤት ለማግኘት የዩኒቨርሲቲውን የመመደቢያ ሂደት ይከተሉ።"
+    }
+  },
+
+  {
+    "id": 3,
+    "category": "Dormitory",
+    "question": {
+      "om": "Ramaddiin dormii yoom ba'a?",
+      "en": "When is dormitory assignment released?",
+      "am": "የመኝታ ቤት ምደባ መቼ ይወጣል?"
+    },
+    "keywords": [
+      "dorm assignment",
+      "dorm result",
+      "ramaddii"
+    ],
+    "answer": {
+      "om": "Yeroon ramaddii dormii beeksisa yuunivarsiitii irratti hundaa'a.",
+      "en": "Dormitory assignment time depends on university announcements.",
+      "am": "የመኝታ ቤት ምደባ ጊዜ በዩኒቨርሲቲው ማስታወቂያ ይወሰናል።"
+    }
+  },
+
+  {
+    "id": 4,
+    "category": "Dormitory",
+    "question": {
+      "om": "Room koo akkamittan beeka?",
+      "en": "How do I know my room assignment?",
+      "am": "የክፍሌን ቁጥር እንዴት አውቃለሁ?"
+    },
+    "keywords": [
+      "room",
+      "room number",
+      "assignment"
+    ],
+    "answer": {
+      "om": "Room assignment odeeffannoo dormii yookaan waajjira tajaajila barattootaa irraa argatta.",
+      "en": "You can find your room assignment from dormitory information or student service office.",
+      "am": "የክፍል መረጃ ከመኝታ ቤት ቢሮ ወይም ከተማሪ አገልግሎት ያገኛሉ።"
+    }
+  },
+
+  {
+    "id": 5,
+    "category": "Dormitory",
+    "question": {
+      "om": "Rakkoo dormii yoo qabaadhe eenyu qunnama?",
+      "en": "Who should I contact for dorm problems?",
+      "am": "የመኝታ ቤት ችግር ካጋጠመኝ ማንን አገኛለሁ?"
+    },
+    "keywords": [
+      "dorm problem",
+      "complaint",
+      "support"
+    ],
+    "answer": {
+      "om": "Rakkoo dormii yoo jiraate bulchaa dormii ykn waajjira tajaajila barattootaa qunnami.",
+      "en": "For dormitory problems, contact dormitory management or student services.",
+      "am": "የመኝታ ቤት ችግር ካለ የመኝታ ቤት አስተዳደር ወይም የተማሪ አገልግሎትን ያነጋግሩ።"
+    }
+  },
+
+  {
+    "id": 6,
+    "category": "Dormitory",
+    "question": {
+      "om": "Dorm keessatti interneetii jiraa?",
+      "en": "Is internet available in dormitories?",
+      "am": "በመኝታ ቤት ውስጥ ኢንተርኔት አለ?"
+    },
+    "keywords": [
+      "internet",
+      "wifi",
+      "dorm"
+    ],
+    "answer": {
+      "om": "Tajaajilli interneetii dorm keessatti jiraachuu isaa odeeffannoo ICT irraa mirkaneeffachuu dandeessa.",
+      "en": "Check with ICT services for internet availability in dormitories.",
+      "am": "በመኝታ ቤት የኢንተርኔት አገልግሎት መኖሩን ከICT ያረጋግጡ።"
+    }
+  }
+]
