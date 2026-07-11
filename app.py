@@ -30,7 +30,7 @@ with st.sidebar:
     st.markdown("---")
 
     st.write(
-        "MWU AI Chatbot helps students "
+        "MWU AI Chatbot helps student "
         "get university information."
     )
 
