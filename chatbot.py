@@ -1,11 +1,22 @@
 from database import search_question
+from responses import GREETINGS, THANKS, GOODBYE
 
 
 def get_response(message, language):
 
-    response = search_question(
-        message,
-        language
-    )
+    message = message.lower().strip()
 
-    return response
+    # Greeting
+    if message in GREETINGS:
+        return GREETINGS[message].get(language, GREETINGS[message]["om"])
+
+    # Thanks
+    if message in THANKS:
+        return THANKS[message].get(language, THANKS[message]["om"])
+
+    # Goodbye
+    if message in GOODBYE:
+        return GOODBYE[message].get(language, GOODBYE[message]["om"])
+
+    # University Knowledge Base
+    return search_question(message, language)
