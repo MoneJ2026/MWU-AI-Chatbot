@@ -12,7 +12,7 @@ GREETINGS = {
     "nagaa": {
         "om": "Nagaan dhuftan! Maal isin gargaaruu danda'a?",
         "en": "Welcome! How can I help you?",
-        "am": "እንኳን ደህና መጡ! እንዴት ልርዳዎ?"
+        "am": "እንኳን ደህና መጡ!"
     },
     "selam": {
         "om": "Nagaan dhuftan!",
@@ -30,8 +30,8 @@ THANKS = {
     },
     "thank you": {
         "om": "Galatoomi! Milkaa'i.",
-        "en": "Thank you! Have a great day.",
-        "am": "እናመሰግናለን! መልካም ቀን።"
+        "en": "Thank you!",
+        "am": "እናመሰግናለን!"
     },
     "galatoomi": {
         "om": "Homaa miti 😊",
