@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "ICT",
+    "topic": "ICT",
     "question": {
       "om": "Student portal akkamittan seena?",
       "en": "How do I access the student portal?",
@@ -22,7 +22,7 @@
 
   {
     "id": 2,
-    "category": "ICT",
+    "topic": "ICT",
     "question": {
       "om": "Password koo yoo dagadhe maal godha?",
       "en": "What should I do if I forget my password?",
@@ -42,7 +42,7 @@
 
   {
     "id": 3,
-    "category": "ICT",
+    "topic": "ICT",
     "question": {
       "om": "University email akkamittan bana?",
       "en": "How can I create a university email?",
@@ -62,7 +62,7 @@
 
   {
     "id": 4,
-    "category": "ICT",
+    "topic": "ICT",
     "question": {
       "om": "Wi-Fi university akkamittan fayyadama?",
       "en": "How can I use university Wi-Fi?",
@@ -82,7 +82,7 @@
 
   {
     "id": 5,
-    "category": "ICT",
+    "topic": "ICT",
     "question": {
       "om": "ICT Center eessa jira?",
       "en": "Where is the ICT Center?",

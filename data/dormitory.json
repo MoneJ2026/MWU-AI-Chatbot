@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "Dormitory",
+    "topic": "Dormitory",
     "question": {
       "om": "Dormiin barattootaa eessa jira?",
       "en": "Where are student dormitories located?",
@@ -22,7 +22,7 @@
 
   {
     "id": 2,
-    "category": "Dormitory",
+    "topic": "Dormitory",
     "question": {
       "om": "Akkamittan dormii argadha?",
       "en": "How can I get a dormitory?",
@@ -42,7 +42,7 @@
 
   {
     "id": 3,
-    "category": "Dormitory",
+    "topic": "Dormitory",
     "question": {
       "om": "Ramaddiin dormii yoom ba'a?",
       "en": "When is dormitory assignment released?",
@@ -62,7 +62,7 @@
 
   {
     "id": 4,
-    "category": "Dormitory",
+    "topic": "Dormitory",
     "question": {
       "om": "Room koo akkamittan beeka?",
       "en": "How do I know my room assignment?",
@@ -82,7 +82,7 @@
 
   {
     "id": 5,
-    "category": "Dormitory",
+    "topic": "Dormitory",
     "question": {
       "om": "Rakkoo dormii yoo qabaadhe eenyu qunnama?",
       "en": "Who should I contact for dorm problems?",
@@ -102,7 +102,7 @@
 
   {
     "id": 6,
-    "category": "Dormitory",
+    "topic": "Dormitory",
     "question": {
       "om": "Dorm keessatti interneetii jiraa?",
       "en": "Is internet available in dormitories?",

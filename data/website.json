@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "Website Information",
+    "topic": "Website Information",
     "question": {
       "om": "Website MWU akkamittan fayyadama?",
       "en": "How can I use the MWU website?",
@@ -21,7 +21,7 @@
 
   {
     "id": 2,
-    "category": "Website Information",
+    "topic": "Website Information",
     "question": {
       "om": "Website irratti maal argachuu danda'a?",
       "en": "What can I find on the website?",
@@ -41,7 +41,7 @@
 
   {
     "id": 3,
-    "category": "Website Information",
+    "topic": "Website Information",
     "question": {
       "om": "Academic information website irratti jiraa?",
       "en": "Is academic information available on the website?",
@@ -61,7 +61,7 @@
 
   {
     "id": 4,
-    "category": "Website Information",
+    "topic": "Website Information",
     "question": {
       "om": "Oduu yuunivarsiitii eessan ilaala?",
       "en": "Where can I see university news?",
@@ -81,7 +81,7 @@
 
   {
     "id": 5,
-    "category": "Website Information",
+    "topic": "Website Information",
     "question": {
       "om": "Website irraa document argachuu danda'aa?",
       "en": "Can I get documents from the website?",

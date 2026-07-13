@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "Academic",
+    "topic": "Academic",
     "question": {
       "om": "Barnoonni yoom jalqaba?",
       "en": "When do classes start?",
@@ -23,7 +23,7 @@
 
   {
     "id": 2,
-    "category": "Academic",
+    "topic": "Academic",
     "question": {
       "om": "Class schedule eessan ilaala?",
       "en": "Where can I see my class schedule?",
@@ -44,7 +44,7 @@
 
   {
     "id": 3,
-    "category": "Academic",
+    "topic": "Academic",
     "question": {
       "om": "GPA jechuun maal jechuudha?",
       "en": "What does GPA mean?",
@@ -64,7 +64,7 @@
 
   {
     "id": 4,
-    "category": "Academic",
+    "topic": "Academic",
     "question": {
       "om": "GPA akkamitti shallagama?",
       "en": "How is GPA calculated?",
@@ -84,7 +84,7 @@
 
   {
     "id": 5,
-    "category": "Academic",
+    "topic": "Academic",
     "question": {
       "om": "Result eessan ilaala?",
       "en": "Where can I check my result?",
@@ -105,7 +105,7 @@
 
   {
     "id": 6,
-    "category": "Academic",
+    "topic": "Academic",
     "question": {
       "om": "Course add/drop akkamittan godha?",
       "en": "How do I add or drop a course?",

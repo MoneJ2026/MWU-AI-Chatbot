@@ -6,6 +6,7 @@ DATA_FOLDER = "data"
 
 
 def load_all_data():
+
     knowledge = []
 
     if not os.path.exists(DATA_FOLDER):
@@ -34,7 +35,7 @@ def search_question(question, language):
     question = question.lower().strip()
 
     best_score = 0
-    best_answer = None
+    best_item = None
 
     for item in data:
 
@@ -49,9 +50,9 @@ def search_question(question, language):
             if score > best_score:
 
                 best_score = score
-                best_answer = item.get("answer", {})
+                best_item = item
 
-        # Search using questions (Afaan 3)
+        # Search using multilingual questions
         questions = item.get("question", {})
 
         for lang in ["om", "en", "am"]:
@@ -66,27 +67,34 @@ def search_question(question, language):
                 if score > best_score:
 
                     best_score = score
-                    best_answer = item.get("answer", {})
+                    best_item = item
 
-    # If similarity is good enough
-    if best_score >= 70 and best_answer:
+    # Match found
+    if best_score >= 70 and best_item:
 
-        if language in best_answer:
-            return best_answer[language]
+        answer = best_item.get("answer", {})
 
-        return best_answer.get("om")
+        return {
+            "answer": answer.get(language, answer.get("om")),
+            "topic": best_item.get("topic", "")
+        }
 
-    # Default messages
+    # No match
     if language == "en":
-        return (
-            "Sorry, I couldn't find information "
-            "related to your question."
-        )
+
+        return {
+            "answer": "Sorry, I couldn't find information related to your question.",
+            "topic": ""
+        }
 
     elif language == "am":
-        return (
-            "ይቅርታ፣ ከጥያቄዎ ጋር የተያያዘ "
-            "መረጃ አላገኘሁም።"
-        )
 
-    return "Dhiifama, gaaffii kanaaf odeeffannoo hin arganne."
+        return {
+            "answer": "ይቅርታ፣ ከጥያቄዎ ጋር የተያያዘ መረጃ አላገኘሁም።",
+            "topic": ""
+        }
+
+    return {
+        "answer": "Dhiifama, gaaffii kanaaf odeeffannoo hin arganne.",
+        "topic": ""
+    }

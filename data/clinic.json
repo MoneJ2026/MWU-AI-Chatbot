@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "Clinic",
+    "topic": "Clinic",
     "question": {
       "om": "Clinic yuunivarsiitii eessa jira?",
       "en": "Where is the university clinic?",
@@ -22,7 +22,7 @@
 
   {
     "id": 2,
-    "category": "Clinic",
+    "topic": "Clinic",
     "question": {
       "om": "Tajaajilli yaalaa yoom argama?",
       "en": "When is medical service available?",
@@ -43,7 +43,7 @@
 
   {
     "id": 3,
-    "category": "Clinic",
+    "topic": "Clinic",
     "question": {
       "om": "Doktora akkamittan argadha?",
       "en": "How can I see a doctor?",
@@ -63,7 +63,7 @@
 
   {
     "id": 4,
-    "category": "Clinic",
+    "topic": "Clinic",
     "question": {
       "om": "Health center keessatti tajaajilli maal jira?",
       "en": "What services are available at the health center?",
@@ -83,7 +83,7 @@
 
   {
     "id": 5,
-    "category": "Clinic",
+    "topic": "Clinic",
     "question": {
       "om": "Gorsa fayyaa argachuun ni danda'amaa?",
       "en": "Can I get health counseling?",

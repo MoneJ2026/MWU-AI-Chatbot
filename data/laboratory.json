@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "Laboratory",
+    "topic": "Laboratory",
     "question": {
       "om": "Laboratory akkami akkamiitu jira?",
       "en": "What types of laboratories are available?",
@@ -22,7 +22,7 @@
 
   {
     "id": 2,
-    "category": "Laboratory",
+    "topic": "Laboratory",
     "question": {
       "om": "Laboratory eessa eessa argama?",
       "en": "Where are laboratories located?",
@@ -42,7 +42,7 @@
 
   {
     "id": 3,
-    "category": "Laboratory",
+    "topic": "Laboratory",
     "question": {
       "om": "Laboratory eenyu fayyadamuu danda'a?",
       "en": "Who can use laboratories?",
@@ -62,7 +62,7 @@
 
   {
     "id": 4,
-    "category": "Laboratory",
+    "topic": "Laboratory",
     "question": {
       "om": "Laboratory fayyadamuuf maal barbaachisa?",
       "en": "What is required to use a laboratory?",
@@ -82,7 +82,7 @@
 
   {
     "id": 5,
-    "category": "Laboratory",
+    "topic": "Laboratory",
     "question": {
       "om": "Computer laboratory jiraa?",
       "en": "Is there a computer laboratory?",
@@ -102,7 +102,7 @@
 
   {
     "id": 6,
-    "category": "Laboratory",
+    "topic": "Laboratory",
     "question": {
       "om": "Laboratory keessatti seerri maal fa'a?",
       "en": "What are laboratory rules?",

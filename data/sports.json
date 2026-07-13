@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "Sports",
+    "topic": "Sports",
     "question": {
       "om": "Sports center eessa jira?",
       "en": "Where is the sports center?",
@@ -62,7 +62,7 @@
 
   {
     "id": 4,
-    "category": "Sports",
+    "topic": "Sports",
     "question": {
       "om": "Volleyball team jiraa?",
       "en": "Is there a volleyball team?",
@@ -81,7 +81,7 @@
 
   {
     "id": 5,
-    "category": "Sports",
+    "topic": "Sports",
     "question": {
       "om": "Fitness center jiraa?",
       "en": "Is there a fitness center?",
@@ -101,7 +101,7 @@
 
   {
     "id": 6,
-    "category": "Sports",
+    "topic": "Sports",
     "question": {
       "om": "Competition ispoortii jiraa?",
       "en": "Are there sports competitions?",

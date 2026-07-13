@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "University Information",
+    "topic": "University Information",
     "question": {
       "om": "Yuunivarsiitichi yeroo meeqa hundaa'e?",
       "en": "When was the university established?",
@@ -21,7 +21,7 @@
 
   {
     "id": 2,
-    "category": "University Information",
+    "topic": "University Information",
     "question": {
       "om": "Yuunivarsiitichi eessa argama?",
       "en": "Where is the university located?",
@@ -41,7 +41,7 @@
 
   {
     "id": 3,
-    "category": "University Information",
+    "topic": "University Information",
     "question": {
       "om": "Koolleejjiiwwan meeqa qaba?",
       "en": "How many colleges does the university have?",
@@ -61,7 +61,7 @@
 
   {
     "id": 4,
-    "category": "University Information",
+    "topic": "University Information",
     "question": {
       "om": "Department meeqa qaba?",
       "en": "How many departments are there?",
@@ -81,7 +81,7 @@
 
   {
     "id": 5,
-    "category": "University Information",
+    "topic": "University Information",
     "question": {
       "om": "Sagantaalee barnootaa maal qaba?",
       "en": "What academic programs are available?",
@@ -101,7 +101,7 @@
 
   {
     "id": 6,
-    "category": "University Information",
+    "topic": "University Information",
     "question": {
       "om": "Yuunivarsiitichi maal irratti xiyyeeffata?",
       "en": "What is the university focused on?",
@@ -121,7 +121,7 @@
 
   {
     "id": 7,
-    "category": "University Information",
+    "topic": "University Information",
     "question": {
       "om": "Research hojiiwwan maal hojjetama?",
       "en": "What research activities are done?",

@@ -36,9 +36,12 @@ with st.sidebar:
         "get university information."
     )
 
+
     if st.button("🗑️ Clear Chat"):
 
         clear_chat()
+
+        st.session_state.last_topic = ""
 
         st.rerun()
 
@@ -56,7 +59,24 @@ language = st.selectbox(
 )
 
 
-# Welcome message
+
+# Language code
+
+if language == "Afaan Oromoo":
+
+    lang_code = "om"
+
+elif language == "English":
+
+    lang_code = "en"
+
+else:
+
+    lang_code = "am"
+
+
+
+# Title
 
 st.title(APP_NAME)
 
@@ -64,13 +84,20 @@ st.write(WELCOME_MESSAGE)
 
 
 
-# Chat history
+# Chat memory
 
 if "messages" not in st.session_state:
 
     st.session_state.messages = []
 
 
+if "last_topic" not in st.session_state:
+
+    st.session_state.last_topic = ""
+
+
+
+# Show previous chat
 
 for message in st.session_state.messages:
 
@@ -91,13 +118,58 @@ user_question = st.chat_input(
 if user_question:
 
 
-    # user message
+    # Conversation memory
+
+    follow_up_words = [
+
+        "yoom",
+        "eessa",
+        "akkam",
+        "akkamitti",
+        "maal",
+        "when",
+        "where",
+        "how",
+        "what"
+
+    ]
+
+
+    first_word = user_question.lower().split()[0]
+
+
+    if (
+
+        st.session_state.last_topic
+
+        and first_word in follow_up_words
+
+    ):
+
+        user_question = (
+
+            st.session_state.last_topic
+
+            + " "
+
+            + user_question
+
+        )
+
+
+
+    # Show user message
 
     st.session_state.messages.append(
+
         {
+
             "role": "user",
+
             "content": user_question
+
         }
+
     )
 
 
@@ -107,21 +179,47 @@ if user_question:
 
 
 
-    # chatbot response
+    # Get response
 
-    answer = get_response(
+    result = get_response(
+
         user_question,
-        language
+
+        lang_code
+
     )
 
+
+    answer = result["answer"]
+
+
+    topic = result.get("topic", "")
+
+
+    # Save topic memory
+
+    if topic:
+
+        st.session_state.last_topic = topic
+
+
+
+    # Save assistant message
 
     st.session_state.messages.append(
+
         {
+
             "role": "assistant",
+
             "content": answer
+
         }
+
     )
 
+
+    # Show assistant response
 
     with st.chat_message("assistant"):
 

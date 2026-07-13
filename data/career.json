@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "Career",
+    "topic": "Career",
     "question": {
       "om": "Internship akkamittan argadha?",
       "en": "How can I get an internship?",
@@ -21,7 +21,7 @@
 
   {
     "id": 2,
-    "category": "Career",
+    "topic": "Career",
     "question": {
       "om": "Company waliin walitti dhufeenyi jiraa?",
       "en": "Does the university have relationships with companies?",
@@ -41,7 +41,7 @@
 
   {
     "id": 3,
-    "category": "Career",
+    "topic": "Career",
     "question": {
       "om": "Business idea dhiyeessuun ni danda'amaa?",
       "en": "Can I submit a business idea?",
@@ -61,7 +61,7 @@
 
   {
     "id": 4,
-    "category": "Career",
+    "topic": "Career",
     "question": {
       "om": "Yuunivarsiitichi qorannoo akkam jajjabeessa?",
       "en": "How does the university encourage research?",
@@ -81,7 +81,7 @@
 
   {
     "id": 5,
-    "category": "Career",
+    "topic": "Career",
     "question": {
       "om": "Carraa hojii eessan argadha?",
       "en": "Where can I find job opportunities?",

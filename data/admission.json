@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "Admission",
+    "topic": "Admission",
     "question": {
       "om": "Akkamittan galmaa'a?",
       "en": "How do I register?",
@@ -23,7 +23,7 @@
 
   {
     "id": 2,
-    "category": "Admission",
+    "topic": "Admission",
     "question": {
       "om": "Document maal fiduu qaba?",
       "en": "What documents are required?",
@@ -45,7 +45,7 @@
 
   {
     "id": 3,
-    "category": "Admission",
+    "topic": "Admission",
     "question": {
       "om": "Registration online jiraa?",
       "en": "Is online registration available?",

@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "category": "Security",
+    "topic": "Security",
     "question": {
       "om": "Nageenya campus eenyu eega?",
       "en": "Who is responsible for campus security?",
@@ -22,7 +22,7 @@
 
   {
     "id": 2,
-    "category": "Security",
+    "topic": "Security",
     "question": {
       "om": "Accident yoo mudate maal godha?",
       "en": "What should I do if an accident happens?",
@@ -43,7 +43,7 @@
 
   {
     "id": 3,
-    "category": "Security",
+    "topic": "Security",
     "question": {
       "om": "Lakkoofsi emergency meeqa?",
       "en": "What is the emergency number?",
@@ -63,7 +63,7 @@
 
   {
     "id": 4,
-    "category": "Security",
+    "topic": "Security",
     "question": {
       "om": "Meeshaan koo yoo bade maal godha?",
       "en": "What should I do if I lose my property?",
