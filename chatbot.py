@@ -1,25 +1,43 @@
 def get_response(message, language):
 
+    print("CHATBOT RECEIVED:", message)
+
     message = message.lower().strip()
 
-    print("MESSAGE:", message)
-    print("LANGUAGE:", language)
 
-    # Greeting
-    if message in GREETINGS:
+    # USER MEMORY
+    if message.startswith("maqaan koo"):
 
-        result = {
-            "answer": GREETINGS[message].get(language, GREETINGS[message]["om"]),
+        name = message.replace(
+            "maqaan koo",
+            ""
+        ).strip()
+
+        print("SAVING NAME:", name)
+
+        remember(
+            "name",
+            name
+        )
+
+        return {
+            "answer": f"Galatoomi {name}, si yaadadha.",
             "topic": ""
         }
 
-        print("GREETING RESULT:", result)
 
-        return result
+    if message == "maqaan kiyya maal":
+
+        name = get_memory("name")
+
+        return {
+            "answer": f"Maqaan kee {name} dha.",
+            "topic": ""
+        }
 
 
-    result = search_question(message, language)
-
-    print("DATABASE RESULT:", result)
-
-    return result
+    # Database dhuma irratti
+    return search_question(
+        message,
+        language
+    )
