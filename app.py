@@ -41,6 +41,8 @@ with st.sidebar:
 
         clear_chat()
 
+        st.session_state.messages = []
+
         st.session_state.last_topic = ""
 
         st.rerun()
@@ -84,7 +86,7 @@ st.write(WELCOME_MESSAGE)
 
 
 
-# Chat memory
+# Initialize session memory
 
 if "messages" not in st.session_state:
 
@@ -97,7 +99,7 @@ if "last_topic" not in st.session_state:
 
 
 
-# Show previous chat
+# Display chat history
 
 for message in st.session_state.messages:
 
@@ -121,7 +123,6 @@ if user_question:
     # Conversation memory
 
     follow_up_words = [
-
         "yoom",
         "eessa",
         "akkam",
@@ -131,7 +132,6 @@ if user_question:
         "where",
         "how",
         "what"
-
     ]
 
 
@@ -139,37 +139,25 @@ if user_question:
 
 
     if (
-
         st.session_state.last_topic
-
         and first_word in follow_up_words
-
     ):
 
         user_question = (
-
             st.session_state.last_topic
-
             + " "
-
             + user_question
-
         )
 
 
 
-    # Show user message
+    # User message
 
     st.session_state.messages.append(
-
         {
-
             "role": "user",
-
             "content": user_question
-
         }
-
     )
 
 
@@ -179,24 +167,38 @@ if user_question:
 
 
 
-    # Get response
+    # Get chatbot response
 
     result = get_response(
-
         user_question,
-
         lang_code
-
     )
 
 
-    answer = result["answer"]
+
+    # Handle response
+
+    if isinstance(result, dict):
+
+        answer = result.get(
+            "answer",
+            "Dhiifama, deebii hin arganne."
+        )
+
+        topic = result.get(
+            "topic",
+            ""
+        )
+
+    else:
+
+        answer = result
+
+        topic = ""
 
 
-    topic = result.get("topic", "")
 
-
-    # Save topic memory
+    # Save conversation memory
 
     if topic:
 
@@ -204,19 +206,15 @@ if user_question:
 
 
 
-    # Save assistant message
+    # Assistant message
 
     st.session_state.messages.append(
-
         {
-
             "role": "assistant",
-
             "content": answer
-
         }
-
     )
+
 
 
     # Show assistant response

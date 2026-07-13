@@ -1,31 +1,25 @@
-from database import search_question
-from responses import GREETINGS, THANKS, GOODBYE
-
-
 def get_response(message, language):
 
     message = message.lower().strip()
 
+    print("MESSAGE:", message)
+    print("LANGUAGE:", language)
+
     # Greeting
     if message in GREETINGS:
-        return {
+
+        result = {
             "answer": GREETINGS[message].get(language, GREETINGS[message]["om"]),
             "topic": ""
         }
 
-    # Thanks
-    if message in THANKS:
-        return {
-            "answer": THANKS[message].get(language, THANKS[message]["om"]),
-            "topic": ""
-        }
+        print("GREETING RESULT:", result)
 
-    # Goodbye
-    if message in GOODBYE:
-        return {
-            "answer": GOODBYE[message].get(language, GOODBYE[message]["om"]),
-            "topic": ""
-        }
+        return result
 
-    # Search Knowledge Base
-    return search_question(message, language)
+
+    result = search_question(message, language)
+
+    print("DATABASE RESULT:", result)
+
+    return result
