@@ -1,3 +1,5 @@
+from user_manager import add_question
+from faq import get_faqs
 import streamlit as st
 
 from chatbot import get_response
