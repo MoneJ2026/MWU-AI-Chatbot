@@ -1,0 +1,78 @@
+text,intent
+How can I register?,admission
+Where is the admission office?,admission
+What are the admission requirements?,admission
+When is registration?,admission
+How do I apply?,admission
+
+Where is the library?,library
+Library opening hours?,library
+How can I borrow books?,library
+Can I study in the library?,library
+Is the library open today?,library
+
+Where is the ICT office?,ict
+How do I get WiFi?,ict
+How can I reset my password?,ict
+Who can help with my student portal?,ict
+ICT office location?,ict
+
+Where is the clinic?,clinic
+Clinic opening hours?,clinic
+Can I get medical service?,clinic
+Where can I find the campus clinic?,clinic
+Is there a nurse on campus?,clinic
+
+Where is the dormitory?,dormitory
+How do I get a dorm room?,dormitory
+Dormitory rules?,dormitory
+Student housing information?,dormitory
+Can I change my dorm?,dormitory
+
+How can I join a club?,clubs
+Football club?,clubs
+Music club?,clubs
+Student clubs?,clubs
+Available clubs?,clubs
+
+Sports activities?,sports
+Football field?,sports
+Gym location?,sports
+Basketball court?,sports
+Sports office?,sports
+
+Laboratory rules?,laboratory
+Computer laboratory?,laboratory
+Lab opening hours?,laboratory
+Science laboratory?,laboratory
+Where is the lab?,laboratory
+
+Career services?,career
+Internship information?,career
+Job opportunities?,career
+Career office?,career
+CV writing help?,career
+
+Academic calendar?,academic
+Exam schedule?,academic
+Class schedule?,academic
+Semester information?,academic
+Academic regulations?,academic
+
+University president?,university
+About Madda Walabu University?,university
+University history?,university
+University mission?,university
+University vision?,university
+
+Official website?,website
+University website?,website
+How do I visit the website?,website
+Website link?,website
+Online services?,website
+
+Campus security?,security
+Emergency number?,security
+Security office?,security
+Lost and found?,security
+Campus safety?,security
