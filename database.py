@@ -28,7 +28,7 @@ def load_all_data():
     return knowledge
 
 
-def search_question(question, language):
+def search_question(question, language, topic=None):
 
     data = load_all_data()
 
@@ -98,3 +98,12 @@ def search_question(question, language):
         "answer": "Dhiifama, gaaffii kanaaf odeeffannoo hin arganne.",
         "topic": ""
     }
+def load_topic_data(topic):
+
+    path = os.path.join(DATA_FOLDER, f"{topic}.json")
+
+    if not os.path.exists(path):
+        return []
+
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)

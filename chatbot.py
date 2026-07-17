@@ -59,7 +59,8 @@ def get_response(message, language="en"):
 
     result = search_question(
         message,
-        language
+        language,
+        intent
     )
 
     return result
