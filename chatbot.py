@@ -1,8 +1,6 @@
 from database import search_question
 from ML.predict import predict_intent
 from memory import remember, get_memory
-
-
 def get_response(message, language="en"):
 
     print("CHATBOT RECEIVED:", message)
