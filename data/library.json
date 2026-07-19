@@ -17,20 +17,28 @@
     }
   },
   {
-    "topic": "library",
-    "question": {
-      "om": "Library yoom banama?",
-      "en": "When does the library open?",
-      "am": "ቤተ መጻሕፍቱ መቼ ይከፈታል?"
-    },
-    "keywords": [
-      "library",
-      "banama"
-    ],
-    "answer": {
-      "om": "Library sa'aatii hojii yuunivarsiitiin banama.",
-      "en": "The library opens during university working hours.",
-      "am": "ቤተ መጻሕፍቱ በዩኒቨርሲቲው የሥራ ሰዓት ይከፈታል።"
-    }
+  "topic": "library",
+  "question": {
+    "om": "Library yoom banama?",
+    "en": "When does the library open?",
+    "am": "ቤተ መጻሕፍቱ መቼ ይከፈታል?"
+  },
+  "keywords": [
+    "library",
+    "banama",
+    "yoom",
+    "sa'aatii",
+    "sa'aatii hojii",
+    "open",
+    "opening",
+    "opening hours",
+    "when",
+    "hours"
+  ],
+  "answer": {
+    "om": "Library sa'aatii hojii yuunivarsiitiin banama.",
+    "en": "The library opens during university working hours.",
+    "am": "ቤተ መጻሕፍቱ በዩኒቨርሲቲው የሥራ ሰዓት ይከፈታል።"
   }
+}
 ]
