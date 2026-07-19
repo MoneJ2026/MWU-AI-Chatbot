@@ -5,6 +5,11 @@ What are the admission requirements?,admission
 When is registration?,admission
 How do I apply?,admission
 
+text,intent
+Library yoom banama?,library
+When does the library open?,library
+Library opening hours?,library
+
 Where is the library?,library
 Library opening hours?,library
 How can I borrow books?,library
