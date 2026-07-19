@@ -30,7 +30,23 @@ def load_all_data():
 
 def search_question(question, language, topic=None):
 
-    data = load_all_data()
+    question = question.lower().strip()
+
+
+    if topic:
+
+        data = load_topic_data(topic)
+
+        if not data:
+            data = load_all_data()
+
+    else:
+
+        data = load_all_data()
+
+
+    best_score = 0
+    best_item = None
 
     question = question.lower().strip()
 

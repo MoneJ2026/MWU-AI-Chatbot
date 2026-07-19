@@ -1,11 +1,12 @@
 import joblib
-
-
 import os
-import joblib
 
 
-BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(
+    os.path.dirname(
+        os.path.abspath(__file__)
+    )
+)
 
 
 model = joblib.load(
@@ -34,3 +35,19 @@ def predict_intent(message):
     )
 
     return intent[0]
+
+
+# Test
+if __name__ == "__main__":
+
+    while True:
+
+        user = input("You: ")
+
+        if user.lower() == "exit":
+            break
+
+        print(
+            "Intent:",
+            predict_intent(user)
+        )
