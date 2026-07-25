@@ -1,3 +1,8 @@
+import chatbot
+
+print(chatbot.__file__)
+
+from chatbot import get_response
 from user_manager import add_question
 from faq import get_faqs
 import streamlit as st

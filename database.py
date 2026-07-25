@@ -41,6 +41,7 @@ def load_topic_data(topic):
 def search_question(question, language="en", topic=None):
 
     question = question.lower().strip()
+    print("SEARCHING:", question)
 
     # ==========================
     # LOAD DATA
@@ -96,6 +97,7 @@ def search_question(question, language="en", topic=None):
     # ==========================
     # FOUND
     # ==========================
+        print("BEST SCORE:", best_score)
 
     if best_score >= 70 and best_item:
 
