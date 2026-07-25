@@ -1,6 +1,9 @@
 from database import search_question
+from logger import save_unknown_question
 from ML.predict import predict_intent
 from memory import remember, get_memory
+
+
 def get_response(message, language="en"):
 
     print("CHATBOT RECEIVED:", message)
@@ -18,10 +21,7 @@ def get_response(message, language="en"):
             ""
         ).strip()
 
-        remember(
-            "name",
-            name
-        )
+        remember("name", name)
 
         return {
             "answer": f"Galatoomi {name}, si yaadadha.",
@@ -60,5 +60,12 @@ def get_response(message, language="en"):
         language,
         intent
     )
+
+    # ==========================
+    # UNKNOWN QUESTION LOGGER
+    # ==========================
+
+    if not result["found"]:
+        save_unknown_question(message)
 
     return result

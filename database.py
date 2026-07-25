@@ -6,7 +6,6 @@ DATA_FOLDER = "data"
 
 
 def load_all_data():
-
     knowledge = []
 
     if not os.path.exists(DATA_FOLDER):
@@ -28,10 +27,24 @@ def load_all_data():
     return knowledge
 
 
-def search_question(question, language, topic=None):
+def load_topic_data(topic):
+
+    path = os.path.join(DATA_FOLDER, f"{topic}.json")
+
+    if not os.path.exists(path):
+        return []
+
+    with open(path, "r", encoding="utf-8") as f:
+        return json.load(f)
+
+
+def search_question(question, language="en", topic=None):
 
     question = question.lower().strip()
 
+    # ==========================
+    # LOAD DATA
+    # ==========================
 
     if topic:
 
@@ -41,21 +54,18 @@ def search_question(question, language, topic=None):
             data = load_all_data()
 
     else:
-
         data = load_all_data()
 
-
-    best_score = 0
-    best_item = None
-
-    question = question.lower().strip()
+    # ==========================
+    # SEARCH
+    # ==========================
 
     best_score = 0
     best_item = None
 
     for item in data:
 
-        # Search using keywords
+        # Search keywords
         for keyword in item.get("keywords", []):
 
             score = fuzz.partial_ratio(
@@ -64,11 +74,10 @@ def search_question(question, language, topic=None):
             )
 
             if score > best_score:
-
                 best_score = score
                 best_item = item
 
-        # Search using multilingual questions
+        # Search multilingual questions
         questions = item.get("question", {})
 
         for lang in ["om", "en", "am"]:
@@ -81,45 +90,37 @@ def search_question(question, language, topic=None):
                 )
 
                 if score > best_score:
-
                     best_score = score
                     best_item = item
 
-    # Match found
+    # ==========================
+    # FOUND
+    # ==========================
+
     if best_score >= 70 and best_item:
 
         answer = best_item.get("answer", {})
 
         return {
             "answer": answer.get(language, answer.get("om")),
-            "topic": best_item.get("topic", "")
+            "topic": best_item.get("topic", ""),
+            "found": True,
+            "score": best_score
         }
 
-    # No match
-    if language == "en":
+    # ==========================
+    # NOT FOUND
+    # ==========================
 
-        return {
-            "answer": "Sorry, I couldn't find information related to your question.",
-            "topic": ""
-        }
-
-    elif language == "am":
-
-        return {
-            "answer": "ይቅርታ፣ ከጥያቄዎ ጋር የተያያዘ መረጃ አላገኘሁም።",
-            "topic": ""
-        }
+    messages = {
+        "en": "Sorry, I couldn't find information related to your question.",
+        "om": "Dhiifama, gaaffii kanaaf odeeffannoo hin arganne.",
+        "am": "ይቅርታ፣ ከጥያቄዎ ጋር የተያያዘ መረጃ አላገኘሁም።"
+    }
 
     return {
-        "answer": "Dhiifama, gaaffii kanaaf odeeffannoo hin arganne.",
-        "topic": ""
+        "answer": messages.get(language, messages["om"]),
+        "topic": "",
+        "found": False,
+        "score": best_score
     }
-def load_topic_data(topic):
-
-    path = os.path.join(DATA_FOLDER, f"{topic}.json")
-
-    if not os.path.exists(path):
-        return []
-
-    with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
