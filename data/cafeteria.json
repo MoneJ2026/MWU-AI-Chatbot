@@ -1,0 +1,161 @@
+[
+  {
+    "topic": "cafeteria",
+    "keywords": [
+      "cafeteria",
+      "food",
+      "meal",
+      "canteen",
+      "restaurant",
+      "nyaata",
+      "cafeteria eessa jira",
+      "kaampaasii keessatti cafeteria",
+      "በካምፓሱ ውስጥ ካፌቴሪያ",
+      "ካፌቴሪያ"
+    ],
+    "question": {
+      "en": "Where is the cafeteria?",
+      "om": "Cafeteriaan eessa jira?",
+      "am": "ካፌቴሪያው የት ነው?"
+    },
+    "answer": {
+      "en": "The university cafeteria is located on the main campus.",
+      "om": "Cafeteriaan kaampaasii guddaa yuunivarsiitii keessatti argama.",
+      "am": "የዩኒቨርሲቲው ካፌቴሪያ በዋናው ካምፓስ ይገኛል።"
+    }
+  },
+  {
+    "topic": "cafeteria",
+    "keywords": [
+      "cafeteria",
+      "campus cafeteria",
+      "nyaata",
+      "kaampaasii",
+      "ካፌቴሪያ"
+    ],
+    "question": {
+      "en": "Is there a cafeteria on campus?",
+      "om": "Kaampaasii keessatti cafeteria ni jiraa?",
+      "am": "በካምፓሱ ውስጥ ካፌቴሪያ አለ?"
+    },
+    "answer": {
+      "en": "Yes, the university has a cafeteria for students and staff.",
+      "om": "Eeyyee, yuunivarsiitichi cafeteria barattootaa fi hojjettootaaf qaba.",
+      "am": "አዎ፣ ዩኒቨርሲቲው ለተማሪዎችና ለሰራተኞች ካፌቴሪያ አለው።"
+    }
+  },
+  {
+    "topic": "cafeteria",
+    "keywords": [
+      "breakfast",
+      "morning meal",
+      "nyaata ganamaa",
+      "ቁርስ"
+    ],
+    "question": {
+      "en": "Does the cafeteria serve breakfast?",
+      "om": "Nyaanni ganamaa ni kennamaa?",
+      "am": "ቁርስ ይሰጣል?"
+    },
+    "answer": {
+      "en": "Yes, breakfast is served every morning.",
+      "om": "Eeyyee, ganama hunda nyaanni ganamaa ni kennama.",
+      "am": "አዎ፣ በየጠዋቱ ቁርስ ይሰጣል።"
+    }
+  },
+  {
+    "topic": "cafeteria",
+    "keywords": [
+      "lunch",
+      "afternoon meal",
+      "laaqana",
+      "ምሳ"
+    ],
+    "question": {
+      "en": "Does the cafeteria serve lunch?",
+      "om": "Laaqanni guyyaa ni kennamaa?",
+      "am": "ምሳ ይሰጣል?"
+    },
+    "answer": {
+      "en": "Yes, lunch is served every afternoon.",
+      "om": "Eeyyee, waaree booda laaqanni ni kennama.",
+      "am": "አዎ፣ በየቀኑ ከሰዓት በኋላ ምሳ ይሰጣል።"
+    }
+  },
+  {
+    "topic": "cafeteria",
+    "keywords": [
+      "dinner",
+      "evening meal",
+      "irbaata",
+      "እራት"
+    ],
+    "question": {
+      "en": "Does the cafeteria serve dinner?",
+      "om": "Irbaanni galgalaa ni kennamaa?",
+      "am": "እራት ይሰጣል?"
+    },
+    "answer": {
+      "en": "Yes, dinner is served every evening.",
+      "om": "Eeyyee, galgala hunda irbaanni ni kennama.",
+      "am": "አዎ፣ በየምሽቱ እራት ይሰጣል።"
+    }
+  },
+  {
+    "topic": "cafeteria",
+    "keywords": [
+      "opening time",
+      "open",
+      "banama",
+      "ይከፈታል"
+    ],
+    "question": {
+      "en": "What time does the cafeteria open?",
+      "om": "Cafeteriaan sa'aatii meeqatti banama?",
+      "am": "ካፌቴሪያው ስንት ሰዓት ይከፈታል?"
+    },
+    "answer": {
+      "en": "Please check the official cafeteria schedule.",
+      "om": "Sagantaa hojii cafeteria ilaalaa.",
+      "am": "እባክዎ የካፌቴሪያውን ይፋዊ መርሃ ግብር ይመልከቱ።"
+    }
+  },
+  {
+    "topic": "cafeteria",
+    "keywords": [
+      "water",
+      "drinking water",
+      "bishaan",
+      "ውሃ"
+    ],
+    "question": {
+      "en": "Is drinking water available?",
+      "om": "Bishaan dhugaatii ni jiraa?",
+      "am": "የመጠጥ ውሃ አለ?"
+    },
+    "answer": {
+      "en": "Yes, clean drinking water is available.",
+      "om": "Eeyyee, bishaan qulqulluun ni jira.",
+      "am": "አዎ፣ ንጹህ የመጠጥ ውሃ አለ።"
+    }
+  },
+  {
+    "topic": "cafeteria",
+    "keywords": [
+      "complaint",
+      "report",
+      "komii",
+      "ቅሬታ"
+    ],
+    "question": {
+      "en": "How do I report a complaint?",
+      "om": "Komii akkamittan dhiyeeffadha?",
+      "am": "ቅሬታ እንዴት አቀርባለሁ?"
+    },
+    "answer": {
+      "en": "Report your complaint to the cafeteria manager or Student Affairs Office.",
+      "om": "Komii kee hogganaa cafeteria ykn Waajjira Student Affairs tti dhiyeessi.",
+      "am": "ቅሬታዎን ለካፌቴሪያው ኃላፊ ወይም ለተማሪ ጉዳይ ቢሮ ያቅርቡ።"
+    }
+  }
+]
