@@ -5,10 +5,14 @@ from rapidfuzz import fuzz
 DATA_FOLDER = "data"
 
 
+# ==========================
+# LOAD ALL JSON FILES
+# ==========================
 def load_all_data():
     knowledge = []
 
     if not os.path.exists(DATA_FOLDER):
+        print("DATA FOLDER NOT FOUND")
         return knowledge
 
     for file in os.listdir(DATA_FOLDER):
@@ -17,56 +21,80 @@ def load_all_data():
 
             path = os.path.join(DATA_FOLDER, file)
 
-            with open(path, "r", encoding="utf-8") as f:
+            try:
+                with open(path, "r", encoding="utf-8") as f:
 
-                data = json.load(f)
+                    data = json.load(f)
 
-                if isinstance(data, list):
-                    knowledge.extend(data)
+                    if isinstance(data, list):
+                        knowledge.extend(data)
+
+            except Exception as e:
+                print("ERROR:", file, e)
+
+    print("TOTAL RECORDS:", len(knowledge))
 
     return knowledge
 
 
+# ==========================
+# LOAD ONE TOPIC
+# ==========================
 def load_topic_data(topic):
 
     path = os.path.join(DATA_FOLDER, f"{topic}.json")
 
+    print("LOADING:", path)
+
     if not os.path.exists(path):
+
+        print("FILE NOT FOUND")
+
         return []
 
     with open(path, "r", encoding="utf-8") as f:
-        return json.load(f)
+
+        data = json.load(f)
+
+    print("LOADED:", len(data), "records")
+
+    return data
 
 
+# ==========================
+# SEARCH
+# ==========================
 def search_question(question, language="en", topic=None):
 
     question = question.lower().strip()
-    print("SEARCHING:", question)
 
-    # ==========================
-    # LOAD DATA
-    # ==========================
+    print("\n==============================")
+    print("SEARCH:", question)
+    print("LANGUAGE:", language)
+    print("TOPIC:", topic)
 
     if topic:
 
         data = load_topic_data(topic)
 
         if not data:
+
+            print("Topic file empty -> Loading all data")
+
             data = load_all_data()
 
     else:
-        data = load_all_data()
 
-    # ==========================
-    # SEARCH
-    # ==========================
+        data = load_all_data()
 
     best_score = 0
     best_item = None
 
     for item in data:
 
-        # Search keywords
+        # ----------------------
+        # Keywords
+        # ----------------------
         for keyword in item.get("keywords", []):
 
             score = fuzz.partial_ratio(
@@ -75,36 +103,54 @@ def search_question(question, language="en", topic=None):
             )
 
             if score > best_score:
+
                 best_score = score
                 best_item = item
 
-        # Search multilingual questions
+        # ----------------------
+        # Questions
+        # ----------------------
         questions = item.get("question", {})
 
-        for lang in ["om", "en", "am"]:
+        if isinstance(questions, dict):
 
-            if lang in questions:
+            for lang in ["en", "om", "am"]:
 
-                score = fuzz.partial_ratio(
-                    question,
-                    questions[lang].lower()
-                )
+                if lang in questions:
 
-                if score > best_score:
-                    best_score = score
-                    best_item = item
+                    score = fuzz.partial_ratio(
+                        question,
+                        questions[lang].lower()
+                    )
+
+                    if score > best_score:
+
+                        best_score = score
+                        best_item = item
+
+    print("BEST SCORE:", best_score)
 
     # ==========================
     # FOUND
     # ==========================
-        print("BEST SCORE:", best_score)
 
-    if best_score >= 70 and best_item:
+    if best_item and best_score >= 70:
 
         answer = best_item.get("answer", {})
 
+        if language == "en":
+            response = answer.get("en", "")
+
+        elif language == "am":
+            response = answer.get("am", "")
+
+        else:
+            response = answer.get("om", "")
+
+        print("FOUND TOPIC:", best_item.get("topic"))
+
         return {
-            "answer": answer.get(language, answer.get("om")),
+            "answer": response,
             "topic": best_item.get("topic", ""),
             "found": True,
             "score": best_score
@@ -113,6 +159,8 @@ def search_question(question, language="en", topic=None):
     # ==========================
     # NOT FOUND
     # ==========================
+
+    print("NOT FOUND")
 
     messages = {
         "en": "Sorry, I couldn't find information related to your question.",

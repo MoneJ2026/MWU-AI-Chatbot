@@ -165,3 +165,14 @@ Komii cafeteria akkamittan dhiyeeffadha?,cafeteria
 ቁርስ ይሰጣል?,cafeteria
 ምሳ ይሰጣል?,cafeteria
 እራት ይሰጣል?,cafeteria
+text,intent
+Clinic yuunivarsiitii eessa jira?,clinic
+Where is the university clinic?,clinic
+የዩኒቨርሲቲው ክሊኒክ የት ይገኛል?,clinic
+Doktora akkamittan argadha?,clinic
+How can I see a doctor?,clinic
+Tajaajilli yaalaa yoom argama?,clinic
+Medical service available?,clinic
+Qoricha argachuun ni danda'amaa?,clinic
+Can I get medicine?,clinic
+Health center keessatti tajaajilli maal jira?,clinic

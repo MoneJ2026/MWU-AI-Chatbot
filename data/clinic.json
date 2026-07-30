@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "topic": "Clinic",
+    "topic": "clinic",
     "question": {
       "om": "Clinic yuunivarsiitii eessa jira?",
       "en": "Where is the university clinic?",
@@ -19,10 +19,9 @@
       "am": "የዩኒቨርሲቲው ክሊኒክ ለተማሪዎች የጤና አገልግሎት ይሰጣል።"
     }
   },
-
   {
     "id": 2,
-    "topic": "Clinic",
+    "topic": "clinic",
     "question": {
       "om": "Tajaajilli yaalaa yoom argama?",
       "en": "When is medical service available?",
@@ -40,10 +39,9 @@
       "am": "የህክምና አገልግሎት ሰዓት በክሊኒኩ የስራ ሰዓት ይወሰናል።"
     }
   },
-
   {
     "id": 3,
-    "topic": "Clinic",
+    "topic": "clinic",
     "question": {
       "om": "Doktora akkamittan argadha?",
       "en": "How can I see a doctor?",
@@ -60,10 +58,9 @@
       "am": "ሐኪም ለማግኘት ወደ ክሊኒኩ በመሄድ የህክምና ሂደቱን ይከተሉ።"
     }
   },
-
   {
     "id": 4,
-    "topic": "Clinic",
+    "topic": "clinic",
     "question": {
       "om": "Health center keessatti tajaajilli maal jira?",
       "en": "What services are available at the health center?",
@@ -80,10 +77,9 @@
       "am": "የጤና ማዕከሉ ምርመራ፣ የጤና ምክር እና ህክምና አገልግሎት ይሰጣል።"
     }
   },
-
   {
     "id": 5,
-    "topic": "Clinic",
+    "topic": "clinic",
     "question": {
       "om": "Gorsa fayyaa argachuun ni danda'amaa?",
       "en": "Can I get health counseling?",
@@ -98,6 +94,101 @@
       "om": "Eeyyee, gorsa fayyaa hojjettoota fayyaa irraa argachuun ni danda'ama.",
       "en": "Yes, students can get health advice from health professionals.",
       "am": "አዎ፣ ከጤና ባለሙያዎች የጤና ምክር ማግኘት ይቻላል።"
+    }
+  },
+  {
+    "id": 6,
+    "topic": "clinic",
+    "question": {
+      "om": "Clinic keessatti qorannoon jalqabaa ni kennamaa?",
+      "en": "Does the clinic provide first aid?",
+      "am": "ክሊኒኩ የመጀመሪያ እርዳታ ይሰጣል?"
+    },
+    "keywords": [
+      "first aid",
+      "emergency",
+      "qorannoo jalqabaa"
+    ],
+    "answer": {
+      "om": "Eeyyee, clinic keessatti tajaajilli gargaarsa jalqabaa ni kennama.",
+      "en": "Yes, the clinic provides first aid services.",
+      "am": "አዎ፣ ክሊኒኩ የመጀመሪያ እርዳታ ይሰጣል።"
+    }
+  },
+  {
+    "id": 7,
+    "topic": "clinic",
+    "question": {
+      "om": "Qoricha argachuun ni danda'amaa?",
+      "en": "Can I get medicine from the clinic?",
+      "am": "ከክሊኒኩ መድሀኒት ማግኘት እችላለሁ?"
+    },
+    "keywords": [
+      "medicine",
+      "drug",
+      "qoricha"
+    ],
+    "answer": {
+      "om": "Eeyyee, yoo qorichi argame clinic irraa ni kennama.",
+      "en": "Yes, available medicines are provided by the clinic.",
+      "am": "አዎ፣ በክሊኒኩ ያሉ መድሀኒቶች ይሰጣሉ።"
+    }
+  },
+  {
+    "id": 8,
+    "topic": "clinic",
+    "question": {
+      "om": "Tajaajilli clinic bilisaa dhaa?",
+      "en": "Are clinic services free?",
+      "am": "የክሊኒኩ አገልግሎቶች ነፃ ናቸው?"
+    },
+    "keywords": [
+      "free",
+      "cost",
+      "bilisaa"
+    ],
+    "answer": {
+      "om": "Barattoota galmaa'aniif tajaajilli bu'uuraa yeroo baay'ee bilisa ta'a.",
+      "en": "Basic clinic services are generally free for registered students.",
+      "am": "ለተመዘገቡ ተማሪዎች መሰረታዊ አገልግሎቶች በአብዛኛው ነፃ ናቸው።"
+    }
+  },
+  {
+    "id": 9,
+    "topic": "clinic",
+    "question": {
+      "om": "Clinic keessatti talaalliin ni kennamaa?",
+      "en": "Does the clinic provide vaccination?",
+      "am": "ክሊኒኩ ክትባት ይሰጣል?"
+    },
+    "keywords": [
+      "vaccine",
+      "vaccination",
+      "talaallii"
+    ],
+    "answer": {
+      "om": "Tajaajilli talaallii sagantaa yuunivarsiitii irratti hundaa'a.",
+      "en": "Vaccination services depend on the university health program.",
+      "am": "የክትባት አገልግሎት በዩኒቨርሲቲው የጤና ፕሮግራም ላይ ይመሰረታል።"
+    }
+  },
+  {
+    "id": 10,
+    "topic": "clinic",
+    "question": {
+      "om": "Lakkoofsi bilbilaa clinic maal dha?",
+      "en": "What is the clinic phone number?",
+      "am": "የክሊኒኩ ስልክ ቁጥር ምንድነው?"
+    },
+    "keywords": [
+      "phone",
+      "contact",
+      "bilbilaa"
+    ],
+    "answer": {
+      "om": "Lakkoofsa sirrii argachuuf Waajjira Student Affairs ykn website yuunivarsiitii ilaalaa.",
+      "en": "Please contact Student Affairs or check the official university website for the clinic phone number.",
+      "am": "የክሊኒኩን ስልክ ቁጥር ለማግኘት የተማሪ ጉዳይ ቢሮን ወይም የዩኒቨርሲቲውን ድረ-ገጽ ይመልከቱ።"
     }
   }
 ]
