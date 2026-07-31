@@ -6,13 +6,12 @@ DATA_FOLDER = "data"
 
 
 # ==========================
-# LOAD ALL JSON FILES
+# LOAD ALL DATA
 # ==========================
 def load_all_data():
     knowledge = []
 
     if not os.path.exists(DATA_FOLDER):
-        print("DATA FOLDER NOT FOUND")
         return knowledge
 
     for file in os.listdir(DATA_FOLDER):
@@ -32,8 +31,6 @@ def load_all_data():
             except Exception as e:
                 print("ERROR:", file, e)
 
-    print("TOTAL RECORDS:", len(knowledge))
-
     return knowledge
 
 
@@ -44,21 +41,12 @@ def load_topic_data(topic):
 
     path = os.path.join(DATA_FOLDER, f"{topic}.json")
 
-    print("LOADING:", path)
-
     if not os.path.exists(path):
-
-        print("FILE NOT FOUND")
-
         return []
 
     with open(path, "r", encoding="utf-8") as f:
 
-        data = json.load(f)
-
-    print("LOADED:", len(data), "records")
-
-    return data
+        return json.load(f)
 
 
 # ==========================
@@ -68,38 +56,62 @@ def search_question(question, language="en", topic=None):
 
     question = question.lower().strip()
 
-    print("\n==============================")
-    print("SEARCH:", question)
-    print("LANGUAGE:", language)
-    print("TOPIC:", topic)
-
     if topic:
 
         data = load_topic_data(topic)
 
         if not data:
-
-            print("Topic file empty -> Loading all data")
-
             data = load_all_data()
 
     else:
-
         data = load_all_data()
 
     best_score = 0
     best_item = None
 
+    # ====================================
+    # 1. EXACT MATCH
+    # ====================================
+
     for item in data:
 
-        # ----------------------
+        questions = item.get("question", {})
+
+        if isinstance(questions, dict):
+
+            for lang in ["om", "en", "am"]:
+
+                if lang in questions:
+
+                    if question == questions[lang].lower().strip():
+
+                        answer = item.get("answer", {})
+
+                        return {
+                            "answer": answer.get(language, answer.get("om")),
+                            "topic": item.get("topic", ""),
+                            "found": True,
+                            "score": 100
+                        }
+
+    # ====================================
+    # 2. FUZZY MATCH
+    # ====================================
+
+    for item in data:
+
         # Keywords
-        # ----------------------
         for keyword in item.get("keywords", []):
 
-            score = fuzz.partial_ratio(
-                question,
-                keyword.lower()
+            keyword = keyword.lower()
+
+            score = max(
+
+                fuzz.ratio(question, keyword),
+                fuzz.partial_ratio(question, keyword),
+                fuzz.token_sort_ratio(question, keyword),
+                fuzz.token_set_ratio(question, keyword)
+
             )
 
             if score > best_score:
@@ -107,20 +119,24 @@ def search_question(question, language="en", topic=None):
                 best_score = score
                 best_item = item
 
-        # ----------------------
         # Questions
-        # ----------------------
         questions = item.get("question", {})
 
         if isinstance(questions, dict):
 
-            for lang in ["en", "om", "am"]:
+            for lang in ["om", "en", "am"]:
 
                 if lang in questions:
 
-                    score = fuzz.partial_ratio(
-                        question,
-                        questions[lang].lower()
+                    q = questions[lang].lower()
+
+                    score = max(
+
+                        fuzz.ratio(question, q),
+                        fuzz.partial_ratio(question, q),
+                        fuzz.token_sort_ratio(question, q),
+                        fuzz.token_set_ratio(question, q)
+
                     )
 
                     if score > best_score:
@@ -130,41 +146,28 @@ def search_question(question, language="en", topic=None):
 
     print("BEST SCORE:", best_score)
 
-    # ==========================
+    # ====================================
     # FOUND
-    # ==========================
+    # ====================================
 
-    if best_item and best_score >= 70:
+    if best_item and best_score >= 80:
 
         answer = best_item.get("answer", {})
 
-        if language == "en":
-            response = answer.get("en", "")
-
-        elif language == "am":
-            response = answer.get("am", "")
-
-        else:
-            response = answer.get("om", "")
-
-        print("FOUND TOPIC:", best_item.get("topic"))
-
         return {
-            "answer": response,
+            "answer": answer.get(language, answer.get("om")),
             "topic": best_item.get("topic", ""),
             "found": True,
             "score": best_score
         }
 
-    # ==========================
+    # ====================================
     # NOT FOUND
-    # ==========================
-
-    print("NOT FOUND")
+    # ====================================
 
     messages = {
-        "en": "Sorry, I couldn't find information related to your question.",
         "om": "Dhiifama, gaaffii kanaaf odeeffannoo hin arganne.",
+        "en": "Sorry, I couldn't find information related to your question.",
         "am": "ይቅርታ፣ ከጥያቄዎ ጋር የተያያዘ መረጃ አላገኘሁም።"
     }
 

@@ -19,7 +19,6 @@
       "am": "የተማሪ ፖርታል ለመግባት የዩኒቨርሲቲ የተጠቃሚ ስምና የይለፍ ቃል ይጠቀሙ።"
     }
   },
-
   {
     "id": 2,
     "topic": "ICT",
@@ -34,38 +33,36 @@
       "reset"
     ],
     "answer": {
-      "om": "Password yoo dagatte ICT help desk yookaan tajaajila deeggarsa yuunivarsiitii qunnami.",
-      "en": "If you forget your password, contact the ICT help desk or university support service.",
-      "am": "የይለፍ ቃልዎን ከረሱ የICT ድጋፍ አገልግሎትን ያግኙ።"
+      "om": "Password yoo dagatte ICT Help Desk qunnami.",
+      "en": "If you forget your password, contact the ICT Help Desk.",
+      "am": "የይለፍ ቃልዎን ከረሱ የICT ድጋፍ ቢሮን ያግኙ።"
     }
   },
-
   {
     "id": 3,
     "topic": "ICT",
     "question": {
       "om": "University email akkamittan bana?",
-      "en": "How can I create a university email?",
+      "en": "How can I get a university email?",
       "am": "የዩኒቨርሲቲ ኢሜይል እንዴት አገኛለሁ?"
     },
     "keywords": [
       "email",
-      "university email",
-      "mail"
+      "mail",
+      "university email"
     ],
     "answer": {
-      "om": "University email argachuuf qajeelfama ICT yuunivarsiitii hordofi.",
-      "en": "Follow ICT office instructions to get a university email account.",
-      "am": "የዩኒቨርሲቲ ኢሜይል ለማግኘት የICT ቢሮ መመሪያን ይከተሉ።"
+      "om": "University email argachuuf ICT office qunnami.",
+      "en": "Contact the ICT office to obtain a university email.",
+      "am": "የዩኒቨርሲቲ ኢሜይል ለማግኘት ICT ቢሮን ያግኙ።"
     }
   },
-
   {
     "id": 4,
     "topic": "ICT",
     "question": {
       "om": "Wi-Fi university akkamittan fayyadama?",
-      "en": "How can I use university Wi-Fi?",
+      "en": "How do I use the university Wi-Fi?",
       "am": "የዩኒቨርሲቲ Wi-Fi እንዴት እጠቀማለሁ?"
     },
     "keywords": [
@@ -74,12 +71,11 @@
       "wireless"
     ],
     "answer": {
-      "om": "Wi-Fi fayyadamuuf account yuunivarsiitii ykn qajeelfama ICT hordofuun barbaachisa.",
-      "en": "To use university Wi-Fi, follow ICT instructions and use your university account if required.",
-      "am": "የዩኒቨርሲቲ Wi-Fi ለመጠቀም የICT መመሪያን ይከተሉ።"
+      "om": "Username fi password university fayyadamuun Wi-Fi fayyadamuu dandeessa.",
+      "en": "Use your university account to connect to Wi-Fi.",
+      "am": "በዩኒቨርሲቲ መለያዎ ወደ Wi-Fi ይገናኙ።"
     }
   },
-
   {
     "id": 5,
     "topic": "ICT",
@@ -94,15 +90,14 @@
       "technology"
     ],
     "answer": {
-      "om": "ICT Center bakka yuunivarsiitichi murteesse keessatti argama; odeeffannoo sirrii ICT office irraa argachuu dandeessa.",
-      "en": "The ICT Center is located at the university ICT facility. Contact ICT office for exact location.",
-      "am": "የICT ማዕከል በዩኒቨርሲቲው ICT ተቋም ውስጥ ይገኛል።"
+      "om": "ICT Center kaampaasii keessatti argama.",
+      "en": "The ICT Center is located on campus.",
+      "am": "የICT ማዕከል በካምፓሱ ይገኛል።"
     }
   },
-
   {
     "id": 6,
-    "category": "ICT",
+    "topic": "ICT",
     "question": {
       "om": "ICT tajaajilli maal kenna?",
       "en": "What services does ICT provide?",
@@ -114,9 +109,264 @@
       "technology service"
     ],
     "answer": {
-      "om": "ICT tajaajila network, internet, portal, email fi deeggarsa teeknooloojii kenna.",
-      "en": "ICT provides network, internet, portal, email, and technology support services.",
-      "am": "ICT የኔትወርክ፣ ኢንተርኔት፣ ፖርታል፣ ኢሜይል እና የቴክኖሎጂ ድጋፍ ይሰጣል።"
+      "om": "ICT network, portal, email, internet fi deeggarsa teknooloojii kenna.",
+      "en": "ICT provides network, portal, email, internet and technical support.",
+      "am": "ICT የኔትወርክ፣ ፖርታል፣ ኢሜይል፣ ኢንተርኔት እና ቴክኒካል ድጋፍ ይሰጣል።"
+    }
+  },
+  {
+    "id": 7,
+    "topic": "ICT",
+    "question": {
+      "om": "Internet university saffisaa dhaa?",
+      "en": "Is the university internet fast?",
+      "am": "የዩኒቨርሲቲው ኢንተርኔት ፈጣን ነው?"
+    },
+    "keywords": [
+      "internet speed",
+      "internet",
+      "speed"
+    ],
+    "answer": {
+      "om": "Saffisni isaa yeroo fi iddoo irratti hundaa'a.",
+      "en": "Internet speed depends on time and location.",
+      "am": "ፍጥነቱ በሰዓትና በቦታ ይለያያል።"
+    }
+  },
+  {
+    "id": 8,
+    "topic": "ICT",
+    "question": {
+      "om": "Laptop koo Wi-Fi hin qabsiisu, maal godha?",
+      "en": "My laptop cannot connect to Wi-Fi. What should I do?",
+      "am": "ላፕቶፔ Wi-Fi አይገናኝም። ምን ላድርግ?"
+    },
+    "keywords": [
+      "wifi problem",
+      "connection",
+      "laptop"
+    ],
+    "answer": {
+      "om": "ICT Help Desk qunnami ykn laptop kee irra deebi'ii jalqabi.",
+      "en": "Restart your laptop or contact the ICT Help Desk.",
+      "am": "ኮምፒውተርዎን ዳግም ያስጀምሩ ወይም ICT Help Desk ያግኙ።"
+    }
+  },
+  {
+    "id": 9,
+    "topic": "ICT",
+    "question": {
+      "om": "ICT Help Desk eessa jira?",
+      "en": "Where is the ICT Help Desk?",
+      "am": "ICT Help Desk የት ይገኛል?"
+    },
+    "keywords": [
+      "help desk",
+      "ict help",
+      "support office"
+    ],
+    "answer": {
+      "om": "ICT Help Desk ICT Center keessatti argama.",
+      "en": "The ICT Help Desk is located in the ICT Center.",
+      "am": "ICT Help Desk በICT ማዕከል ይገኛል።"
+    }
+  },
+  {
+    "id": 10,
+    "topic": "ICT",
+    "question": {
+      "om": "Student portal irratti qabxii koo akkamittan ilaala?",
+      "en": "How can I check my grades on the student portal?",
+      "am": "ውጤቴን በተማሪ ፖርታል እንዴት አያለሁ?"
+    },
+    "keywords": [
+      "grade",
+      "result",
+      "portal result"
+    ],
+    "answer": {
+      "om": "Student portal seenee Result jedhu filadhu.",
+      "en": "Log in to the student portal and select Results.",
+      "am": "ወደ ፖርታሉ ገብተው Results የሚለውን ይምረጡ።"
+    }
+  },
+  {
+    "id": 11,
+    "topic": "ICT",
+    "question": {
+      "om": "Username koo dagadhe maal godha?",
+      "en": "I forgot my username. What should I do?",
+      "am": "የተጠቃሚ ስሜን ረሳሁ። ምን ላድርግ?"
+    },
+    "keywords": [
+      "username",
+      "forgot username"
+    ],
+    "answer": {
+      "om": "ICT Help Desk qunnami.",
+      "en": "Contact the ICT Help Desk.",
+      "am": "ICT Help Desk ያግኙ።"
+    }
+  },
+  {
+    "id": 12,
+    "topic": "ICT",
+    "question": {
+      "om": "Computer Lab eessa jira?",
+      "en": "Where is the computer lab?",
+      "am": "የኮምፒውተር ላብራቶሪ የት ነው?"
+    },
+    "keywords": [
+      "computer lab",
+      "lab"
+    ],
+    "answer": {
+      "om": "Computer Lab kaampaasii keessatti argama.",
+      "en": "The computer lab is located on campus.",
+      "am": "የኮምፒውተር ላብራቶሪው በካምፓሱ ይገኛል።"
+    }
+  },
+  {
+    "id": 13,
+    "topic": "ICT",
+    "question": {
+      "om": "Computer Lab yoom bana?",
+      "en": "When is the computer lab open?",
+      "am": "የኮምፒውተር ላብራቶሪው መቼ ይከፈታል?"
+    },
+    "keywords": [
+      "lab time",
+      "computer lab"
+    ],
+    "answer": {
+      "om": "Sa'aatii hojii yuunivarsiitii keessatti bana.",
+      "en": "It is open during university working hours.",
+      "am": "በዩኒቨርሲቲው የስራ ሰዓት ክፍት ነው።"
+    }
+  },
+  {
+    "id": 14,
+    "topic": "ICT",
+    "question": {
+      "om": "Software install gochuun ni danda'amaa?",
+      "en": "Can software be installed?",
+      "am": "ሶፍትዌር መጫን ይቻላል?"
+    },
+    "keywords": [
+      "software",
+      "install"
+    ],
+    "answer": {
+      "om": "Eeyyee, ICT hayyama yoo kennan ni danda'ama.",
+      "en": "Yes, with ICT approval.",
+      "am": "አዎ፣ በICT ፈቃድ ይቻላል።"
+    }
+  },
+  {
+    "id": 15,
+    "topic": "ICT",
+    "question": {
+      "om": "Printer fayyadamuun ni danda'amaa?",
+      "en": "Can I use the printer?",
+      "am": "ፕሪንተር መጠቀም እችላለሁ?"
+    },
+    "keywords": [
+      "printer",
+      "print"
+    ],
+    "answer": {
+      "om": "Eeyyee, ICT Center keessatti printer fayyadamuu dandeessa.",
+      "en": "Yes, printers are available at the ICT Center.",
+      "am": "አዎ፣ በICT ማዕከል ፕሪንተር ይገኛል።"
+    }
+  },
+  {
+    "id": 16,
+    "topic": "ICT",
+    "question": {
+      "om": "Portal hin banamu, maal godha?",
+      "en": "The portal is not opening. What should I do?",
+      "am": "ፖርታሉ አይከፈትም። ምን ላድርግ?"
+    },
+    "keywords": [
+      "portal problem",
+      "portal error"
+    ],
+    "answer": {
+      "om": "Internet kee ilaali ykn ICT Help Desk qunnami.",
+      "en": "Check your internet connection or contact ICT.",
+      "am": "ኢንተርኔትዎን ያረጋግጡ ወይም ICT ያግኙ።"
+    }
+  },
+  {
+    "id": 17,
+    "topic": "ICT",
+    "question": {
+      "om": "Email password jijjiiruun akkamitti?",
+      "en": "How do I change my email password?",
+      "am": "የኢሜይሌን የይለፍ ቃል እንዴት እቀይራለሁ?"
+    },
+    "keywords": [
+      "change password",
+      "email password"
+    ],
+    "answer": {
+      "om": "ICT qajeelfama hordofi ykn Help Desk qunnami.",
+      "en": "Follow ICT instructions or contact the Help Desk.",
+      "am": "የICT መመሪያን ይከተሉ ወይም Help Desk ያግኙ።"
+    }
+  },
+  {
+    "id": 18,
+    "topic": "ICT",
+    "question": {
+      "om": "VPN university ni jiraa?",
+      "en": "Does the university provide VPN?",
+      "am": "ዩኒቨርሲቲው VPN ይሰጣል?"
+    },
+    "keywords": [
+      "vpn"
+    ],
+    "answer": {
+      "om": "Tajaajilli VPN yoo jiraate ICT irraa odeeffannoo argatta.",
+      "en": "Contact ICT for VPN availability.",
+      "am": "VPN ስለመኖሩ ICT ያግኙ።"
+    }
+  },
+  {
+    "id": 19,
+    "topic": "ICT",
+    "question": {
+      "om": "ICT bilbilaan akkamittan qunnama?",
+      "en": "How can I contact ICT?",
+      "am": "ICTን እንዴት ላግኘው?"
+    },
+    "keywords": [
+      "contact ict",
+      "phone ict"
+    ],
+    "answer": {
+      "om": "ICT Office ykn Student Affairs qunnami.",
+      "en": "Contact the ICT Office or Student Affairs.",
+      "am": "ICT ቢሮን ወይም Student Affairsን ያግኙ።"
+    }
+  },
+  {
+    "id": 20,
+    "topic": "ICT",
+    "question": {
+      "om": "ICT yeroo hojii meeqa?",
+      "en": "What are the ICT working hours?",
+      "am": "የICT የስራ ሰዓት ስንት ነው?"
+    },
+    "keywords": [
+      "working hours",
+      "office hours"
+    ],
+    "answer": {
+      "om": "Sa'aatii hojii yuunivarsiitii keessatti tajaajila kenna.",
+      "en": "ICT services are available during university working hours.",
+      "am": "ICT በዩኒቨርሲቲው የስራ ሰዓት ውስጥ ያገለግላል።"
     }
   }
 ]

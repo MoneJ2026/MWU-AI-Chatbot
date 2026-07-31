@@ -4,88 +4,6 @@ Where is the admission office?,admission
 What are the admission requirements?,admission
 When is registration?,admission
 How do I apply?,admission
-
-text,intent
-Library yoom banama?,library
-When does the library open?,library
-Library opening hours?,library
-
-Where is the library?,library
-Library opening hours?,library
-How can I borrow books?,library
-Can I study in the library?,library
-Is the library open today?,library
-
-Where is the ICT office?,ict
-How do I get WiFi?,ict
-How can I reset my password?,ict
-Who can help with my student portal?,ict
-ICT office location?,ict
-
-Where is the clinic?,clinic
-Clinic opening hours?,clinic
-Can I get medical service?,clinic
-Where can I find the campus clinic?,clinic
-Is there a nurse on campus?,clinic
-
-Where is the dormitory?,dormitory
-How do I get a dorm room?,dormitory
-Dormitory rules?,dormitory
-Student housing information?,dormitory
-Can I change my dorm?,dormitory
-
-How can I join a club?,clubs
-Football club?,clubs
-Music club?,clubs
-Student clubs?,clubs
-Available clubs?,clubs
-
-Sports activities?,sports
-Football field?,sports
-Gym location?,sports
-Basketball court?,sports
-Sports office?,sports
-
-Laboratory rules?,laboratory
-Computer laboratory?,laboratory
-Lab opening hours?,laboratory
-Science laboratory?,laboratory
-Where is the lab?,laboratory
-
-Career services?,career
-Internship information?,career
-Job opportunities?,career
-Career office?,career
-CV writing help?,career
-
-Academic calendar?,academic
-Exam schedule?,academic
-Class schedule?,academic
-Semester information?,academic
-Academic regulations?,academic
-
-University president?,university
-About Madda Walabu University?,university
-University history?,university
-University mission?,university
-University vision?,university
-
-Official website?,website
-University website?,website
-How do I visit the website?,website
-Website link?,website
-Online services?,website
-
-Campus security?,security
-Emergency number?,security
-Security office?,security
-Lost and found?,security
-Campus safety?,security
-How can I register?,admission
-Where is the admission office?,admission
-What are the admission requirements?,admission
-When is registration?,admission
-How do I apply?,admission
 How can I join MWU?,admission
 How do I become a student?,admission
 Tell me about admission process,admission
@@ -110,7 +28,10 @@ Where can I find application information?,admission
 When does enrollment begin?,admission
 How can I check admission status?,admission
 Who can help me with admission?,admission
-I need information about joining university,admission
+I need information about joining university?,admission
+
+Library yoom banama?,library
+When does the library open?,library
 Where is the library?,library
 Library opening hours?,library
 How can I borrow books?,library
@@ -141,7 +62,7 @@ When does library open?,library
 Can first year students use library?,library
 Library location please,library
 Help me find library information,library
-text,intent
+
 Where is the cafeteria?,cafeteria
 Is there a cafeteria?,cafeteria
 Does the cafeteria serve breakfast?,cafeteria
@@ -165,7 +86,7 @@ Komii cafeteria akkamittan dhiyeeffadha?,cafeteria
 ቁርስ ይሰጣል?,cafeteria
 ምሳ ይሰጣል?,cafeteria
 እራት ይሰጣል?,cafeteria
-text,intent
+
 Clinic yuunivarsiitii eessa jira?,clinic
 Where is the university clinic?,clinic
 የዩኒቨርሲቲው ክሊኒክ የት ይገኛል?,clinic
@@ -176,3 +97,49 @@ Medical service available?,clinic
 Qoricha argachuun ni danda'amaa?,clinic
 Can I get medicine?,clinic
 Health center keessatti tajaajilli maal jira?,clinic
+Clinic keessatti qorannoon jalqabaa ni kennamaa?,clinic
+Does the clinic provide first aid?,clinic
+Tajaajilli clinic bilisaa dhaa?,clinic
+Are clinic services free?,clinic
+Clinic keessatti talaalliin ni kennamaa?,clinic
+Does the clinic provide vaccination?,clinic
+Lakkoofsi bilbilaa clinic maal dha?,clinic
+What is the clinic phone number?,clinic
+Can I get health counseling?,clinic
+Gorsa fayyaa argachuun ni danda'amaa?,clinic
+
+Student portal akkamittan seena?,ict
+Password koo yoo dagadhe maal godha?,ict
+University email akkamittan bana?,ict
+Wi-Fi university akkamittan fayyadama?,ict
+ICT Center eessa jira?,ict
+ICT tajaajilli maal kenna?,ict
+Internet university saffisaa dhaa?,ict
+Laptop koo Wi-Fi hin qabsiisu maal godha?,ict
+ICT Help Desk eessa jira?,ict
+Student portal irratti qabxii koo akkamittan ilaala?,ict
+Username koo dagadhe maal godha?,ict
+Computer Lab eessa jira?,ict
+Computer Lab yoom bana?,ict
+Software install gochuun ni danda'amaa?,ict
+Printer fayyadamuun ni danda'amaa?,ict
+Portal hin banamu maal godha?,ict
+Email password jijjiiruun akkamitti?,ict
+VPN university ni jiraa?,ict
+ICT bilbilaan akkamittan qunnama?,ict
+ICT yeroo hojii meeqa?,ict
+How do I access the student portal?,ict
+Where is the ICT Center?,ict
+What services does ICT provide?,ict
+How do I use university Wi-Fi?,ict
+What should I do if I forget my password?,ict
+How can I get a university email?,ict
+Where is the computer lab?,ict
+Can I use the printer?,ict
+The portal is not opening.,ict
+How can I contact ICT?,ict
+የተማሪ ፖርታል እንዴት እገባለሁ?,ict
+የICT ማዕከል የት ይገኛል?,ict
+ICT ምን አገልግሎቶችን ይሰጣል?,ict
+የይለፍ ቃሌን ብረሳ ምን ላድርግ?,ict
+የዩኒቨርሲቲ Wi-Fi እንዴት እጠቀማለሁ?,ict
