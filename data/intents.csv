@@ -143,3 +143,141 @@ How can I contact ICT?,ict
 ICT ምን አገልግሎቶችን ይሰጣል?,ict
 የይለፍ ቃሌን ብረሳ ምን ላድርግ?,ict
 የዩኒቨርሲቲ Wi-Fi እንዴት እጠቀማለሁ?,ict
+text,intent
+Where is the library?,library
+Library eessa jira?,library
+Library yoom banama?,library
+When does the library open?,library
+Library yoom cufama?,library
+When does the library close?,library
+How can I borrow books?,library
+Kitaaba akkamittan liqeefadha?,library
+Can I study in the library?,library
+Library keessatti dubbisuu ni danda'amaa?,library
+Is internet available in the library?,library
+Library keessatti internet ni jiraa?,library
+Can I use library computers?,library
+Library keessatti computer fayyadamuu ni danda'amaa?,library
+Can I get a library card?,library
+Kaardii library akkamittan argadha?,library
+Can I access digital books?,library
+Library keessatti kitaaba dijitaalaa ni argachuu danda'aa?,library
+Can all students use the library?,library
+Barattoonni hundi library fayyadamuu ni danda'uu?,library
+
+Where is the university clinic?,clinic
+Clinic yuunivarsiitii eessa jira?,clinic
+When is medical service available?,clinic
+Tajaajilli yaalaa yoom argama?,clinic
+How can I see a doctor?,clinic
+Doktora akkamittan argadha?,clinic
+Can I get medicine?,clinic
+Qoricha argachuun ni danda'amaa?,clinic
+Does the clinic provide first aid?,clinic
+Clinic keessatti gargaarsa jalqabaa ni kennamaa?,clinic
+Are clinic services free?,clinic
+Tajaajilli clinic bilisaa dhaa?,clinic
+Does the clinic provide vaccination?,clinic
+Clinic keessatti talaalliin ni kennamaa?,clinic
+What services are available at the health center?,clinic
+Health center keessatti tajaajilli maal jira?,clinic
+Can I get health counseling?,clinic
+Gorsa fayyaa argachuun ni danda'amaa?,clinic
+What is the clinic phone number?,clinic
+Lakkoofsi bilbilaa clinic maal dha?,clinic
+
+Where is the cafeteria?,cafeteria
+Cafeteriaan eessa jira?,cafeteria
+Does the cafeteria serve breakfast?,cafeteria
+Nyaanni ganamaa ni kennamaa?,cafeteria
+Does the cafeteria serve lunch?,cafeteria
+Laaqanni guyyaa ni kennamaa?,cafeteria
+Does the cafeteria serve dinner?,cafeteria
+Irbaanni galgalaa ni kennamaa?,cafeteria
+Is drinking water available?,cafeteria
+Bishaan dhugaatii ni jiraa?,cafeteria
+What time does the cafeteria open?,cafeteria
+Cafeteriaan yoom banama?,cafeteria
+Can I take food to my dormitory?,cafeteria
+Nyaata gara dormitory geessuun ni danda'amaa?,cafeteria
+How do I report a cafeteria complaint?,cafeteria
+Komii cafeteria akkamittan dhiyeeffadha?,cafeteria
+
+How do I access the student portal?,ict
+Student portal akkamittan seena?,ict
+Where is the ICT Center?,ict
+ICT Center eessa jira?,ict
+What services does ICT provide?,ict
+ICT tajaajilli maal kenna?,ict
+How do I use university Wi-Fi?,ict
+Wi-Fi university akkamittan fayyadama?,ict
+What should I do if I forget my password?,ict
+Password koo yoo dagadhe maal godha?,ict
+How can I get a university email?,ict
+University email akkamittan bana?,ict
+Where is the computer lab?,ict
+Computer Lab eessa jira?,ict
+Can I use the printer?,ict
+Printer fayyadamuun ni danda'amaa?,ict
+How can I contact ICT?,ict
+ICT bilbilaan akkamittan qunnama?,ict
+The portal is not opening.,ict
+Portal hin banamu maal godha?,ict
+
+How can I register?,admission
+Where is the admission office?,admission
+What are the admission requirements?,admission
+How do I apply?,admission
+When is registration?,admission
+How can I join MWU?,admission
+What documents are required?,admission
+Can I apply online?,admission
+Admission process information,admission
+New student registration,admission
+
+Where is the dormitory?,dormitory
+How do I get a dorm room?,dormitory
+Dormitory rules?,dormitory
+Can I change my dorm?,dormitory
+Student housing information?,dormitory
+
+Sports activities?,sports
+Football field?,sports
+Gym location?,sports
+Basketball court?,sports
+Sports office?,sports
+
+Laboratory rules?,laboratory
+Computer laboratory?,laboratory
+Science laboratory?,laboratory
+Lab opening hours?,laboratory
+Where is the lab?,laboratory
+
+Career services?,career
+Internship information?,career
+Job opportunities?,career
+Career office?,career
+CV writing help?,career
+
+Academic calendar?,academic
+Exam schedule?,academic
+Class schedule?,academic
+Semester information?,academic
+Academic regulations?,academic
+
+University president?,university
+About Madda Walabu University?,university
+University history?,university
+University mission?,university
+University vision?,university
+
+Official website?,website
+University website?,website
+Website link?,website
+Online services?,website
+
+Campus security?,security
+Emergency number?,security
+Security office?,security
+Lost and found?,security
+Campus safety?,security

@@ -1,44 +1,153 @@
-[
-  {
-    "topic": "library",
-    "question": {
-      "om": "Library eessa jira?",
-      "en": "Where is the library?",
-      "am": "ቤተ መጻሕፍት የት ነው?"
-    },
-    "keywords": [
-      "library",
-      "mana kitaabaa"
-    ],
-    "answer": {
-      "om": "Library Main Campus keessa jira.",
-      "en": "The library is on the main campus.",
-      "am": "ቤተ መጻሕፍቱ በዋናው ካምፓስ ይገኛል።"
-    }
-  },
-  {
+
+{
+  "id": 3,
   "topic": "library",
   "question": {
-    "om": "Library yoom banama?",
-    "en": "When does the library open?",
-    "am": "ቤተ መጻሕፍቱ መቼ ይከፈታል?"
+    "om": "Kitaaba library irraa akkamittan liqeefadha?",
+    "en": "How can I borrow books from the library?",
+    "am": "ከቤተ መጻሕፍት መጽሐፍ እንዴት መዋስ እችላለሁ?"
   },
   "keywords": [
-    "library",
-    "banama",
-    "yoom",
-    "sa'aatii",
-    "sa'aatii hojii",
-    "open",
-    "opening",
-    "opening hours",
-    "when",
-    "hours"
+    "borrow",
+    "book",
+    "liqeefachuu",
+    "kitaaba"
   ],
   "answer": {
-    "om": "Library sa'aatii hojii yuunivarsiitiin banama.",
-    "en": "The library opens during university working hours.",
-    "am": "ቤተ መጻሕፍቱ በዩኒቨርሲቲው የሥራ ሰዓት ይከፈታል።"
+    "om": "Kitaaba liqeefachuuf kaardii barataa kee agarsiisuu qabda.",
+    "en": "You can borrow books by presenting your student ID.",
+    "am": "የተማሪ መታወቂያዎን በማሳየት መጽሐፍ መዋስ ይችላሉ።"
   }
-}
-]
+},
+{
+  "id": 4,
+  "topic": "library",
+  "question": {
+    "om": "Barattoonni hundi library fayyadamuu ni danda'uu?",
+    "en": "Can all students use the library?",
+    "am": "ሁሉም ተማሪዎች ቤተ መጻሕፍቱን መጠቀም ይችላሉ?"
+  },
+  "keywords": [
+    "students",
+    "library use",
+    "fayyadamuu"
+  ],
+  "answer": {
+    "om": "Eeyyee, barattoonni galmaa'an hundi library fayyadamuu ni danda'u.",
+    "en": "Yes, all registered students can use the library.",
+    "am": "አዎ፣ ሁሉም የተመዘገቡ ተማሪዎች ቤተ መጻሕፍቱን መጠቀም ይችላሉ።"
+  }
+},
+{
+  "id": 5,
+  "topic": "library",
+  "question": {
+    "om": "Library keessatti internet ni jiraa?",
+    "en": "Is internet available in the library?",
+    "am": "በቤተ መጻሕፍቱ ውስጥ ኢንተርኔት አለ?"
+  },
+  "keywords": [
+    "internet",
+    "wifi",
+    "library wifi"
+  ],
+  "answer": {
+    "om": "Eeyyee, internet fi Wi-Fi library keessatti ni argama.",
+    "en": "Yes, internet and Wi-Fi are available in the library.",
+    "am": "አዎ፣ በቤተ መጻሕፍቱ ውስጥ ኢንተርኔት እና Wi-Fi አሉ።"
+  }
+},
+{
+  "id": 6,
+  "topic": "library",
+  "question": {
+    "om": "Library keessatti dubbisuu ni danda'amaa?",
+    "en": "Can I study in the library?",
+    "am": "በቤተ መጻሕፍቱ ውስጥ ማጥናት እችላለሁ?"
+  },
+  "keywords": [
+    "study",
+    "reading",
+    "dubbisuu"
+  ],
+  "answer": {
+    "om": "Eeyyee, tasgabbiidhaan dubbisuu fi barachuun ni danda'ama.",
+    "en": "Yes, students can study quietly in the library.",
+    "am": "አዎ፣ ተማሪዎች በጸጥታ ማጥናት ይችላሉ።"
+  }
+},
+{
+  "id": 7,
+  "topic": "library",
+  "question": {
+    "om": "Library yoom cufama?",
+    "en": "When does the library close?",
+    "am": "ቤተ መጻሕፍቱ መቼ ይዘጋል?"
+  },
+  "keywords": [
+    "close",
+    "closing hours",
+    "cufama"
+  ],
+  "answer": {
+    "om": "Library yeroo hojii yuunivarsiitii xumurametti ni cufama.",
+    "en": "The library closes at the end of university working hours.",
+    "am": "ቤተ መጻሕፍቱ በሥራ ሰዓት መጨረሻ ይዘጋል።"
+  }
+},
+{
+  "id": 8,
+  "topic": "library",
+  "question": {
+    "om": "Library keessatti kitaabota dijitaalaa ni argachuu danda'aa?",
+    "en": "Can I access digital books in the library?",
+    "am": "በቤተ መጻሕፍቱ ዲጂታል መጽሐፍትን ማግኘት እችላለሁ?"
+  },
+  "keywords": [
+    "digital books",
+    "ebooks",
+    "online books"
+  ],
+  "answer": {
+    "om": "Eeyyee, library dijitaalaa yoo qabaate fayyadamuu ni dandeessa.",
+    "en": "Yes, you can access digital library resources if available.",
+    "am": "አዎ፣ ዲጂታል የቤተ መጻሕፍት ምንጮችን መጠቀም ይችላሉ።"
+  }
+},
+{
+  "id": 9,
+  "topic": "library",
+  "question": {
+    "om": "Kaardii library akkamittan argadha?",
+    "en": "How can I get a library card?",
+    "am": "የቤተ መጻሕፍት ካርድ እንዴት አገኛለሁ?"
+  },
+  "keywords": [
+    "library card",
+    "card",
+    "kaardii"
+  ],
+  "answer": {
+    "om": "Kaardii library argachuuf library keessatti galmaa'uu qabda.",
+    "en": "You can get a library card by registering at the library.",
+    "am": "በቤተ መጻሕፍቱ በመመዝገብ ካርድ ማግኘት ይችላሉ።"
+  }
+},
+{
+  "id": 10,
+  "topic": "library",
+  "question": {
+    "om": "Library keessatti kompiitara fayyadamuu ni danda'amaa?",
+    "en": "Can I use computers in the library?",
+    "am": "በቤተ መጻሕፍቱ ኮምፒውተር መጠቀም እችላለሁ?"
+  },
+  "keywords": [
+    "computer",
+    "pc",
+    "library computer"
+  ],
+  "answer": {
+    "om": "Eeyyee, yoo qophaa'e kompiitara library keessa jiru fayyadamuu ni dandeessa.",
+    "en": "Yes, library computers are available if provided.",
+    "am": "አዎ፣ ከተዘጋጁ የቤተ መጻሕፍት ኮምፒውተሮችን መጠቀም ይችላሉ።"
+  }}
