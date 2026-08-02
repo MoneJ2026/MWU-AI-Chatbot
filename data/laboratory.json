@@ -118,5 +118,259 @@
       "en": "Proper use of equipment, safety practices, and following guidelines are required.",
       "am": "የላቦራቶሪ መሳሪያዎችን በአግባቡ መጠቀምና የደህንነት መመሪያዎችን መከተል ግዴታ ነው።"
     }
+  },
+
+{
+  "id": 7,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory yoom banama?",
+    "en": "When does the laboratory open?",
+    "am": "ላቦራቶሪው መቼ ይከፈታል?"
+  },
+  "keywords": [
+    "opening hours",
+    "open",
+    "time"
+  ],
+  "answer": {
+    "om": "Laboratory sa'aatii hojii yuunivarsiitii keessatti banama.",
+    "en": "The laboratory is open during university working hours.",
+    "am": "ላቦራቶሪው በዩኒቨርሲቲው የስራ ሰዓት ይከፈታል።"
   }
-]
+},
+{
+  "id": 8,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory yoom cufama?",
+    "en": "When does the laboratory close?",
+    "am": "ላቦራቶሪው መቼ ይዘጋል?"
+  },
+  "keywords": [
+    "close",
+    "closing hours"
+  ],
+  "answer": {
+    "om": "Laboratory yeroo hojii xumurametti ni cufama.",
+    "en": "The laboratory closes at the end of working hours.",
+    "am": "ላቦራቶሪው በስራ ሰዓት መጨረሻ ይዘጋል።"
+  }
+},
+{
+  "id": 9,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti Wi-Fi ni jiraa?",
+    "en": "Is Wi-Fi available in the laboratory?",
+    "am": "በላቦራቶሪው Wi-Fi አለ?"
+  },
+  "keywords": [
+    "wifi",
+    "internet",
+    "network"
+  ],
+  "answer": {
+    "om": "Eeyyee, laboratory tokko tokko keessatti Wi-Fi ni argama.",
+    "en": "Yes, Wi-Fi is available in some laboratories.",
+    "am": "አዎ፣ በአንዳንድ ላቦራቶሪዎች Wi-Fi አለ።"
+  }
+},
+{
+  "id": 10,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti internet fayyadamuun ni danda'amaa?",
+    "en": "Can I use the internet in the laboratory?",
+    "am": "በላቦራቶሪው ኢንተርኔት መጠቀም እችላለሁ?"
+  },
+  "keywords": [
+    "internet",
+    "online"
+  ],
+  "answer": {
+    "om": "Eeyyee, hojii barnootaaf internet fayyadamuun ni danda'ama.",
+    "en": "Yes, students can use the internet for academic purposes.",
+    "am": "አዎ፣ ለትምህርት ዓላማ ኢንተርኔት መጠቀም ይቻላል።"
+  }
+},
+{
+  "id": 11,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laptop koo laboratory keessatti fayyadamuu nan danda'aa?",
+    "en": "Can I use my laptop in the laboratory?",
+    "am": "በላቦራቶሪው ላፕቶፔን መጠቀም እችላለሁ?"
+  },
+  "keywords": [
+    "laptop",
+    "computer"
+  ],
+  "answer": {
+    "om": "Eeyyee, yoo seerri laboratory hayyame laptop kee fayyadamuu dandeessa.",
+    "en": "Yes, if laboratory rules allow it.",
+    "am": "አዎ፣ የላቦራቶሪው ህግ ከፈቀደ መጠቀም ይችላሉ።"
+  }
+},
+{
+  "id": 12,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti printer ni jiraa?",
+    "en": "Is there a printer in the laboratory?",
+    "am": "በላቦራቶሪው ፕሪንተር አለ?"
+  },
+  "keywords": [
+    "printer",
+    "printing"
+  ],
+  "answer": {
+    "om": "Laboratory tokko tokko keessatti printer ni argama.",
+    "en": "Some laboratories provide printers.",
+    "am": "በአንዳንድ ላቦራቶሪዎች ፕሪንተር አለ።"
+  }
+},
+{
+  "id": 13,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti nyaachuun ni hayyamamaa?",
+    "en": "Is eating allowed in the laboratory?",
+    "am": "በላቦራቶሪው መመገብ ይፈቀዳል?"
+  },
+  "keywords": [
+    "food",
+    "eat"
+  ],
+  "answer": {
+    "om": "Lakki, nyaachuun laboratory keessatti hin hayyamamu.",
+    "en": "No, eating is not allowed in the laboratory.",
+    "am": "አይ፣ በላቦራቶሪው መመገብ አይፈቀድም።"
+  }
+},
+{
+  "id": 14,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti bilbila fayyadamuun ni danda'amaa?",
+    "en": "Can I use my phone in the laboratory?",
+    "am": "በላቦራቶሪው ስልክ መጠቀም እችላለሁ?"
+  },
+  "keywords": [
+    "phone",
+    "mobile"
+  ],
+  "answer": {
+    "om": "Bilbila sagalee guddaadhaan fayyadamuun hin hayyamamu.",
+    "en": "Please keep your phone on silent in the laboratory.",
+    "am": "በላቦራቶሪው ውስጥ ስልክዎን በዝምታ ያስቀምጡ።"
+  }
+},
+{
+  "id": 15,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti qorannoo dhuunfaa hojjechuun ni danda'amaa?",
+    "en": "Can I conduct personal research in the laboratory?",
+    "am": "በላቦራቶሪው የግል ምርምር ማድረግ እችላለሁ?"
+  },
+  "keywords": [
+    "research",
+    "project"
+  ],
+  "answer": {
+    "om": "Eeyyee, hayyama department irraa yoo argatte ni danda'ama.",
+    "en": "Yes, with permission from the department.",
+    "am": "አዎ፣ ከዲፓርትመንቱ ፈቃድ ካገኙ ይቻላል።"
+  }
+},
+{
+  "id": 16,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti project hojjechuun ni danda'amaa?",
+    "en": "Can I do my project in the laboratory?",
+    "am": "ፕሮጀክቴን በላቦራቶሪው ማከናወን እችላለሁ?"
+  },
+  "keywords": [
+    "project",
+    "assignment"
+  ],
+  "answer": {
+    "om": "Eeyyee, yeroo fi qajeelfama laboratory eeguun ni danda'ama.",
+    "en": "Yes, according to laboratory schedules and rules.",
+    "am": "አዎ፣ በላቦራቶሪው የጊዜ ሰሌዳና ህግ መሰረት ይቻላል።"
+  }
+},
+{
+  "id": 17,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti nageenya akkamitti eegna?",
+    "en": "How do we maintain safety in the laboratory?",
+    "am": "በላቦራቶሪው ውስጥ ደህንነትን እንዴት እንጠብቃለን?"
+  },
+  "keywords": [
+    "safety",
+    "security"
+  ],
+  "answer": {
+    "om": "Qajeelfama nageenyaa hordofuu fi meeshaalee sirnaan fayyadamuu qabda.",
+    "en": "Follow safety guidelines and use equipment properly.",
+    "am": "የደህንነት መመሪያዎችን ይከተሉ እና መሳሪያዎችን በአግባቡ ይጠቀሙ።"
+  }
+},
+{
+  "id": 18,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti deeggarsi ogeessaa ni jiraa?",
+    "en": "Is technical support available in the laboratory?",
+    "am": "በላቦራቶሪው የቴክኒክ ድጋፍ አለ?"
+  },
+  "keywords": [
+    "support",
+    "technician"
+  ],
+  "answer": {
+    "om": "Eeyyee, technician yookaan instructor deeggarsa ni kenna.",
+    "en": "Yes, technicians or instructors provide support.",
+    "am": "አዎ፣ ቴክኒሻኖች ወይም አስተማሪዎች ድጋፍ ይሰጣሉ።"
+  }
+},
+{
+  "id": 19,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti software adda addaa ni jiraa?",
+    "en": "Are different software programs available in the laboratory?",
+    "am": "በላቦራቶሪው የተለያዩ ሶፍትዌሮች አሉ?"
+  },
+  "keywords": [
+    "software",
+    "application"
+  ],
+  "answer": {
+    "om": "Eeyyee, barnoota irratti hundaa'uun software adda addaa ni jira.",
+    "en": "Yes, different software is available depending on the department.",
+    "am": "አዎ፣ በትምህርት ክፍሉ መሰረት የተለያዩ ሶፍትዌሮች አሉ።"
+  }
+},
+{
+  "id": 20,
+  "topic": "Laboratory",
+  "question": {
+    "om": "Laboratory keessatti reservation gochuun ni barbaachisaa?",
+    "en": "Do I need a reservation to use the laboratory?",
+    "am": "ላቦራቶሪውን ለመጠቀም ቅድመ ምዝገባ ያስፈልጋል?"
+  },
+  "keywords": [
+    "reservation",
+    "booking"
+  ],
+  "answer": {
+    "om": "Laboratory tokko tokko fayyadamuuf dursee galmaa'uun barbaachisaa ta'uu danda'a.",
+    "en": "Some laboratories require prior reservation.",
+    "am": "አንዳንድ ላቦራቶሪዎች ቅድመ ምዝገባ ያስፈልጋቸዋል።"
+  }
+}]
