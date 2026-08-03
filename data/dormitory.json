@@ -1,122 +1,268 @@
 [
-  {
-    "id": 1,
-    "topic": "Dormitory",
-    "question": {
-      "om": "Dormiin barattootaa eessa jira?",
-      "en": "Where are student dormitories located?",
-      "am": "የተማሪዎች መኝታ ቤት የት ይገኛል?"
-    },
-    "keywords": [
-      "dorm",
-      "dormitory",
-      "mana jireenyaa",
-      "room"
-    ],
-    "answer": {
-      "om": "Dormiin barattootaa bakka yuunivarsiitichi ramade keessatti argama.",
-      "en": "Student dormitories are located in areas assigned by the university.",
-      "am": "የተማሪዎች መኝታ ቤቶች በዩኒቨርሲቲው በተመደበ ቦታ ይገኛሉ።"
-    }
+{
+  "id": 7,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Seerri dormii maal fa'a?",
+    "en": "What are the dormitory rules?",
+    "am": "የመኝታ ቤት ህጎች ምንድን ናቸው?"
   },
-
-  {
-    "id": 2,
-    "topic": "Dormitory",
-    "question": {
-      "om": "Akkamittan dormii argadha?",
-      "en": "How can I get a dormitory?",
-      "am": "እንዴት መኝታ ቤት አገኛለሁ?"
-    },
-    "keywords": [
-      "get dorm",
-      "dorm assignment",
-      "ramaddii"
-    ],
-    "answer": {
-      "om": "Dormii argachuuf qajeelfama yuunivarsiitii fi ramaddii mana jireenyaa hordofuu qabda.",
-      "en": "To get a dormitory, follow university dormitory assignment procedures.",
-      "am": "መኝታ ቤት ለማግኘት የዩኒቨርሲቲውን የመመደቢያ ሂደት ይከተሉ።"
-    }
-  },
-
-  {
-    "id": 3,
-    "topic": "Dormitory",
-    "question": {
-      "om": "Ramaddiin dormii yoom ba'a?",
-      "en": "When is dormitory assignment released?",
-      "am": "የመኝታ ቤት ምደባ መቼ ይወጣል?"
-    },
-    "keywords": [
-      "dorm assignment",
-      "dorm result",
-      "ramaddii"
-    ],
-    "answer": {
-      "om": "Yeroon ramaddii dormii beeksisa yuunivarsiitii irratti hundaa'a.",
-      "en": "Dormitory assignment time depends on university announcements.",
-      "am": "የመኝታ ቤት ምደባ ጊዜ በዩኒቨርሲቲው ማስታወቂያ ይወሰናል።"
-    }
-  },
-
-  {
-    "id": 4,
-    "topic": "Dormitory",
-    "question": {
-      "om": "Room koo akkamittan beeka?",
-      "en": "How do I know my room assignment?",
-      "am": "የክፍሌን ቁጥር እንዴት አውቃለሁ?"
-    },
-    "keywords": [
-      "room",
-      "room number",
-      "assignment"
-    ],
-    "answer": {
-      "om": "Room assignment odeeffannoo dormii yookaan waajjira tajaajila barattootaa irraa argatta.",
-      "en": "You can find your room assignment from dormitory information or student service office.",
-      "am": "የክፍል መረጃ ከመኝታ ቤት ቢሮ ወይም ከተማሪ አገልግሎት ያገኛሉ።"
-    }
-  },
-
-  {
-    "id": 5,
-    "topic": "Dormitory",
-    "question": {
-      "om": "Rakkoo dormii yoo qabaadhe eenyu qunnama?",
-      "en": "Who should I contact for dorm problems?",
-      "am": "የመኝታ ቤት ችግር ካጋጠመኝ ማንን አገኛለሁ?"
-    },
-    "keywords": [
-      "dorm problem",
-      "complaint",
-      "support"
-    ],
-    "answer": {
-      "om": "Rakkoo dormii yoo jiraate bulchaa dormii ykn waajjira tajaajila barattootaa qunnami.",
-      "en": "For dormitory problems, contact dormitory management or student services.",
-      "am": "የመኝታ ቤት ችግር ካለ የመኝታ ቤት አስተዳደር ወይም የተማሪ አገልግሎትን ያነጋግሩ።"
-    }
-  },
-
-  {
-    "id": 6,
-    "topic": "Dormitory",
-    "question": {
-      "om": "Dorm keessatti interneetii jiraa?",
-      "en": "Is internet available in dormitories?",
-      "am": "በመኝታ ቤት ውስጥ ኢንተርኔት አለ?"
-    },
-    "keywords": [
-      "internet",
-      "wifi",
-      "dorm"
-    ],
-    "answer": {
-      "om": "Tajaajilli interneetii dorm keessatti jiraachuu isaa odeeffannoo ICT irraa mirkaneeffachuu dandeessa.",
-      "en": "Check with ICT services for internet availability in dormitories.",
-      "am": "በመኝታ ቤት የኢንተርኔት አገልግሎት መኖሩን ከICT ያረጋግጡ።"
-    }
+  "keywords": [
+    "rules",
+    "dorm rules",
+    "seera dormii"
+  ],
+  "answer": {
+    "om": "Barattoonni seera dormii fi qajeelfama yuunivarsiitii kabajuu qabu.",
+    "en": "Students must follow dormitory rules and university regulations.",
+    "am": "ተማሪዎች የመኝታ ቤት ህጎችን እና የዩኒቨርሲቲውን መመሪያዎች መከተል አለባቸው።"
   }
+},
+{
+  "id": 8,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Room jijjiiruun ni danda'amaa?",
+    "en": "Can I change my dorm room?",
+    "am": "የመኝታ ቤቴን መቀየር እችላለሁ?"
+  },
+  "keywords": [
+    "change room",
+    "room transfer",
+    "jijjiiruu"
+  ],
+  "answer": {
+    "om": "Eeyyee, hayyama bulchaa dormii yoo argatte room jijjiiruu dandeessa.",
+    "en": "Yes, room changes are possible with dormitory management approval.",
+    "am": "አዎ፣ በመኝታ ቤት አስተዳደር ፈቃድ ክፍል መቀየር ይቻላል።"
+  }
+},
+{
+  "id": 9,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Dorm keessatti bishaanii fi ibsaan ni jiraa?",
+    "en": "Are water and electricity available in the dormitory?",
+    "am": "በመኝታ ቤቱ ውሃና ኤሌክትሪክ አሉ?"
+  },
+  "keywords": [
+    "water",
+    "electricity",
+    "utilities"
+  ],
+  "answer": {
+    "om": "Eeyyee, bishaanii fi ibsaan akkaataa tajaajila yuunivarsiitiitiin ni kennama.",
+    "en": "Yes, water and electricity are provided according to university services.",
+    "am": "አዎ፣ ውሃና ኤሌክትሪክ በዩኒቨርሲቲው አገልግሎት ይሰጣሉ።"
+  }
+},
+{
+  "id": 10,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Keessummoonni dorm seenuu ni danda'uu?",
+    "en": "Can visitors enter the dormitory?",
+    "am": "እንግዶች ወደ መኝታ ቤት መግባት ይችላሉ?"
+  },
+  "keywords": [
+    "visitor",
+    "guest",
+    "keessummaa"
+  ],
+  "answer": {
+    "om": "Keessummoonni seera dormii irratti hundaa'uun hayyama argatanii seenuu danda'u.",
+    "en": "Visitors may enter according to dormitory regulations.",
+    "am": "እንግዶች በመኝታ ቤቱ ህግ መሰረት ሊገቡ ይችላሉ።"
+  }
+},
+{
+  "id": 11,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Dorm yoom banama?",
+    "en": "When do dormitories open?",
+    "am": "መኝታ ቤቶች መቼ ይከፈታሉ?"
+  },
+  "keywords": [
+    "open",
+    "opening",
+    "banama"
+  ],
+  "answer": {
+    "om": "Dormiin yeroo galmee barattootaa ni banama.",
+    "en": "Dormitories usually open during student registration.",
+    "am": "መኝታ ቤቶች በተማሪዎች ምዝገባ ወቅት ይከፈታሉ።"
+  }
+},
+{
+  "id": 12,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Dorm yoom cufama?",
+    "en": "When do dormitories close?",
+    "am": "መኝታ ቤቶች መቼ ይዘጋሉ?"
+  },
+  "keywords": [
+    "close",
+    "closing",
+    "cufama"
+  ],
+  "answer": {
+    "om": "Dormiin yeroo boqonnaa yookaan beeksisa yuunivarsiitii irratti hundaa'uun cufama.",
+    "en": "Dormitories close according to university schedules.",
+    "am": "መኝታ ቤቶች በዩኒቨርሲቲው መርሃ ግብር መሰረት ይዘጋሉ።"
+  }
+},
+{
+  "id": 13,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Dorm keessatti nyaanni ni kennamaa?",
+    "en": "Is food provided in the dormitory?",
+    "am": "በመኝታ ቤት ምግብ ይሰጣል?"
+  },
+  "keywords": [
+    "food",
+    "meal",
+    "nyaata"
+  ],
+  "answer": {
+    "om": "Lakki, nyaanni cafeteria yuunivarsiitii keessatti kennama.",
+    "en": "No, meals are provided at the university cafeteria.",
+    "am": "አይ፣ ምግብ በዩኒቨርሲቲው ካፌቴሪያ ይሰጣል።"
+  }
+},
+{
+  "id": 14,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Dorm keessatti nageenyi ni jiraa?",
+    "en": "Is there security in the dormitory?",
+    "am": "በመኝታ ቤቱ ደህንነት አለ?"
+  },
+  "keywords": [
+    "security",
+    "safe",
+    "nageenya"
+  ],
+  "answer": {
+    "om": "Eeyyee, dorm keessatti tajaajilli nageenyaa ni jira.",
+    "en": "Yes, security services are available in the dormitory.",
+    "am": "አዎ፣ በመኝታ ቤቱ የደህንነት አገልግሎት አለ።"
+  }
+},
+{
+  "id": 15,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Lakkoofsi kutaa koo eessa argadha?",
+    "en": "Where can I find my room number?",
+    "am": "የክፍሌን ቁጥር ከየት አገኛለሁ?"
+  },
+  "keywords": [
+    "room number",
+    "room",
+    "kutaa"
+  ],
+  "answer": {
+    "om": "Lakkoofsi kutaa kee waajjira dormii irraa argama.",
+    "en": "You can get your room number from the dormitory office.",
+    "am": "የክፍል ቁጥርዎን ከመኝታ ቤት ቢሮ ያገኛሉ።"
+  }
+},
+{
+  "id": 16,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Dorm keessatti uffata dhiqachuun ni danda'amaa?",
+    "en": "Can I wash clothes in the dormitory?",
+    "am": "በመኝታ ቤቱ ልብስ ማጠብ ይቻላል?"
+  },
+  "keywords": [
+    "wash clothes",
+    "laundry",
+    "dhiqachuu"
+  ],
+  "answer": {
+    "om": "Eeyyee, bakka yuunivarsiitiin qopheesse fayyadamuu dandeessa.",
+    "en": "Yes, use the designated washing area provided by the university.",
+    "am": "አዎ፣ ዩኒቨርሲቲው ያዘጋጀውን የማጠቢያ ቦታ ይጠቀሙ።"
+  }
+},
+{
+  "id": 17,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Dorm bilisaa dha?",
+    "en": "Is the dormitory free?",
+    "am": "መኝታ ቤቱ ነፃ ነው?"
+  },
+  "keywords": [
+    "free",
+    "cost",
+    "bilisaa"
+  ],
+  "answer": {
+    "om": "Tajaajilli dormii seera mootummaa fi yuunivarsiitii irratti hundaa'a.",
+    "en": "Dormitory services depend on university policy.",
+    "am": "የመኝታ ቤት አገልግሎት በዩኒቨርሲቲው ፖሊሲ መሰረት ይሆናል።"
+  }
+},
+{
+  "id": 18,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Dorm keessatti yeroo callisaa ni jiraa?",
+    "en": "Are there quiet hours in the dormitory?",
+    "am": "በመኝታ ቤቱ የጸጥታ ሰዓት አለ?"
+  },
+  "keywords": [
+    "quiet",
+    "noise",
+    "callisaa"
+  ],
+  "answer": {
+    "om": "Eeyyee, yeroo boqonnaa keessatti sagalee guddaa uumuu hin hayyamamu.",
+    "en": "Yes, students should keep noise low during quiet hours.",
+    "am": "አዎ፣ በጸጥታ ሰዓት ጩኸት ማሰማት አይፈቀድም።"
+  }
+},
+{
+  "id": 19,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Rakkoo bishaanii eenyuuf hima?",
+    "en": "Who should I report water problems to?",
+    "am": "የውሃ ችግርን ለማን ማሳወቅ አለብኝ?"
+  },
+  "keywords": [
+    "water problem",
+    "maintenance",
+    "bishaan"
+  ],
+  "answer": {
+    "om": "Bulchaa dormii ykn maintenance office qunnami.",
+    "en": "Report water problems to the dormitory management or maintenance office.",
+    "am": "የውሃ ችግርን ለመኝታ ቤት አስተዳደር ወይም ለጥገና ቢሮ ያሳውቁ።"
+  }
+},
+{
+  "id": 20,
+  "topic": "Dormitory",
+  "question": {
+    "om": "Lakkoofsi bilbilaa dormii maal dha?",
+    "en": "What is the dormitory phone number?",
+    "am": "የመኝታ ቤቱ ስልክ ቁጥር ስንት ነው?"
+  },
+  "keywords": [
+    "phone",
+    "contact",
+    "bilbilaa"
+  ],
+  "answer": {
+    "om": "Lakkoofsa sirrii argachuuf Waajjira Student Affairs yookaan bulchaa dormii qunnami.",
+    "en": "Please contact Student Affairs or the dormitory office for the official phone number.",
+    "am": "ትክክለኛውን ስልክ ቁጥር ለማግኘት የተማሪ ጉዳይ ቢሮን ወይም የመኝታ ቤት ቢሮን ያነጋግሩ።"
+  }
+}
 ]
