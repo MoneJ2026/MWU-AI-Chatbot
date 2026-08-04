@@ -410,3 +410,58 @@ Who should I report water problems to?,dormitory
 Lakkoofsi bilbilaa dormii maal dha?,dormitory
 What is the dormitory phone number?,dormitory
 የመኝታ ቤቱ ስልክ ቁጥር ስንት ነው?,dormitory
+text,intent
+Are there student clubs?,clubs
+Is there a student club?,clubs
+How can I join a club?,clubs
+How do I become a club member?,clubs
+Can I join a student club?,clubs
+Where can I register for a club?,clubs
+Is there an AI Club?,clubs
+Is there a programming club?,clubs
+Is there a robotics club?,clubs
+Is there a cultural club?,clubs
+Is there a sports club?,clubs
+Is there an entrepreneurship club?,clubs
+Where is the student union?,clubs
+What activities do clubs organize?,clubs
+What do student clubs do?,clubs
+Can I join more than one club?,clubs
+Can I create a new club?,clubs
+How often do clubs meet?,clubs
+Do clubs organize competitions?,clubs
+Can I become a club leader?,clubs
+Can I receive a certificate from a club?,clubs
+Do clubs provide training?,clubs
+Do clubs participate in community service?,clubs
+Where can I get information about clubs?,clubs
+Club barattootaa jiraa?,clubs
+Club keessatti akkamittan hirmaadha?,clubs
+Club akkamittan makama?,clubs
+Club AI jiraa?,clubs
+Programming Club jiraa?,clubs
+Robotics Club jiraa?,clubs
+Cultural Club jiraa?,clubs
+Sport Club jiraa?,clubs
+Club haaraa hundeessuun ni danda'amaa?,clubs
+Club tokko keessatti miseensa ta'uun bilisaa dhaa?,clubs
+Club hedduu keessatti hirmaachuun ni danda'amaa?,clubs
+Club yeroo meeqa walga'a?,clubs
+Club keessatti hojii maal hojjetama?,clubs
+Club keessatti project hojjechuun ni danda'amaa?,clubs
+Club keessatti certificate argachuun ni danda'amaa?,clubs
+Club keessatti hogganaa ta'uun ni danda'amaa?,clubs
+Club dorgommii ni qopheessaa?,clubs
+Club keessatti hojii tola ooltummaa ni hojjetamaa?,clubs
+Student union eessa jira?,clubs
+Club odeeffannoo eessaa argadha?,clubs
+የተማሪ ክለቦች አሉ?,clubs
+ክለብን እንዴት እቀላቀላለሁ?,clubs
+የAI ክለብ አለ?,clubs
+የባህል ክለብ አለ?,clubs
+የስፖርት ክለብ አለ?,clubs
+የተማሪ ህብረት የት ይገኛል?,clubs
+ክለቦች ምን እንቅስቃሴ ያደርጋሉ?,clubs
+ከአንድ በላይ ክለብ መቀላቀል እችላለሁ?,clubs
+አዲስ ክለብ ማቋቋም እችላለሁ?,clubs
+ክለብ መሪ መሆን እችላለሁ?,clubs

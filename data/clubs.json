@@ -119,4 +119,223 @@
       "am": "ክለቦች ስልጠና፣ የቡድን ስራ፣ ምርምር፣ ውድድር እና ማህበራዊ እንቅስቃሴዎችን ሊያዘጋጁ ይችላሉ።"
     }
   }
+  ,
+{
+  "id": 7,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club tokko keessatti miseensa ta'uun bilisaa dhaa?",
+    "en": "Is joining a club free?",
+    "am": "ክለብን መቀላቀል በነፃ ነው?"
+  },
+  "keywords": [
+    "free club",
+    "membership fee",
+    "bilisaa"
+  ],
+  "answer": {
+    "om": "Baay'ee isaanii bilisaadha; garuu seera club irratti hundaa'a.",
+    "en": "Most clubs are free to join, depending on club policies.",
+    "am": "አብዛኛዎቹ ክለቦች በነፃ ናቸው፣ ነገር ግን በክለቡ ደንብ ይወሰናል።"
+  }
+},
+{
+  "id": 8,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club tokko keessatti miseensa hedduu ta'uun ni danda'amaa?",
+    "en": "Can I join more than one club?",
+    "am": "ከአንድ በላይ ክለብ መቀላቀል እችላለሁ?"
+  },
+  "keywords": [
+    "multiple clubs",
+    "more than one club"
+  ],
+  "answer": {
+    "om": "Eeyyee, yeroo fi seera club irratti hundaa'uun club hedduu keessatti hirmaachuu dandeessa.",
+    "en": "Yes, you may join multiple clubs depending on their rules.",
+    "am": "አዎ፣ በክለቦቹ ደንብ መሰረት ከአንድ በላይ ክለብ መቀላቀል ይችላሉ።"
+  }
+},
+{
+  "id": 9,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club haaraa hundeessuun ni danda'amaa?",
+    "en": "Can students establish a new club?",
+    "am": "ተማሪዎች አዲስ ክለብ ማቋቋም ይችላሉ?"
+  },
+  "keywords": [
+    "new club",
+    "establish club",
+    "create club"
+  ],
+  "answer": {
+    "om": "Eeyyee, seera yuunivarsiitii hordofuun club haaraa hundeessuun ni danda'ama.",
+    "en": "Yes, students can establish new clubs following university procedures.",
+    "am": "አዎ፣ የዩኒቨርሲቲውን ሂደት በመከተል አዲስ ክለብ ማቋቋም ይችላሉ።"
+  }
+},
+{
+  "id": 10,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club yeroo meeqa walga'a?",
+    "en": "How often do clubs meet?",
+    "am": "ክለቦች ምን ያህል ጊዜ ይሰበሰባሉ?"
+  },
+  "keywords": [
+    "meeting",
+    "club schedule"
+  ],
+  "answer": {
+    "om": "Sagantaa club irratti hundaa'uun torbanitti ykn ji'atti walga'uun ni danda'ama.",
+    "en": "Club meetings depend on each club's schedule.",
+    "am": "የክለብ ስብሰባዎች በየክለቡ መርሃ ግብር ይወሰናሉ።"
+  }
+},
+{
+  "id": 11,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club keessatti hojii fedhii isaanii irratti hojjechuun ni danda'amaa?",
+    "en": "Can I work on projects in clubs?",
+    "am": "በክለቦች ውስጥ ፕሮጀክቶች ላይ መስራት እችላለሁ?"
+  },
+  "keywords": [
+    "project",
+    "club project"
+  ],
+  "answer": {
+    "om": "Eeyyee, club hedduun project fi hojii garee irratti hojjetu.",
+    "en": "Yes, many clubs organize student projects.",
+    "am": "አዎ፣ ብዙ ክለቦች የተማሪ ፕሮጀክቶችን ያካሂዳሉ።"
+  }
+},
+{
+  "id": 12,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club keessatti certificate argachuun ni danda'amaa?",
+    "en": "Can I receive a certificate from a club?",
+    "am": "ከክለብ ሰርተፍኬት ማግኘት እችላለሁ?"
+  },
+  "keywords": [
+    "certificate",
+    "award"
+  ],
+  "answer": {
+    "om": "Leenjii fi hojii adda addaa irratti hirmaachuun certificate argachuun ni danda'ama.",
+    "en": "Certificates may be awarded for participation in some club activities.",
+    "am": "በአንዳንድ የክለብ እንቅስቃሴዎች ሰርተፍኬት ሊሰጥ ይችላል።"
+  }
+},
+{
+  "id": 13,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club sportii jiraa?",
+    "en": "Is there a sports club?",
+    "am": "የስፖርት ክለብ አለ?"
+  },
+  "keywords": [
+    "sports club",
+    "football club"
+  ],
+  "answer": {
+    "om": "Eeyyee, yuunivarsiitichi club sportii adda addaa qabaachuu danda'a.",
+    "en": "Yes, the university may have various sports clubs.",
+    "am": "አዎ፣ ዩኒቨርሲቲው የተለያዩ የስፖርት ክለቦች ሊኖሩት ይችላሉ።"
+  }
+},
+{
+  "id": 14,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club qorannoo jiraa?",
+    "en": "Is there a research club?",
+    "am": "የምርምር ክለብ አለ?"
+  },
+  "keywords": [
+    "research club",
+    "innovation"
+  ],
+  "answer": {
+    "om": "Damee irratti hundaa'uun club qorannoo fi innovation jiraachuu danda'a.",
+    "en": "Research and innovation clubs may be available.",
+    "am": "የምርምርና ፈጠራ ክለቦች ሊኖሩ ይችላሉ።"
+  }
+},
+{
+  "id": 15,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club keessatti dorgommii ni qopheessu?",
+    "en": "Do clubs organize competitions?",
+    "am": "ክለቦች ውድድሮችን ያዘጋጃሉ?"
+  },
+  "keywords": [
+    "competition",
+    "contest"
+  ],
+  "answer": {
+    "om": "Eeyyee, club hedduun dorgommii fi sagantaalee adda addaa ni qopheessu.",
+    "en": "Yes, many clubs organize competitions and events.",
+    "am": "አዎ፣ ብዙ ክለቦች ውድድሮችንና ፕሮግራሞችን ያዘጋጃሉ።"
+  }
+},
+{
+  "id": 16,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club keessatti hogganaa ta'uun ni danda'amaa?",
+    "en": "Can I become a club leader?",
+    "am": "የክለብ መሪ መሆን እችላለሁ?"
+  },
+  "keywords": [
+    "leader",
+    "club president"
+  ],
+  "answer": {
+    "om": "Eeyyee, ulaagaalee club guutuun hogganaa ta'uun ni danda'ama.",
+    "en": "Yes, students can become club leaders if they meet the requirements.",
+    "am": "አዎ፣ መስፈርቱን ካሟሉ የክለብ መሪ መሆን ይችላሉ።"
+  }
+},
+{
+  "id": 17,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club keessatti hojii mootummaa ala ni hojjetama?",
+    "en": "Do clubs participate in community service?",
+    "am": "ክለቦች በማህበረሰብ አገልግሎት ይሳተፋሉ?"
+  },
+  "keywords": [
+    "community service",
+    "volunteer"
+  ],
+  "answer": {
+    "om": "Eeyyee, club hedduun hojii mootummaa ala fi hojii tola ooltummaa irratti ni hirmaatu.",
+    "en": "Yes, many clubs participate in community service and volunteering.",
+    "am": "አዎ፣ ብዙ ክለቦች በማህበረሰብ አገልግሎትና በበጎ ፈቃድ ስራ ይሳተፋሉ።"
+  }
+},
+{
+  "id": 18,
+  "topic": "Student Clubs",
+  "question": {
+    "om": "Club odeeffannoo eessaa argadha?",
+    "en": "Where can I get information about clubs?",
+    "am": "ስለ ክለቦች መረጃ ከየት አገኛለሁ?"
+  },
+  "keywords": [
+    "club information",
+    "student affairs"
+  ],
+  "answer": {
+    "om": "Waajjira Student Affairs ykn hoggantoota club irraa odeeffannoo argachuu dandeessa.",
+    "en": "You can get club information from Student Affairs or club leaders.",
+    "am": "የክለብ መረጃ ከStudent Affairs ወይም ከክለብ መሪዎች ማግኘት ይችላሉ።"
+  }
+}
 ]
