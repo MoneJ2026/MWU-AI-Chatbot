@@ -1,101 +1,184 @@
 [
-  {
-    "id": 1,
-    "topic": "Career",
-    "question": {
-      "om": "Internship akkamittan argadha?",
-      "en": "How can I get an internship?",
-      "am": "ኢንተርንሺፕ እንዴት ማግኘት እችላለሁ?"
-    },
-    "keywords": [
-      "internship",
-      "training",
-      "work experience"
-    ],
-    "answer": {
-      "om": "Internship argachuuf waajjira career development, department kee ykn dhaabbilee waliin hariiroo qaban hordofi.",
-      "en": "To get an internship, follow career office, your department, or partner organizations.",
-      "am": "ኢንተርንሺፕ ለማግኘት የስራ እድገት ቢሮን፣ ዲፓርትመንትዎን ወይም ተባባሪ ድርጅቶችን ያነጋግሩ።"
-    }
+{
+  "id": 6,
+  "topic": "Career",
+  "question": {
+    "om": "CV akkamittan qopheessa?",
+    "en": "How can I prepare a CV?",
+    "am": "CV እንዴት አዘጋጃለሁ?"
   },
-
-  {
-    "id": 2,
-    "topic": "Career",
-    "question": {
-      "om": "Company waliin walitti dhufeenyi jiraa?",
-      "en": "Does the university have relationships with companies?",
-      "am": "ዩኒቨርሲቲው ከኩባንያዎች ጋር ግንኙነት አለው?"
-    },
-    "keywords": [
-      "company",
-      "partnership",
-      "industry"
-    ],
-    "answer": {
-      "om": "Yuunivarsiitichi carraa hojii fi leenjii irratti dhaabbilee adda addaa waliin hojjechuu danda'a.",
-      "en": "The university may collaborate with organizations for training and career opportunities.",
-      "am": "ዩኒቨርሲቲው ለስልጠናና የስራ እድሎች ከተለያዩ ድርጅቶች ጋር ሊሰራ ይችላል።"
-    }
-  },
-
-  {
-    "id": 3,
-    "topic": "Career",
-    "question": {
-      "om": "Business idea dhiyeessuun ni danda'amaa?",
-      "en": "Can I submit a business idea?",
-      "am": "የንግድ ሀሳብ ማቅረብ እችላለሁ?"
-    },
-    "keywords": [
-      "business",
-      "startup",
-      "idea"
-    ],
-    "answer": {
-      "om": "Eeyyee, barattoonni yaada hojii fi innovation isaanii karaa sagantaalee entrepreneurship dhiyeessuu danda'u.",
-      "en": "Yes, students can present business and innovation ideas through entrepreneurship programs.",
-      "am": "አዎ፣ ተማሪዎች የንግድና የፈጠራ ሀሳቦችን በስራ ፈጠራ ፕሮግራሞች ማቅረብ ይችላሉ።"
-    }
-  },
-
-  {
-    "id": 4,
-    "topic": "Career",
-    "question": {
-      "om": "Yuunivarsiitichi qorannoo akkam jajjabeessa?",
-      "en": "How does the university encourage research?",
-      "am": "ዩኒቨርሲቲው ምርምርን እንዴት ያበረታታል?"
-    },
-    "keywords": [
-      "research",
-      "innovation",
-      "qorannoo"
-    ],
-    "answer": {
-      "om": "Yuunivarsiitichi qorannoo, hojii innovation fi pirojektoota barattootaa deeggaruu danda'a.",
-      "en": "The university supports research, innovation, and student projects.",
-      "am": "ዩኒቨርሲቲው ምርምር፣ ፈጠራ እና የተማሪ ፕሮጀክቶችን ይደግፋል።"
-    }
-  },
-
-  {
-    "id": 5,
-    "topic": "Career",
-    "question": {
-      "om": "Carraa hojii eessan argadha?",
-      "en": "Where can I find job opportunities?",
-      "am": "የስራ እድል የት ማግኘት እችላለሁ?"
-    },
-    "keywords": [
-      "job",
-      "career",
-      "opportunity"
-    ],
-    "answer": {
-      "om": "Odeeffannoo carraa hojii waajjira career, website yuunivarsiitii ykn beeksisa hojii irraa argachuu dandeessa.",
-      "en": "You can find job opportunities from the career office, university website, or job announcements.",
-      "am": "የስራ እድሎችን ከካሪየር ቢሮ፣ ከዩኒቨርሲቲ ድህረ ገጽ ወይም ከማስታወቂያዎች ማግኘት ይችላሉ።"
-    }
+  "keywords": [
+    "cv",
+    "resume",
+    "curriculum vitae"
+  ],
+  "answer": {
+    "om": "Waajjira Career Development irraa gargaarsa argachuun CV kee qopheessuu dandeessa.",
+    "en": "You can prepare your CV with support from the Career Development Office.",
+    "am": "CVዎን በCareer Development Office እገዛ ማዘጋጀት ይችላሉ።"
   }
+},
+{
+  "id": 7,
+  "topic": "Career",
+  "question": {
+    "om": "Interview qophaa'uun akkamitti?",
+    "en": "How can I prepare for an interview?",
+    "am": "ለቃለ መጠይቅ እንዴት እዘጋጃለሁ?"
+  },
+  "keywords": [
+    "interview",
+    "job interview"
+  ],
+  "answer": {
+    "om": "Career Office leenjii fi gorsa interview ni kenna.",
+    "en": "The Career Office provides interview preparation and guidance.",
+    "am": "Career Office የቃለ መጠይቅ ዝግጅት ስልጠና ይሰጣል።"
+  }
+},
+{
+  "id": 8,
+  "topic": "Career",
+  "question": {
+    "om": "Career Office eessa jira?",
+    "en": "Where is the Career Office?",
+    "am": "Career Office የት ይገኛል?"
+  },
+  "keywords": [
+    "career office",
+    "office"
+  ],
+  "answer": {
+    "om": "Career Office bakka yuunivarsiitiin ramadame keessatti argama.",
+    "en": "The Career Office is located in the university's designated office.",
+    "am": "Career Office በዩኒቨርሲቲው በተመደበ ቦታ ይገኛል።"
+  }
+},
+{
+  "id": 9,
+  "topic": "Career",
+  "question": {
+    "om": "Career Fair ni qophaa'a?",
+    "en": "Does the university organize career fairs?",
+    "am": "ዩኒቨርሲቲው Career Fair ያዘጋጃል?"
+  },
+  "keywords": [
+    "career fair",
+    "job fair"
+  ],
+  "answer": {
+    "om": "Yuunivarsiitichi yeroo muraasa keessatti Career Fair qopheessuu danda'a.",
+    "en": "The university may organize career fairs periodically.",
+    "am": "ዩኒቨርሲቲው Career Fair በየጊዜው ሊያዘጋጅ ይችላል።"
+  }
+},
+{
+  "id": 10,
+  "topic": "Career",
+  "question": {
+    "om": "Leenjiin soft skill ni kennamaa?",
+    "en": "Are soft skills trainings available?",
+    "am": "የSoft Skill ስልጠናዎች አሉ?"
+  },
+  "keywords": [
+    "soft skills",
+    "training"
+  ],
+  "answer": {
+    "om": "Eeyyee, yeroo tokko tokko leenjii soft skill ni kennama.",
+    "en": "Yes, soft skills training may be provided.",
+    "am": "አዎ፣ የSoft Skill ስልጠናዎች ሊሰጡ ይችላሉ።"
+  }
+},
+{
+  "id": 11,
+  "topic": "Career",
+  "question": {
+    "om": "Entrepreneurship leenjii ni jiraa?",
+    "en": "Is entrepreneurship training available?",
+    "am": "የስራ ፈጠራ ስልጠና አለ?"
+  },
+  "keywords": [
+    "entrepreneurship",
+    "startup"
+  ],
+  "answer": {
+    "om": "Eeyyee, entrepreneurship fi business development irratti leenjii ni kennama.",
+    "en": "Yes, entrepreneurship and business development training may be available.",
+    "am": "አዎ፣ የስራ ፈጠራ ስልጠና ሊሰጥ ይችላል።"
+  }
+},
+{
+  "id": 12,
+  "topic": "Career",
+  "question": {
+    "om": "Career counseling ni jiraa?",
+    "en": "Is career counseling available?",
+    "am": "የሙያ ምክር አገልግሎት አለ?"
+  },
+  "keywords": [
+    "career counseling",
+    "guidance"
+  ],
+  "answer": {
+    "om": "Eeyyee, barattoonni gorsa hojii argachuu danda'u.",
+    "en": "Yes, students can receive career counseling.",
+    "am": "አዎ፣ ተማሪዎች የሙያ ምክር ማግኘት ይችላሉ።"
+  }
+},
+{
+  "id": 13,
+  "topic": "Career",
+  "question": {
+    "om": "Volunteer ta'uun ni danda'amaa?",
+    "en": "Can I participate in volunteer activities?",
+    "am": "በበጎ ፈቃድ ስራዎች መሳተፍ እችላለሁ?"
+  },
+  "keywords": [
+    "volunteer",
+    "community service"
+  ],
+  "answer": {
+    "om": "Eeyyee, sagantaalee volunteer irratti hirmaachuu ni dandeessa.",
+    "en": "Yes, students can participate in volunteer programs.",
+    "am": "አዎ፣ ተማሪዎች በበጎ ፈቃድ ፕሮግራሞች መሳተፍ ይችላሉ።"
+  }
+},
+{
+  "id": 14,
+  "topic": "Career",
+  "question": {
+    "om": "Part-time hojii argachuun ni danda'amaa?",
+    "en": "Can I get a part-time job?",
+    "am": "የትርፍ ጊዜ ስራ ማግኘት እችላለሁ?"
+  },
+  "keywords": [
+    "part time",
+    "job"
+  ],
+  "answer": {
+    "om": "Carraan part-time hojii yeroo tokko tokko ni beeksifama.",
+    "en": "Part-time job opportunities may be announced occasionally.",
+    "am": "የትርፍ ጊዜ ስራዎች አንዳንድ ጊዜ ይገለጻሉ።"
+  }
+},
+{
+  "id": 15,
+  "topic": "Career",
+  "question": {
+    "om": "Career Development maal hojjeta?",
+    "en": "What does the Career Development Office do?",
+    "am": "Career Development Office ምን ያደርጋል?"
+  },
+  "keywords": [
+    "career development",
+    "career office"
+  ],
+  "answer": {
+    "om": "Career Development Office gorsa hojii, CV, internship fi carraa hojii irratti deeggarsa kenna.",
+    "en": "The Career Development Office provides career guidance, CV support, internships, and job information.",
+    "am": "Career Development Office የሙያ ምክር፣ CV፣ Internship እና የስራ መረጃ ይሰጣል።" 
+  
+  }
+}
 ]
