@@ -1,125 +1,174 @@
 [
-  {
-    "id": 1,
-    "topic": "Academic",
-    "question": {
-      "om": "Barnoonni yoom jalqaba?",
-      "en": "When do classes start?",
-      "am": "ትምህርት መቼ ይጀምራል?"
-    },
-    "keywords": [
-      "barnoonni",
-      "class start",
-      "semester start",
-      "beginning",
-      "ትምህርት"
-    ],
-    "answer": {
-      "om": "Guyyaan jalqaba barnootaa Academic Calendar yuunivarsiitii irratti hundaa'a.",
-      "en": "The class starting date is based on the university academic calendar.",
-      "am": "የትምህርት መጀመሪያ ቀን በዩኒቨርሲቲው የትምህርት ቀን መቁጠሪያ መሰረት ነው።"
-    }
+{
+  "id": 7,
+  "topic": "Academic",
+  "question": {
+    "om": "Academic Calendar eessan argadha?",
+    "en": "Where can I find the academic calendar?",
+    "am": "የትምህርት ዘመን መቁጠሪያን የት አገኛለሁ?"
   },
-
-  {
-    "id": 2,
-    "topic": "Academic",
-    "question": {
-      "om": "Class schedule eessan ilaala?",
-      "en": "Where can I see my class schedule?",
-      "am": "የክፍል መርሃ ግብር የት አገኛለሁ?"
-    },
-    "keywords": [
-      "schedule",
-      "class schedule",
-      "timetable",
-      "karoora barnootaa"
-    ],
-    "answer": {
-      "om": "Class schedule department, college yookaan student portal irraa argachuu dandeessa.",
-      "en": "Class schedules can be found from the department, college, or student portal.",
-      "am": "የክፍል መርሃ ግብር ከዲፓርትመንት፣ ኮሌጅ ወይም የተማሪ ፖርታል ማግኘት ይቻላል።"
-    }
-  },
-
-  {
-    "id": 3,
-    "topic": "Academic",
-    "question": {
-      "om": "GPA jechuun maal jechuudha?",
-      "en": "What does GPA mean?",
-      "am": "GPA ማለት ምንድን ነው?"
-    },
-    "keywords": [
-      "gpa",
-      "grade point average",
-      "qabxii"
-    ],
-    "answer": {
-      "om": "GPA jechuun giddugaleessa qabxii barataa (Grade Point Average) jechuudha.",
-      "en": "GPA means Grade Point Average, which represents a student's academic performance.",
-      "am": "GPA ማለት የተማሪውን የትምህርት ውጤት የሚያሳይ አማካይ ነጥብ ነው።"
-    }
-  },
-
-  {
-    "id": 4,
-    "topic": "Academic",
-    "question": {
-      "om": "GPA akkamitti shallagama?",
-      "en": "How is GPA calculated?",
-      "am": "GPA እንዴት ይሰላል?"
-    },
-    "keywords": [
-      "calculate gpa",
-      "gpa shallaguu",
-      "grade"
-    ],
-    "answer": {
-      "om": "GPA course grade point fi credit hour irratti hundaa'uun shallagama.",
-      "en": "GPA is calculated using course grade points and credit hours.",
-      "am": "GPA የሚሰላው በኮርስ ውጤት እና በክሬዲት ሰዓት መሰረት ነው።"
-    }
-  },
-
-  {
-    "id": 5,
-    "topic": "Academic",
-    "question": {
-      "om": "Result eessan ilaala?",
-      "en": "Where can I check my result?",
-      "am": "ውጤቴን የት ማየት እችላለሁ?"
-    },
-    "keywords": [
-      "result",
-      "grade",
-      "mark",
-      "bu'aa"
-    ],
-    "answer": {
-      "om": "Result student portal yookaan waajjira barnootaa irraa ilaaluun ni danda'ama.",
-      "en": "Students can check results through the student portal or academic office.",
-      "am": "ውጤት በተማሪ ፖርታል ወይም በትምህርት ቢሮ ማየት ይቻላል።"
-    }
-  },
-
-  {
-    "id": 6,
-    "topic": "Academic",
-    "question": {
-      "om": "Course add/drop akkamittan godha?",
-      "en": "How do I add or drop a course?",
-      "am": "ኮርስ መጨመር ወይም መሰረዝ እንዴት እችላለሁ?"
-    },
-    "keywords": [
-      "add drop",
-      "course change",
-      "course"
-    ],
-    "answer": {
-      "om": "Course add/drop qajeelfama department fi yeroo murtaa'e keessatti raawwatama.",
-      "en": "Course add/drop is done according to department rules within the allowed period.",
-      "am": "ኮርስ መጨመር ወይም መሰረዝ በዲፓርትመንት መመሪያ እና በተወሰነ ጊዜ ይከናወናል።"
-    }
+  "keywords": [
+    "academic calendar",
+    "calendar",
+    "semester",
+    "schedule"
+  ],
+  "answer": {
+    "om": "Academic Calendar website yuunivarsiitii, student portal ykn waajjira Academic Affairs irraa argachuu dandeessa.",
+    "en": "You can find the academic calendar on the university website, student portal, or Academic Affairs office.",
+    "am": "የትምህርት ዘመን መቁጠሪያን ከዩኒቨርሲቲው ድህረ ገጽ፣ ከተማሪ ፖርታል ወይም ከአካዳሚክ ጉዳዮች ቢሮ ማግኘት ይችላሉ።"
   }
-]
+},
+{
+  "id": 8,
+  "topic": "Academic",
+  "question": {
+    "om": "Exam schedule eessan ilaala?",
+    "en": "Where can I see the exam schedule?",
+    "am": "የፈተና መርሃ ግብርን የት አያለሁ?"
+  },
+  "keywords": [
+    "exam",
+    "exam schedule",
+    "final exam",
+    "mid exam"
+  ],
+  "answer": {
+    "om": "Exam schedule department, college ykn student portal irraa argachuu dandeessa.",
+    "en": "Exam schedules are available from your department, college, or student portal.",
+    "am": "የፈተና መርሃ ግብር ከዲፓርትመንት፣ ከኮሌጅ ወይም ከተማሪ ፖርታል ይገኛል።"
+  }
+},
+{
+  "id": 9,
+  "topic": "Academic",
+  "question": {
+    "om": "Transcript akkamittan argadha?",
+    "en": "How can I get my transcript?",
+    "am": "ትራንስክሪፕቴን እንዴት አገኛለሁ?"
+  },
+  "keywords": [
+    "transcript",
+    "academic record",
+    "official transcript"
+  ],
+  "answer": {
+    "om": "Transcript argachuuf waajjira Registrar ykn Academic Affairs qunnamuu qabda.",
+    "en": "To obtain a transcript, contact the Registrar or Academic Affairs office.",
+    "am": "ትራንስክሪፕት ለማግኘት የሬጅስትራር ወይም የአካዳሚክ ጉዳዮች ቢሮን ያነጋግሩ።"
+  }
+},
+{
+  "id": 10,
+  "topic": "Academic",
+  "question": {
+    "om": "Semester tokko keessatti credit meeqa fudhadha?",
+    "en": "How many credit hours can I take in one semester?",
+    "am": "በአንድ ሴሚስተር ስንት ክሬዲት መውሰድ እችላለሁ?"
+  },
+  "keywords": [
+    "credit",
+    "credit hour",
+    "semester load"
+  ],
+  "answer": {
+    "om": "Baay'inni credit department fi qajeelfama yuunivarsiitii irratti hundaa'a.",
+    "en": "The number of credit hours depends on your department and university regulations.",
+    "am": "የክሬዲት ብዛት በዲፓርትመንትና በዩኒቨርሲቲው ደንብ ይወሰናል።"
+  }
+},
+{
+  "id": 11,
+  "topic": "Academic",
+  "question": {
+    "om": "Academic advisor koo akkamittan qunnama?",
+    "en": "How can I contact my academic advisor?",
+    "am": "የትምህርት አማካሪዬን እንዴት አገኛለሁ?"
+  },
+  "keywords": [
+    "advisor",
+    "academic advisor",
+    "mentor"
+  ],
+  "answer": {
+    "om": "Academic advisor kee department kee ykn college irraa odeeffannoo argachuu dandeessa.",
+    "en": "You can get your academic advisor's information from your department or college.",
+    "am": "የአካዳሚክ አማካሪዎን ከዲፓርትመንትዎ ወይም ከኮሌጅዎ ማግኘት ይችላሉ።"
+  }
+},
+{
+  "id": 12,
+  "topic": "Academic",
+  "question": {
+    "om": "Academic warning jechuun maal jechuudha?",
+    "en": "What is an academic warning?",
+    "am": "Academic Warning ማለት ምንድን ነው?"
+  },
+  "keywords": [
+    "academic warning",
+    "warning",
+    "low GPA"
+  ],
+  "answer": {
+    "om": "Academic warning jechuun barataan bu'aa barnootaa isaa fooyyessuu akka qabu agarsiisa mootummaa barnootaa ti.",
+    "en": "An academic warning indicates that a student needs to improve academic performance.",
+    "am": "Academic Warning ማለት ተማሪው የትምህርት ውጤቱን ማሻሻል እንዳለበት የሚያሳይ ማስጠንቀቂያ ነው።"
+  }
+},
+{
+  "id": 13,
+  "topic": "Academic",
+  "question": {
+    "om": "Graduation requirements maal fa'i?",
+    "en": "What are the graduation requirements?",
+    "am": "የምረቃ መስፈርቶች ምንድን ናቸው?"
+  },
+  "keywords": [
+    "graduation",
+    "graduate",
+    "requirements"
+  ],
+  "answer": {
+    "om": "Graduation requirements jechuun credit barbaachisu xumuruun fi qajeelfama yuunivarsiitii guutuu dha.",
+    "en": "Graduation requires completing the required credits and fulfilling university regulations.",
+    "am": "ለመመረቅ የሚያስፈልጉ ክሬዲቶችን ማጠናቀቅና የዩኒቨርሲቲውን መመሪያዎች ማሟላት ያስፈልጋል።"
+  }
+},
+{
+  "id": 14,
+  "topic": "Academic",
+  "question": {
+    "om": "Supplementary exam jechuun maal jechuudha?",
+    "en": "What is a supplementary exam?",
+    "am": "Supplementary Exam ማለት ምንድን ነው?"
+  },
+  "keywords": [
+    "supplementary",
+    "supp exam",
+    "re-exam"
+  ],
+  "answer": {
+    "om": "Supplementary exam jechuun barataan yeroo murtaa'e keessatti irra deebi'ee qoramuudha.",
+    "en": "A supplementary exam is an additional exam given according to university regulations.",
+    "am": "Supplementary Exam ማለት በዩኒቨርሲቲው ደንብ መሰረት ተጨማሪ ፈተና ነው።"
+  }
+},
+{
+  "id": 15,
+  "topic": "Academic",
+  "question": {
+    "om": "Academic office eessa jira?",
+    "en": "Where is the academic office?",
+    "am": "የአካዳሚክ ቢሮ የት ይገኛል?"
+  },
+  "keywords": [
+    "academic office",
+    "registrar",
+    "office"
+  ],
+  "answer": {
+    "om": "Academic office bakka yuunivarsiitiin murteesse keessatti argama.",
+    "en": "The academic office is located in the university administration area.",
+    "am": "የአካዳሚክ ቢሮ በዩኒቨርሲቲው አስተዳደር አካባቢ ይገኛል።"
+  }
+}]
