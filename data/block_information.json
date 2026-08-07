@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 46 eessa jira?",
+      "en": "Where is Block 46?",
+      "am": "ብሎክ 46 የት ይገኛል?"
+    },
+    "keywords": ["block 46", "46", "new building"],
+    "answer": {
+      "om": "Block 46 gamoo haaraa kutaalee barnootaa (New Building Classrooms) keessaa tokko dha.",
+      "en": "Block 46 is one of the new classroom buildings.",
+      "am": "ብሎክ 46 ከአዲሱ የመማሪያ ህንፃዎች አንዱ ነው።"
+    }
+  },
+  {
+    "id": 2,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 47 eessa jira?",
+      "en": "Where is Block 47?",
+      "am": "ብሎክ 47 የት ይገኛል?"
+    },
+    "keywords": ["block 47", "47", "new building"],
+    "answer": {
+      "om": "Block 47 gamoo haaraa kutaalee barnootaa keessaa tokko dha.",
+      "en": "Block 47 is one of the new classroom buildings.",
+      "am": "ብሎክ 47 ከአዲሱ የመማሪያ ህንፃዎች አንዱ ነው።"
+    }
+  },
+  {
+    "id": 3,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 48 eessa jira?",
+      "en": "Where is Block 48?",
+      "am": "ብሎክ 48 የት ይገኛል?"
+    },
+    "keywords": ["block 48", "48", "new building"],
+    "answer": {
+      "om": "Block 48 gamoo haaraa kutaalee barnootaa keessaa tokko dha.",
+      "en": "Block 48 is one of the new classroom buildings.",
+      "am": "ብሎክ 48 ከአዲሱ የመማሪያ ህንፃዎች አንዱ ነው።"
+    }
+  },
+  {
+    "id": 4,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 49 eessa jira?",
+      "en": "Where is Block 49?",
+      "am": "ብሎክ 49 የት ይገኛል?"
+    },
+    "keywords": ["block 49", "49", "new building"],
+    "answer": {
+      "om": "Block 49 gamoo haaraa kutaalee barnootaa keessaa tokko dha.",
+      "en": "Block 49 is one of the new classroom buildings.",
+      "am": "ብሎክ 49 ከአዲሱ የመማሪያ ህንፃዎች አንዱ ነው።"
+    }
+  },
+  {
+    "id": 5,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 36 maalif oola?",
+      "en": "What is Block 36 used for?",
+      "am": "ብሎክ 36 ለምን ይጠቅማል?"
+    },
+    "keywords": ["block 36", "36", "workshop"],
+    "answer": {
+      "om": "Block 36 Workshop dha.",
+      "en": "Block 36 is the Workshop building.",
+      "am": "ብሎክ 36 የወርክሾፕ ህንፃ ነው።"
+    }
+  },
+  {
+    "id": 6,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 38 maalif oola?",
+      "en": "What is Block 38 used for?",
+      "am": "ብሎክ 38 ለምን ይጠቅማል?"
+    },
+    "keywords": ["block 38", "38", "ict"],
+    "answer": {
+      "om": "Block 38 ICT Building dha.",
+      "en": "Block 38 is the ICT Building.",
+      "am": "ብሎክ 38 የICT ህንፃ ነው።"
+    }
+  },
+  {
+    "id": 7,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 28 maalif oola?",
+      "en": "What is Block 28 used for?",
+      "am": "ብሎክ 28 ለምን ይጠቅማል?"
+    },
+    "keywords": ["block 28", "28", "ict"],
+    "answer": {
+      "om": "Block 28 ICT Building dha.",
+      "en": "Block 28 is the ICT Building.",
+      "am": "ብሎክ 28 የICT ህንፃ ነው።"
+    }
+  },
+  {
+    "id": 8,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 33 maalif oola?",
+      "en": "What is Block 33 used for?",
+      "am": "ብሎክ 33 ለምን ይጠቅማል?"
+    },
+    "keywords": ["block 33", "33", "agriculture"],
+    "answer": {
+      "om": "Block 33 Agricultural Building dha.",
+      "en": "Block 33 is the Agriculture Building.",
+      "am": "ብሎክ 33 የግብርና ህንፃ ነው።"
+    }
+  },
+  {
+    "id": 9,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 42 maalif oola?",
+      "en": "What is Block 42 used for?",
+      "am": "ብሎክ 42 ለምን ይጠቅማል?"
+    },
+    "keywords": ["block 42", "42", "business incubation"],
+    "answer": {
+      "om": "Block 42 Business Incubation Center dha.",
+      "en": "Block 42 is the Business Incubation Center.",
+      "am": "ብሎክ 42 የቢዝነስ ኢንኩቤሽን ማዕከል ነው።"
+    }
+  },
+  {
+    "id": 10,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 40 maalif oola?",
+      "en": "What is Block 40 used for?",
+      "am": "ብሎክ 40 ለምን ይጠቅማል?"
+    },
+    "keywords": ["block 40", "40", "laboratory"],
+    "answer": {
+      "om": "Block 40 Laboratory Building dha.",
+      "en": "Block 40 is the Laboratory Building.",
+      "am": "ብሎክ 40 የላቦራቶሪ ህንፃ ነው።"
+    }
+  },
+  {
+    "id": 11,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 14 maalif oola?",
+      "en": "What is Block 14 used for?",
+      "am": "ብሎክ 14 ለምን ይጠቅማል?"
+    },
+    "keywords": ["block 14", "14", "social"],
+    "answer": {
+      "om": "Block 14 Social Building dha.",
+      "en": "Block 14 is the Social Building.",
+      "am": "ብሎክ 14 የሶሻል ህንፃ ነው።"
+    }
+  },
+  {
+    "id": 12,
+    "topic": "Block Information",
+    "question": {
+      "om": "Block 15 maalif oola?",
+      "en": "What is Block 15 used for?",
+      "am": "ብሎክ 15 ለምን ይጠቅማል?"
+    },
+    "keywords": ["block 15", "15", "social science", "humanities"],
+    "answer": {
+      "om": "Block 15 College of Social Sciences and Humanities dha.",
+      "en": "Block 15 is the College of Social Sciences and Humanities.",
+      "am": "ብሎክ 15 የማህበራዊ ሳይንስና ሂውማኒቲስ ኮሌጅ ነው።"
+    }
+  }
+]
