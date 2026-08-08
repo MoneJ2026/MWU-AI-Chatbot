@@ -1,78 +1,145 @@
-def get_response(message, language="en"):
-
-    print("🔥 GET_RESPONSE STARTED")
-
-    print("CHATBOT RECEIVED:", message)
-
 from database import search_question
 from logger import save_unknown_question
 from ML.predict import predict_intent
 from memory import remember, get_memory
 
-def get_response(message, language="en"):
 
-    print("CHATBOT RECEIVED:", message)
+class MWUChatbot:
+    """
+    MWU AI Chatbot
 
-    message = message.lower().strip()
+    Encapsulation:
+    - __language -> language chatbot
+    - __last_message -> user's latest message
+    - __last_intent -> predicted intent
+    """
+
+    def __init__(self, language="en"):
+        self.__language = language
+        self.__last_message = ""
+        self.__last_intent = ""
 
     # ==========================
-    # USER MEMORY
+    # GETTER
     # ==========================
 
-    if message.startswith("maqaan koo"):
+    def get_language(self):
+        return self.__language
 
-        name = message.replace(
-            "maqaan koo",
-            ""
-        ).strip()
+    def get_last_message(self):
+        return self.__last_message
 
-        remember("name", name)
+    def get_last_intent(self):
+        return self.__last_intent
 
-        return {
-            "answer": f"Galatoomi {name}, si yaadadha.",
-            "topic": ""
-        }
+    # ==========================
+    # SETTER
+    # ==========================
 
-    if message == "maqaan kiyya maal":
+    def set_language(self, language):
+        self.__language = language
 
-        name = get_memory("name")
+    # ==========================
+    # MAIN RESPONSE METHOD
+    # ==========================
 
-        if name:
+    def get_response(self, message):
+
+        print("🔥 GET_RESPONSE STARTED")
+        print("CHATBOT RECEIVED:", message)
+
+        # ==========================
+        # SAVE MESSAGE
+        # ==========================
+
+        self.__last_message = message
+
+        message = message.lower().strip()
+
+        # ==========================
+        # USER MEMORY
+        # ==========================
+
+        if message.startswith("maqaan koo"):
+
+            name = message.replace(
+                "maqaan koo",
+                ""
+            ).strip()
+
+            remember("name", name)
+
             return {
-                "answer": f"Maqaan kee {name} dha.",
+                "answer": f"Galatoomi {name}, si yaadadha.",
                 "topic": ""
             }
 
-        return {
-            "answer": "Maqaa kee amma hin yaadadhu.",
-            "topic": ""
-        }
+        if message == "maqaan kiyya maal":
 
-    # ==========================
-    # MACHINE LEARNING
-    # ==========================
+            name = get_memory("name")
 
-    intent = predict_intent(message)
+            if name:
+                return {
+                    "answer": f"Maqaan kee {name} dha.",
+                    "topic": ""
+                }
 
-    print("PREDICTED INTENT:", intent)
-
-    # ==========================
-    # DATABASE SEARCH
-    # ==========================
-
-    result = search_question(
-        message,
-        language,
-        intent
-    )
+            return {
+                "answer": "Maqaa kee amma hin yaadadhu.",
+                "topic": ""
+            }
 
         # ==========================
-    # UNKNOWN QUESTION LOGGER
-    # ==========================
-    print("RESULT:", result)
+        # MACHINE LEARNING
+        # ==========================
 
-    if not result["found"]:
-        print("UNKNOWN QUESTION:", message)
-        save_unknown_question(message)
+        intent = predict_intent(message)
 
-    return result
+        self.__last_intent = intent
+
+        print("PREDICTED INTENT:", intent)
+
+        # ==========================
+        # DATABASE SEARCH
+        # ==========================
+
+        result = search_question(
+            message,
+            self.__language,
+            intent
+        )
+
+        # ==========================
+        # UNKNOWN QUESTION LOGGER
+        # ==========================
+
+        print("RESULT:", result)
+
+        if not result["found"]:
+
+            print("UNKNOWN QUESTION:", message)
+
+            save_unknown_question(message)
+
+        return result
+
+
+# ==================================
+# BACKWARD COMPATIBILITY FUNCTION
+# ==================================
+
+_bot = MWUChatbot()
+
+
+def get_response(message, language="en"):
+    """
+    Old function interface.
+
+    This keeps app.py working if it already uses:
+
+        get_response(message, language)
+    """
+
+    _bot.set_language(language)
+
+    return _bot.get_response(message)
