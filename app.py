@@ -1,231 +1,240 @@
-import chatbot
 
-print(chatbot.__file__)
-
-from chatbot import get_response
-from user_manager import add_question
-from faq import get_faqs
 import streamlit as st
 
 from chatbot import get_response
 
-from config import (
-    APP_NAME,
-    APP_ICON,
-    VERSION,
-    DEVELOPER,
-    WELCOME_MESSAGE
-)
 
-from utils import clear_chat
+# ==========================================================
+# MWU CHATBOT APP
+# Encapsulation
+# ==========================================================
 
+class MWUChatbotApp:
 
-# Page config
-st.set_page_config(
-    page_title=APP_NAME,
-    page_icon=APP_ICON
-)
+    def __init__(self):
+        # Private attributes
+        self.__language = "en"
+        self.__messages = []
 
+        # Initialize Streamlit session state
+        self.__initialize_session()
 
-# Sidebar
-with st.sidebar:
+    # ======================================================
+    # PRIVATE METHOD
+    # ======================================================
 
-    st.title(APP_NAME)
+    def __initialize_session(self):
 
-    st.write(f"Version: {VERSION}")
+        if "messages" not in st.session_state:
+            st.session_state.messages = []
 
-    st.write(f"Developer: {DEVELOPER}")
+        if "language" not in st.session_state:
+            st.session_state.language = "en"
 
-    st.markdown("---")
+        self.__messages = st.session_state.messages
+        self.__language = st.session_state.language
 
-    st.write(
-        "MWU AI Chatbot helps students "
-        "get university information."
-    )
+    # ======================================================
+    # GETTERS
+    # ======================================================
 
+    def get_language(self):
+        return self.__language
 
-    if st.button("🗑️ Clear Chat"):
+    def get_messages(self):
+        return self.__messages
 
-        clear_chat()
+    # ======================================================
+    # SETTER
+    # ======================================================
+
+    def set_language(self, language):
+        self.__language = language
+        st.session_state.language = language
+
+    # ======================================================
+    # ADD MESSAGE
+    # ======================================================
+
+    def __add_message(self, role, content):
+
+        message = {
+            "role": role,
+            "content": content
+        }
+
+        self.__messages.append(message)
+
+        st.session_state.messages = self.__messages
+
+    # ======================================================
+    # CLEAR CHAT
+    # ======================================================
+
+    def clear_chat(self):
+
+        self.__messages = []
 
         st.session_state.messages = []
 
-        st.session_state.last_topic = ""
+    # ======================================================
+    # PAGE CONFIGURATION
+    # ======================================================
 
-        st.rerun()
+    def setup_page(self):
 
-
-
-# Language selection
-
-language = st.selectbox(
-    "Choose Language / Afaan filadhu / ቋንቋ ይምረጡ",
-    [
-        "Afaan Oromoo",
-        "English",
-        "Amharic"
-    ]
-)
-
-
-
-# Language code
-
-if language == "Afaan Oromoo":
-
-    lang_code = "om"
-
-elif language == "English":
-
-    lang_code = "en"
-
-else:
-
-    lang_code = "am"
-
-
-
-# Title
-
-st.title(APP_NAME)
-
-st.write(WELCOME_MESSAGE)
-
-
-
-# Initialize session memory
-
-if "messages" not in st.session_state:
-
-    st.session_state.messages = []
-
-
-if "last_topic" not in st.session_state:
-
-    st.session_state.last_topic = ""
-
-
-
-# Display chat history
-
-for message in st.session_state.messages:
-
-    with st.chat_message(message["role"]):
-
-        st.write(message["content"])
-
-
-
-# User input
-
-user_question = st.chat_input(
-    "Gaaffii kee barreessi..."
-)
-
-
-
-if user_question:
-
-
-    # Conversation memory
-
-    follow_up_words = [
-        "yoom",
-        "eessa",
-        "akkam",
-        "akkamitti",
-        "maal",
-        "when",
-        "where",
-        "how",
-        "what"
-    ]
-
-
-    first_word = user_question.lower().split()[0]
-
-
-    if (
-        st.session_state.last_topic
-        and first_word in follow_up_words
-    ):
-
-        user_question = (
-            st.session_state.last_topic
-            + " "
-            + user_question
+        st.set_page_config(
+            page_title="MWU AI Chatbot",
+            page_icon="🤖",
+            layout="centered"
         )
 
+    # ======================================================
+    # SIDEBAR
+    # ======================================================
 
+    def show_sidebar(self):
 
-    # User message
+        st.sidebar.title("⚙️ Settings")
 
-    st.session_state.messages.append(
-        {
-            "role": "user",
-            "content": user_question
+        language = st.sidebar.selectbox(
+            "Choose Language / Afaan filadhu / ቋንቋ ይምረጡ",
+            options=["English", "Afaan Oromoo", "Amharic"],
+            index=self.__get_language_index()
+        )
+
+        language_codes = {
+            "English": "en",
+            "Afaan Oromoo": "om",
+            "Amharic": "am"
         }
-    )
 
+        self.set_language(
+            language_codes[language]
+        )
 
-    with st.chat_message("user"):
+        if st.sidebar.button("🗑️ Clear Chat"):
 
-        st.write(user_question)
+            self.clear_chat()
 
+            st.rerun()
 
+    # ======================================================
+    # LANGUAGE INDEX
+    # ======================================================
 
-    # Get chatbot response
+    def __get_language_index(self):
 
-    result = get_response(
-        user_question,
-        lang_code
-    )
+        language_map = {
+            "en": 0,
+            "om": 1,
+            "am": 2
+        }
 
+        return language_map.get(
+            self.__language,
+            0
+        )
 
+    # ======================================================
+    # DISPLAY CHAT HISTORY
+    # ======================================================
 
-    # Handle response
+    def show_chat_history(self):
 
-    if isinstance(result, dict):
+        for message in self.__messages:
 
+            with st.chat_message(
+                message["role"]
+            ):
+
+                st.write(
+                    message["content"]
+                )
+
+    # ======================================================
+    # PROCESS USER MESSAGE
+    # ======================================================
+
+    def process_message(self, user_message):
+
+        # Save user message
+        self.__add_message(
+            "user",
+            user_message
+        )
+
+        # Get chatbot response
+        result = get_response(
+            user_message,
+            self.__language
+        )
+
+        # Extract answer
         answer = result.get(
             "answer",
             "Dhiifama, deebii hin arganne."
         )
 
-        topic = result.get(
-            "topic",
-            ""
+        # Save assistant response
+        self.__add_message(
+            "assistant",
+            answer
         )
 
-    else:
+        return answer
 
-        answer = result
+    # ======================================================
+    # MAIN APP
+    # ======================================================
 
-        topic = ""
+    def run(self):
+
+        self.setup_page()
+
+        # Header
+        st.title("🤖 MWU AI Chatbot")
+
+        st.write(
+            "Welcome to MWU AI Chatbot"
+        )
+
+        st.write(
+            "Ask me anything about "
+            "Madda Walabu University."
+        )
+
+        # Sidebar
+        self.show_sidebar()
+
+        # Previous messages
+        self.show_chat_history()
+
+        # User input
+        user_message = st.chat_input(
+            "Ask your question..."
+        )
+
+        if user_message:
+
+            answer = self.process_message(
+                user_message
+            )
+
+            # Display response immediately
+            with st.chat_message("assistant"):
+
+                st.write(answer)
 
 
+# ==========================================================
+# CREATE APP OBJECT
+# ==========================================================
 
-    # Save conversation memory
+app = MWUChatbotApp()
 
-    if topic:
-
-        st.session_state.last_topic = topic
-
-
-
-    # Assistant message
-
-    st.session_state.messages.append(
-        {
-            "role": "assistant",
-            "content": answer
-        }
-    )
+# ==========================================================
+# RUN APP
+# ==========================================================
 
 
-
-    # Show assistant response
-
-    with st.chat_message("assistant"):
-
-        st.write(answer)
