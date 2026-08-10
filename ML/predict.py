@@ -1,5 +1,6 @@
 import joblib
 import os
+import numpy as np
 
 
 BASE_DIR = os.path.dirname(
@@ -30,14 +31,23 @@ def predict_intent(message):
 
     result = model.predict(vector)
 
+    probabilities = model.predict_proba(
+        vector
+    )
+
+    confidence = np.max(
+        probabilities
+    )
+
     intent = encoder.inverse_transform(
         result
     )
 
-    return intent[0]
+    return intent[0], confidence
 
 
 # Test
+
 if __name__ == "__main__":
 
     while True:
@@ -47,7 +57,9 @@ if __name__ == "__main__":
         if user.lower() == "exit":
             break
 
-        print(
-            "Intent:",
-            predict_intent(user)
+        intent, confidence = predict_intent(
+            user
         )
+
+        print("Intent:", intent)
+        print("Confidence:", confidence)

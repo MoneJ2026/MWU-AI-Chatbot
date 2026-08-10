@@ -1,4 +1,5 @@
 
+import sys
 import streamlit as st
 
 from chatbot import get_response
@@ -6,17 +7,14 @@ from chatbot import get_response
 
 # ==========================================================
 # MWU CHATBOT APP
-# Encapsulation
 # ==========================================================
 
 class MWUChatbotApp:
 
     def __init__(self):
-        # Private attributes
         self.__language = "en"
         self.__messages = []
 
-        # Initialize Streamlit session state
         self.__initialize_session()
 
     # ======================================================
@@ -64,7 +62,6 @@ class MWUChatbotApp:
         }
 
         self.__messages.append(message)
-
         st.session_state.messages = self.__messages
 
     # ======================================================
@@ -74,7 +71,6 @@ class MWUChatbotApp:
     def clear_chat(self):
 
         self.__messages = []
-
         st.session_state.messages = []
 
     # ======================================================
@@ -98,25 +94,24 @@ class MWUChatbotApp:
         st.sidebar.title("⚙️ Settings")
 
         language = st.sidebar.selectbox(
-            "Choose Language / Afaan filadhu / ቋንቋ ይምረጡ",
-            options=["English", "Afaan Oromoo", "Amharic"],
+            "Choose Language / Afaan filadhu",
+            ["English", "Afaan Oromoo", "አማርኛ"],
             index=self.__get_language_index()
         )
 
-        language_codes = {
+        language_map = {
             "English": "en",
             "Afaan Oromoo": "om",
-            "Amharic": "am"
+            "አማርኛ": "am"
         }
 
         self.set_language(
-            language_codes[language]
+            language_map[language]
         )
 
         if st.sidebar.button("🗑️ Clear Chat"):
 
             self.clear_chat()
-
             st.rerun()
 
     # ======================================================
@@ -158,25 +153,21 @@ class MWUChatbotApp:
 
     def process_message(self, user_message):
 
-        # Save user message
         self.__add_message(
             "user",
             user_message
         )
 
-        # Get chatbot response
         result = get_response(
             user_message,
             self.__language
         )
 
-        # Extract answer
         answer = result.get(
             "answer",
             "Dhiifama, deebii hin arganne."
         )
 
-        # Save assistant response
         self.__add_message(
             "assistant",
             answer
@@ -185,14 +176,13 @@ class MWUChatbotApp:
         return answer
 
     # ======================================================
-    # MAIN APP
+    # MAIN STREAMLIT APP
     # ======================================================
 
     def run(self):
 
         self.setup_page()
 
-        # Header
         st.title("🤖 MWU AI Chatbot")
 
         st.write(
@@ -204,13 +194,10 @@ class MWUChatbotApp:
             "Madda Walabu University."
         )
 
-        # Sidebar
         self.show_sidebar()
 
-        # Previous messages
         self.show_chat_history()
 
-        # User input
         user_message = st.chat_input(
             "Ask your question..."
         )
@@ -221,20 +208,70 @@ class MWUChatbotApp:
                 user_message
             )
 
-            # Display response immediately
             with st.chat_message("assistant"):
 
                 st.write(answer)
 
 
 # ==========================================================
-# CREATE APP OBJECT
+# TERMINAL CHATBOT
 # ==========================================================
 
-app = MWUChatbotApp()
+def run_terminal():
+
+    print("=" * 50)
+    print("          MWU AI CHATBOT")
+    print("=" * 50)
+    print("Type 'exit' to stop the chatbot.")
+    print()
+
+    language = "en"
+
+    while True:
+
+        question = input("You: ")
+
+        if question.lower().strip() == "exit":
+
+            print("Bot: Goodbye!")
+            break
+
+        if not question.strip():
+            continue
+
+        result = get_response(
+            question,
+            language
+        )
+
+        intent = result.get(
+            "topic",
+            ""
+        )
+
+        answer = result.get(
+            "answer",
+            "Dhiifama, deebii hin arganne."
+        )
+
+        print("Intent:", intent)
+        print("Bot:", answer)
+        print()
+
 
 # ==========================================================
-# RUN APP
+# START APPLICATION
 # ==========================================================
 
+if __name__ == "__main__":
+
+    # python app.py terminal
+    if len(sys.argv) > 1 and sys.argv[1].lower() == "terminal":
+
+        run_terminal()
+
+    else:
+
+        app = MWUChatbotApp()
+        app.run()
 

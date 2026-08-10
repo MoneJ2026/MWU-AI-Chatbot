@@ -1,3 +1,4 @@
+
 from database import search_question
 from logger import save_unknown_question
 from ML.predict import predict_intent
@@ -9,7 +10,7 @@ class MWUChatbot:
     MWU AI Chatbot
 
     Encapsulation:
-    - __language -> language chatbot
+    - __language -> language of chatbot
     - __last_message -> user's latest message
     - __last_intent -> predicted intent
     """
@@ -20,7 +21,7 @@ class MWUChatbot:
         self.__last_intent = ""
 
     # ==========================
-    # GETTER
+    # GETTERS
     # ==========================
 
     def get_language(self):
@@ -135,7 +136,7 @@ def get_response(message, language="en"):
     """
     Old function interface.
 
-    This keeps app.py working if it already uses:
+    Keeps app.py working if it already uses:
 
         get_response(message, language)
     """
@@ -143,3 +144,4 @@ def get_response(message, language="en"):
     _bot.set_language(language)
 
     return _bot.get_response(message)
+
