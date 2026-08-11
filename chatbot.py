@@ -13,12 +13,14 @@ class MWUChatbot:
     - __language -> language of chatbot
     - __last_message -> user's latest message
     - __last_intent -> predicted intent
+    - __last_confidence -> model confidence
     """
 
     def __init__(self, language="en"):
         self.__language = language
         self.__last_message = ""
         self.__last_intent = ""
+        self.__last_confidence = 0.0
 
     # ==========================
     # GETTERS
@@ -32,6 +34,9 @@ class MWUChatbot:
 
     def get_last_intent(self):
         return self.__last_intent
+
+    def get_last_confidence(self):
+        return self.__last_confidence
 
     # ==========================
     # SETTER
@@ -50,7 +55,7 @@ class MWUChatbot:
         print("CHATBOT RECEIVED:", message)
 
         # ==========================
-        # SAVE MESSAGE
+        # SAVE ORIGINAL MESSAGE
         # ==========================
 
         self.__last_message = message
@@ -94,11 +99,13 @@ class MWUChatbot:
         # MACHINE LEARNING
         # ==========================
 
-        intent = predict_intent(message)
+        intent, confidence = predict_intent(message)
 
         self.__last_intent = intent
+        self.__last_confidence = confidence
 
         print("PREDICTED INTENT:", intent)
+        print("CONFIDENCE:", confidence)
 
         # ==========================
         # DATABASE SEARCH
@@ -119,8 +126,16 @@ class MWUChatbot:
         if not result["found"]:
 
             print("UNKNOWN QUESTION:", message)
+            print("UNKNOWN CONFIDENCE:", confidence)
 
-            save_unknown_question(message)
+            save_unknown_question(
+                message,
+                confidence
+            )
+
+        # ==========================
+        # RETURN RESPONSE
+        # ==========================
 
         return result
 
