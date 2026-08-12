@@ -14,41 +14,56 @@ from sklearn.metrics import accuracy_score
 
 df = pd.read_csv("data/intents.csv")
 
-print("\n========== DATASET ==========")
+print("\n========== ORIGINAL DATASET ==========")
 print(df.head())
-
-print("\nShape:", df.shape)
-print("Columns:", df.columns.tolist())
+print("Shape:", df.shape)
 
 
 # ==========================================================
-# DATA CLEANING
+# CLEAN DATA
 # ==========================================================
 
+# Remove repeated CSV headers
+df = df[
+    (df["text"].astype(str).str.lower() != "text") &
+    (df["intent"].astype(str).str.lower() != "intent")
+]
+
+# Remove missing values
 df = df.dropna(subset=["text", "intent"])
 
+# Remove spaces
 df["text"] = df["text"].astype(str).str.strip()
 df["intent"] = df["intent"].astype(str).str.strip()
 
-print("\nMissing values:")
-print(df.isnull().sum())
+# Remove duplicate questions
+duplicate_count = df.duplicated(subset=["text"]).sum()
 
-print("\nDuplicate questions:")
-print(df.duplicated(subset=["text"]).sum())
+print("\nDuplicate questions:", duplicate_count)
 
 df = df.drop_duplicates(subset=["text"])
 
 
 # ==========================================================
-# INTENT DISTRIBUTION
+# DATASET INFORMATION
 # ==========================================================
+
+print("\n========== CLEAN DATASET ==========")
+
+print("Shape:", df.shape)
+
+print("\nColumns:")
+print(df.columns.tolist())
+
+print("\nMissing values:")
+print(df.isnull().sum())
 
 print("\n========== INTENT DISTRIBUTION ==========")
 print(df["intent"].value_counts())
 
 
 # ==========================================================
-# FEATURES AND LABELS
+# X AND Y
 # ==========================================================
 
 X = df["text"]
@@ -65,7 +80,7 @@ y = encoder.fit_transform(y)
 
 
 # ==========================================================
-# TRAIN / TEST SPLIT
+# TRAIN TEST SPLIT
 # ==========================================================
 
 X_train_text, X_test_text, y_train, y_test = train_test_split(
@@ -81,13 +96,9 @@ X_train_text, X_test_text, y_train, y_test = train_test_split(
 # TF-IDF
 # ==========================================================
 
-vectorizer = TfidfVectorizer(
-    ngram_range=(1, 2),
-    max_features=5000
-)
+vectorizer = TfidfVectorizer()
 
 X_train = vectorizer.fit_transform(X_train_text)
-
 X_test = vectorizer.transform(X_test_text)
 
 
@@ -95,9 +106,7 @@ X_test = vectorizer.transform(X_test_text)
 # MODEL
 # ==========================================================
 
-model = LogisticRegression(
-    max_iter=1000
-)
+model = LogisticRegression(max_iter=1000)
 
 model.fit(X_train, y_train)
 
@@ -113,12 +122,12 @@ accuracy = accuracy_score(
     prediction
 )
 
-print("\n========== RESULT ==========")
+print("\n========== MODEL RESULT ==========")
 print("Accuracy:", accuracy)
 
 
 # ==========================================================
-# SAVE MODELS
+# SAVE
 # ==========================================================
 
 joblib.dump(
